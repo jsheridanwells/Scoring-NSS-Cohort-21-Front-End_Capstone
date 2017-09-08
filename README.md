@@ -1,7 +1,7 @@
 ## Scoring
-# Nashville Software School
-# Cohort 21
-# Front End Capstone
+Nashville Software School
+Cohort 21
+Front End Capstone
 
 # OVERVIEW
 In K-12 education, access to assessment results are crucial for making informed instructional decisions, for reaching struggling students, and for better collaboration among teacher teams.  While proprietary exams often include a suite of reporting tools, teachers are often left with little more than Excel spreadsheets for analyzing the results of their own assessments.  
