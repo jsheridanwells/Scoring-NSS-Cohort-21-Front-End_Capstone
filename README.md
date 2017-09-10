@@ -12,10 +12,10 @@ The app Scoring will help teachers by organizing CFA data, then displaying multi
 * The user can create class lists and link these lists to other classes that are part of a teaching team. 
 * The user can create a CFA report and enter student scores. 
 * The user can view different representations of data for a particular CFA, drilling down to include: 
-** A comparison of test results across a teaching team.
-** A comparison of students’ results in one class.
-** Views that identify students with needs for intervention or for enrichment.
-** A view of an individual student’s performance over time.
+  * A comparison of test results across a teaching team.
+  * A comparison of students’ results in one class.
+  * Views that identify students with needs for intervention or for enrichment.
+  * A view of an individual student’s performance over time.
 
 ### TECHNICAL SPECIFICATIONS
 Scoring will make use of four technologies: 
