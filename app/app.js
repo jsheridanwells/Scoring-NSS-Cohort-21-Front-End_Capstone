@@ -1,3 +1,3 @@
 'use strict';
 
-console.log("app.js loading");
+const app = angular.module('Scoring', ['ngRoute']);
