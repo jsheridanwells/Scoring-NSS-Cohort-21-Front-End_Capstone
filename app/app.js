@@ -2,7 +2,27 @@
 
 const app = angular.module('Scoring', ['ngRoute']);
 
-const isAuth = (userFactory) => userFactory.checkAuthenticated();
+let isAuth = (userFactory) => new Promise ( (resolve, reject) => {
+  userFactory.checkAuthenticated()
+  .then( (userExists) => {
+    if(userExists){
+    	console.log("authorized");
+      resolve();
+    }else {
+    	console.log("not authorized");
+      reject();
+    }
+  });
+});
+
+
+// const isAuth = (userFactory) => {
+// 	userFactory.checkAuthenticated()
+// 	.then((resolve) => {
+// 		console.log("resolve", resolve);
+// 		return resolve;
+// 	});
+// };
 
 app.config(($routeProvider) => {
 	$routeProvider
