@@ -7,14 +7,19 @@ const isAuth = (userFactory) => userFactory.checkAuthenticated();
 app.config(($routeProvider) => {
 	$routeProvider
 	.when('/', {
-		templateUrl: 'partials/register.html',  //during testing, toggle between splash.html and register.html
+		templateUrl: 'partials/splash.html',
+		controller: 'userCtrl'
+	})
+	.when('/register-login', {
+		templateUrl: 'partials/register.html',
 		controller: 'userCtrl'
 	})
 	.when('/home', {
 		templateUrl: 'partials/home.html',
 		controller: 'assessmentListCtrl',
 		resolve: {isAuth}
-	});
+	})
+	.otherwise('/');
 });
 
 app.run((FBCreds) => firebase.initializeApp(FBCreds));
