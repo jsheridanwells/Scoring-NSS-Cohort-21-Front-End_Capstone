@@ -7,7 +7,7 @@ const app = angular.module('Scoring', ['ngRoute']);
 app.config(($routeProvider) => {
 	$routeProvider
 	.when('/', {
-		templateUrl: 'partials/splash.html',
+		templateUrl: 'partials/register.html',  //during testing, toggle between splash.html and register.html
 		controller: 'userCtrl'
 	});
 });

@@ -3,7 +3,9 @@
 app.factory('userFactory', function($q, $http) {
 
 	//register a new user in firebase
-
+	const registerUser = (user) => {
+		return firebase.auth().createUserWithEmailAndPassword(user.email, user.password);
+	};
 
 	//login a user to firebase
 
@@ -12,4 +14,8 @@ app.factory('userFactory', function($q, $http) {
 	//check if a user is authenticated
 
 	//get the current user id
+
+	return {
+		registerUser
+	};
 });
