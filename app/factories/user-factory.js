@@ -17,22 +17,39 @@ app.factory('userFactory', function($q, $http) {
 
 	//logout a user from firebase
 	const logoutUser = () => {
+		console.log("logout user firing");
 		return firebase.auth().signOut();
 	};
 
-	//check if a user is authenticated
-	const checkAuthenticated = () => {
-		return new Promise ((resolve, reject) => {
-			firebase.auth().onAuthStateChanged((user) => {
-				if (user) {
-					currentUser = user.uid;
-					resolve(true);
-				} else {
-					resolve(false);
-				}
-			});
-		});
-	};
+	const checkAuthenticated = function (){
+        return new Promise ( (resolve, reject) => {
+            firebase.auth().onAuthStateChanged( (user) => {
+                if (user){
+                    currentUser = user.uid;
+                    console.log("current user", currentUser);
+                    resolve(true);
+                }else {
+                	console.log("current user", currentUser);
+                    resolve(false);
+                }
+            });
+        });
+    };
+
+	// //check if a user is authenticated
+	// const checkAuthenticated = () => {
+	// 	console.log("check authenticated firing");
+	// 	return new Promise ((resolve, reject) => {
+	// 		firebase.auth().onAuthStateChanged((user) => {
+	// 			if (user) {
+	// 				currentUser = user.uid;
+	// 				resolve(true);
+	// 			} else {
+	// 				resolve(false);
+	// 			}
+	// 		});
+	// 	});
+	// };
 
 	//get the current user id
 	const getUserId = () => {

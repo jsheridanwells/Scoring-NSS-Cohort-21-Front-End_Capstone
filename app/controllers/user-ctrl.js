@@ -25,5 +25,13 @@ app.controller('userCtrl', function($scope, $window, userFactory) {
 	};
 
 	//logout
+	$scope.logout = () => {
+		userFactory.logoutUser()
+		.then((data) => {
+			console.log("data from logout", data);
+			$window.location.href = '/';
+		})
+		.catch( error => console.log("error from logout", error.message ));
+	};
 
 });
