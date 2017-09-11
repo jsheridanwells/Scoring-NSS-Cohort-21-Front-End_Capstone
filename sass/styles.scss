@@ -1,3 +1,32 @@
+
+// SPLASH STYLES
+
 .jumbotron {
 	margin-top: 10em;
+}
+
+// NAVBAR STYLES
+//NAVBAR IS TEMPORARY FOR MVP,
+//WILL BE RESTYLED W? BOOTSTRAP LATER
+.navbar {
+	background-color: #e3f2fd;
+}
+
+.navbar {
+	h1 {
+		color: red;
+	}
+	a {
+		color: initial;
+		text-decoration: none;
+	}
+}
+
+ul.nav-ul {
+	list-style-type: none;
+}
+
+li.nav-li {
+	margin-right: 2em;
+	display: inline;
 }
