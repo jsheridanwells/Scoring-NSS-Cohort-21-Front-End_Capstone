@@ -18,7 +18,7 @@ app.controller('userCtrl', function($scope, $window, userFactory) {
 	$scope.login = () => {
 		userFactory.loginUser($scope.account)
 		.then((data) => {
-				$window.location.href = '#!/home';
+				$window.location.href = '#!/assessments';
 			}
 		)
 		.catch( error => console.log("error from login", error.message ));
