@@ -16,8 +16,8 @@ app.controller('studentListCtrl', function ($scope, userFactory, studentFactory)
 
 	$scope.deleteStudent = (studentId) => {
 		studentFactory.deleteStudent(studentId)
-		.then(() => showStudents())
-		.catch(error => console.log("error from $scope.deleteStudent", error.message));
+			.then(() => showStudents())
+			.catch(error => console.log("error from $scope.deleteStudent", error.message));
 	};
 
 	showStudents();
