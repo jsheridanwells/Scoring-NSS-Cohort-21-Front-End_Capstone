@@ -14,12 +14,18 @@
 	<div class="add-student-form">
 		<form>
 			<div class="form-group">
-				<label for="input-student-name">
-					Student Name:
-					<input type="text" id="input-student-name" ng-model="newStudentObj.name">
-					<button type="button" class="btn btn-outline-primary" ng-click="addStudent()">Add Student</button>
+				<label for="input-first-name">
+					First Name:
+					<input type="text" id="input-first-name" ng-model="newStudentObj.firstName">
 				</label>
 			</div>
+			<div class="form-group">
+				<label for="input-last-name">
+					Last Name:
+					<input type="text" id="input-last-name" ng-model="newStudentObj.lastName">
+				</label>
+			</div>
+			<button type="button" class="btn btn-outline-primary" ng-click="addStudent()">Add Student</button>
 		</form>
 	</div>
 </div>

@@ -4,7 +4,8 @@ app.controller('studentCreateCtrl', function ($scope, $location, userFactory, st
 	let userId = userFactory.getUserId();
 
 	$scope.newStudentObj = {
-		name: '',
+		firstName: '',
+		lastName: '',
 		uid: userId
 	};
 

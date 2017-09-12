@@ -4,12 +4,24 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 	//saves fb url
 	let url = FBCreds.databaseURL;
 
+	//sorts student names alphabetically by last name
+	const sortAlphabetical = (objA, objB) => {
+		if (objA.lastName < objB.lastName) {
+			return -1;
+		}
+		if (objA.lastName > objB.lastName) {
+			return 1;
+		}
+		return 0;
+	};
+
 	// return array with students' names, uid, and uglyId
 	const makeArray = (obj) => {
-		return Object.keys(obj).map(key => {
+		let myArray = Object.keys(obj).map(key => {
 			obj[key].id = key;
 			return obj[key];
 		});
+		return myArray.sort(sortAlphabetical);
 	};
 
 	//shows all students associated with current user
