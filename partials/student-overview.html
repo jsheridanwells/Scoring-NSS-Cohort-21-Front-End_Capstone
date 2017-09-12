@@ -12,8 +12,12 @@
 <div class="container main">
 	<h2>Student Overview</h2>
 	<div class="students">
-		<ul class="student-list" ng-repeat="student in students">
-			<li>{{student.name}}</li>
+		<ul class="student-list list-group" ng-repeat="student in students">
+			<li class="list-group-item">
+				<p class="student-list-name">{{student.name}}</p>
+				<button class="btn btn-secondary btn-sm">Edit Student</button>
+				<button class="btn btn-danger btn-sm" ng-click="deleteStudent(student.id)">Delete Student</button>
+			</li>
 		</ul>
 	</div>
 </div>

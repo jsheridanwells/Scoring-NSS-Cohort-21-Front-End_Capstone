@@ -16,8 +16,8 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 	const getAllStudents = (userId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/students.json?orderBy="uid"&equalTo="${userId}"`)
-			.then(students => resolve(makeArray(students.data)))
-			.catch();
+				.then(students => resolve(makeArray(students.data)))
+				.catch(error => console.log("error from getAllStudents", error.message));
 		});
 	};
 
@@ -25,12 +25,21 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 	const postStudent = (student) => {
 		let newStudent = JSON.stringify(student);
 		return $http.post(`${url}/students.json`, newStudent)
-		.then(data => console.log("data from postStudent", data))
-		.catch(error => console.log("error from postStudent", error.message));
+			.then(data => console.log("data from postStudent", data))
+			.catch(error => console.log("error from postStudent", error.message));
+	};
+
+	const deleteStudent = (studentId) => {
+		return $q((resolve, reject) => {
+			$http.delete(`${url}/students/${studentId}.json`)
+				.then(response => resolve(response))
+				.catch(error => reject(error));
+		});
 	};
 
 	return {
 		getAllStudents,
-		postStudent
+		postStudent,
+		deleteStudent
 	};
 });
