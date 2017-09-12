@@ -12,7 +12,7 @@ app.controller('studentCreateCtrl', function ($scope, $location, userFactory, st
 		studentFactory.postStudent($scope.newStudentObj)
 		.then((data => {
 			console.log("data from addStudent", data);
-			$location.url('/classes');
+			$location.url('/students');
 		}))
 		.catch(error => console.log("error from addStudent", error.message));
 	};
