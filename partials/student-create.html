@@ -16,8 +16,8 @@
 			<div class="form-group">
 				<label for="input-student-name">
 					Student Name:
-					<input type="text" id="input-student-name">
-					<button type="button" class="btn btn-outline-primary">Add Student</button>
+					<input type="text" id="input-student-name" ng-model="newStudentObj.name">
+					<button type="button" class="btn btn-outline-primary" ng-click="addStudent()">Add Student</button>
 				</label>
 			</div>
 		</form>

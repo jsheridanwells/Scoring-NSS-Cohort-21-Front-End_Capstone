@@ -1,5 +1,20 @@
 'use strict';
+app.controller('studentCreateCtrl', function ($scope, $location, userFactory, studentFactory) {
 
-app.controller('studentCreateCtrl', function () {
+	let userId = userFactory.getUserId();
+
+	$scope.newStudentObj = {
+		name: '',
+		uid: userId
+	};
+
+	$scope.addStudent = () => {
+		studentFactory.postStudent($scope.newStudentObj)
+		.then((data => {
+			console.log("data from addStudent", data);
+			$location.url('/classes');
+		}))
+		.catch(error => console.log("error from addStudent", error.message));
+	};
 
 });
