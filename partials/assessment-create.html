@@ -1,24 +1,15 @@
+<div ng-include="'partials/nav.html'"></div>
+
 <div class="container">
 	<div class="secondary-tabs">
-		<ul>
-			<li><a ng-href="/#!/assessments">My Assessments</a></li>
-			<li><a ng-href="/#!/assessments-create">Create an Assessment</a></li>
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link" ng-href="#!/assessments">My Assessments</a></li>
+			<li class="nav-item"><a class="nav-link" ng-href="#!/assessment-create">Create an Assessment</a></li>
 		</ul>
 	</div>
-	<div class="main">
-		<h2>Create an Assessment</h2>
-		<form>
-			<label for="assessment-name">Assessment Name: <input id="assessment-name" type="text"></label><br>
-			<label for="assessment-total-points">Total Points: <input id="assessment-total-points" type="text"></label><br>
-			<label for="select-class">
-				<select id="select-class">
-					<option value="firstBlock">First Block</option>
-					<option value="secondBlock">Second Block</option>
-					<option value="thirdBlock">Third Block</option>
-					<option value="fourthBlock">Fourth Block</option>
-				</select>
-			</label>
+</div>
 
-		</form>
-	</div>
+<div class="container main">
+		<h2>Assessment Create</h2>
+
 </div>
