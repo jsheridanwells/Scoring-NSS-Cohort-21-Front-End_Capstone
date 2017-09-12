@@ -48,7 +48,7 @@ app.config(($routeProvider) => {
 		controller: 'studentListCtrl',
 		resolve: {isAuth}
 	})
-	.when('/stuent-create', {
+	.when('/student-create', {
 		templateUrl: 'partials/student-create.html',
 		controller: 'studentCreateCtrl',
 		resolve: {isAuth}

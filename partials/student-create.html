@@ -1,0 +1,25 @@
+<div ng-include="'partials/nav.html'"></div>
+
+<div class="container">
+	<div class="secondary-tabs">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link" ng-href="#!/students">My Students</a></li>
+			<li class="nav-item"><a class="nav-link" ng-href="#!/student-create">Add a Student</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="container main">
+	<h2>Add a New Student</h2>
+	<div class="add-student-form">
+		<form>
+			<div class="form-group">
+				<label for="input-student-name">
+					Student Name:
+					<input type="text" id="input-student-name">
+					<button type="button" class="btn btn-outline-primary">Add Student</button>
+				</label>
+			</div>
+		</form>
+	</div>
+</div>
