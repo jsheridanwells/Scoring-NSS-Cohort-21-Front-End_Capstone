@@ -11,4 +11,13 @@
 
 <div class="container main">
 	<h2>Assessment Overview</h2>
+	<div class="assessments">
+		<ul class="assessment-list list-group" ng-repeat="assessment in assessments">
+			<li class="list-group-item">
+				<p class="class-list-name">{{assessment.assessmentName}}</p>
+				<button class="btn btn-secondary btn-sm">Edit</button>
+				<button class="btn btn-danger btn-sm" ng-click="deleteAssessment(assessment.id)">Delete</button>
+			</li>
+		</ul>
+	</div>
 </div>
