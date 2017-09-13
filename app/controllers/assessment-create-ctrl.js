@@ -6,8 +6,9 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 
 	$scope.newAssessmentObj = {
 		assessmentName: '',
+		totalPoints: '',
+		date: '',
 		students: [],
-		classes: [],
 		uid: userId
 	};
 
