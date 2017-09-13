@@ -53,6 +53,14 @@ app.config(($routeProvider) => {
 		controller: 'studentCreateCtrl',
 		resolve: {isAuth}
 	})
+	.when('/assessment-scoring-overview', {
+		templateUrl: 'partials/assessment-scoring-overview.html',
+		controller: 'assessmentScoringCtrl'
+	})
+	.when('/assessment-scoring-form', {
+		templateUrl: 'partials/assessment-scoring-form.html',
+		controller: 'assessmentScoringCtrl'
+	})
 	.otherwise('/');
 });
 

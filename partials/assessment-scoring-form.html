@@ -1,0 +1,27 @@
+<div ng-include="'partials/nav.html'"></div>
+
+<div class="container">
+	<div class="secondary-tabs">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link" ng-href="#!/assessments">My Assessments</a></li>
+			<li class="nav-item"><a class="nav-link" ng-href="#!/assessment-create">Create an Assessment</a>
+			<li class="nav-item"><a class="nav-link active" ng-href="#!/assessment-scoring-overview">Score an Assessment</a>
+		</ul>
+	</div>
+</div>
+
+<div class="container main">
+	<h2>Assessment Name</h2>
+	<p><strong>Class: </strong></p>
+	<p><strong>Total Points Possible: </strong></p>
+	<p><strong>Date Assigned: </strong></p>
+	<p><strong>Students: </strong></p>
+	<ul>
+		<li>
+			<strong>Student: {{studentName}}</strong>
+			Score:
+			<input type="text">
+		</li>
+	</ul>
+	<button>Save</button>
+</div>
