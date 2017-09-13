@@ -2,8 +2,13 @@
 app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory){
 	let userId = userFactory.getUserId();
 
-	$scope.assessment = {};
 	$scope.students = [];
+	$scope.assessment = {};
+	$scope.assessment.scores = [];
+
+	$scope.saveAssessment = () => {
+		console.log("scope assessment", $scope.assessment.scores);
+	};
 
 	const loadAssessmentInfo = () => {
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)

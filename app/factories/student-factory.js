@@ -36,7 +36,10 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 	const getSingleStudent = (studentId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/students/${studentId}.json`)
-				.then(student => resolve(student.data))
+				.then(student => {
+					student.data.id = studentId;
+					resolve(student.data);
+				})
 				.catch(error => console.log("error from getSingleStudent", error.message));
 		});
 	};

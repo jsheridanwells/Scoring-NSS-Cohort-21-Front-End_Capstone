@@ -19,8 +19,8 @@
 	<ul ng-repeat="student in students">
 		<li>
 			<strong>{{student.firstName}} {{student.lastName}}</strong>
-			<input type="text">
+			<input type="text" ng-model="assessment.scores[student.id]">
 		</li>
 	</ul>
-	<button>Save</button>
+	<button ng-click="saveAssessment()">Save</button>
 </div>
