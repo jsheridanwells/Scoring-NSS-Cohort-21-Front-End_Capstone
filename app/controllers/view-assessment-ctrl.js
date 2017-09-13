@@ -5,6 +5,10 @@ app.controller('viewAssessmentCtrl', function($scope, $routeParams, userFactory,
 
 	$scope.assessment = {};
 
+	$scope.classArray = [];
+
+	
+
 	const getAssessment = () => {
 		console.log("$routeParams.assessmentId", $routeParams.assessmentId);
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
