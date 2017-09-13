@@ -12,8 +12,8 @@
 
 <div class="container main">
 	<p><strong>Assessment:</strong> {{assessment.assessmentName}}</p>
-	<p><strong>Classes:</strong> </p>
+	<p><strong>Assigned To:</strong> </p>
 	<ul ng-repeat="class in assessment.classes">
-		<li><a ng-href="">{{class.className}}</a></li>
+		<li><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></li>
 	</ul>
 </div>

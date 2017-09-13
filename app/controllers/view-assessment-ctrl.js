@@ -1,13 +1,9 @@
 'use strict';
-app.controller('viewAssessmentCtrl', function($scope, $routeParams, userFactory, assessmentFactory, classFactory, studentFactory) {
+app.controller('viewAssessmentCtrl', function($scope, $routeParams, userFactory, assessmentFactory, classFactory) {
 
 	let userId = userFactory.getUserId();
 
 	$scope.assessment = {};
-
-	$scope.classArray = [];
-
-	
 
 	const getAssessment = () => {
 		console.log("$routeParams.assessmentId", $routeParams.assessmentId);
