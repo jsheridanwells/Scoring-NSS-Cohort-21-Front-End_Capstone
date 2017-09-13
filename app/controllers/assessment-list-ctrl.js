@@ -9,6 +9,7 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 		assessmentFactory.getAllAssessments(userId)
 			.then(list => {
 				$scope.assessments = list;
+				console.log("$scope.assessments", $scope.assessments);
 			})
 			.catch(error => console.log("error from showAssessments", error.message));
 	};
@@ -19,6 +20,12 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 			.then(() => showAssessments())
 			.catch(error => console.log("error from deleteAssessment", error.message));
 	};
+
+	$scope.editAssessment = () => {
+
+	};
+
+
 
 	showAssessments();
 
