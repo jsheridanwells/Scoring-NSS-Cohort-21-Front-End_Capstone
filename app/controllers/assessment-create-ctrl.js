@@ -4,7 +4,6 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 
 	let userId = userFactory.getUserId();
 
-	$scope.classes = [];
 
 	const getClassList = () => {
 		classFactory.getAllClasses(userId)
@@ -19,7 +18,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 		assessmentName: '',
 		totalPoints: '',
 		date: '',
-		students: [],
+		classes: [],
 		uid: userId
 	};
 
@@ -34,8 +33,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	$scope.addClass = (id) => {
 		classFactory.getSingleClass(id)
 			.then(myClass => {
-				myClass.students.forEach(student => $scope.newAssessmentObj.students.push(student));
-				console.log("$scope.newAssessmentObj.students", $scope.newAssessmentObj.students);
+				$scope.newAssessmentObj.classes.push(myClass);
 			})
 			.catch(error => console.log("error in addClass", error.message));
 	};
