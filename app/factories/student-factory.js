@@ -33,6 +33,14 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	const getSingleStudent = (studentId) => {
+		return $q((resolve, reject) => {
+			$http.get(`${url}/students/${studentId}.json`)
+				.then(student => resolve(student.data))
+				.catch(error => console.log("error from getSingleStudent", error.message));
+		});
+	};
+
 	//adds new student to students collection w/ obj taken from studentCtrl
 	const postStudent = (student) => {
 		let newStudent = JSON.stringify(student);
