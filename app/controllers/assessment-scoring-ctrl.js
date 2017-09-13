@@ -6,8 +6,10 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 	$scope.assessment = {};
 	$scope.assessment.scores = [];
 
-	$scope.saveAssessment = () => {
-		console.log("scope assessment", $scope.assessment.scores);
+	$scope.saveAssessment = (assessment) => {
+		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
+			.then()
+			.catch();
 	};
 
 	const loadAssessmentInfo = () => {

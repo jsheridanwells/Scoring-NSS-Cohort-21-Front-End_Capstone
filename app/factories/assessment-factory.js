@@ -36,6 +36,13 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 			.catch(error => console.log("error from postAssessment", error.message));
 	};
 
+	const updateAssessment = (id, obj) => {
+		let newObj = JSON.stringify(obj);
+		return $http.patch(`${url}/assessments/${id}.json`, newObj)
+			.then(response => console.log("response from updateAssessment", response))
+			.catch(error => console.log("error from updateAssessment", error.message));
+	};
+
 	const deleteAssessment = (assessmentId) => {
 		console.log("function firing also", assessmentId);
 		return $q((resolve, reject) => {
@@ -49,6 +56,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		getAllAssessments,
 		getSingleAssessment,
 		postAssessment,
+		updateAssessment,
 		deleteAssessment
 	};
 
