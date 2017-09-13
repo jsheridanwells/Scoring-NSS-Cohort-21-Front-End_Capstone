@@ -63,6 +63,21 @@ app.config(($routeProvider) => {
 		controller: 'assessmentScoringCtrl',
 		resolve: {isAuth}
 	})
+	.when('/view-assessment/:assessmentId', {
+		templateUrl: 'partials/view-assessment.html',
+		controller: 'assessmentListCtrl',
+		resolve: {isAuth}
+	})
+	.when('/view-assessment-class/:classId', {
+		templateUrl: 'partials/view-class.html',
+		controller: 'assessmentListCtrl',
+		resolve: {isAuth}
+	})
+	.when('/view-assessment-student/:studentId', {
+		templateUrl: 'partials/view-student.html',
+		controller: 'assessmentListCtrl',
+		resolve: {isAuth}
+	})
 	.otherwise('/');
 });
 
