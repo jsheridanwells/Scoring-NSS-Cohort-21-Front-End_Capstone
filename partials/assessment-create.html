@@ -10,16 +10,38 @@
 </div>
 
 <div class="container main">
-		<h2>Assessment Create</h2>
+		<h2>New Assessment</h2>
 		<div class="form-group">
-			<label for="">
+			<label for="assessment-name">
 				Assessment Name:
-				<input type="text" ng-model="newAssessmentObj.assessmentName">
+				<input type="text" id="assessment-name" ng-model="newAssessmentObj.assessmentName">
 			</label>
 		</div>
-
-
-
-		<button type="button" class="btn btn-outline-primary" ng-click="addAssessment()">Add</button>
+		<div class="form-group">
+			<label for="assessment-points">
+				Total Points Possible:
+				<input type="text" id="assessment-points" ng-model="newAssessmentObj.totalPoints">
+			</label>
+		</div>
+		<div class="form-group">
+			<label for="assessment-date">
+				Date Assigned:
+				<input type="text" id="assessment-datea" ng-model="newAssessmentObj.date">
+			</label>
+		</div>
+		<div class="form-group">
+			<h4>Assign to Classes:</h4>
+			<ul class="list-group" ng-repeat="class in classes">
+				<li class="list-group-item">
+					<div class="form-check">
+					  <label class="form-check-label">
+					    <input class="form-check-input" type="checkbox" ng-click="addClass(class.id)">
+					    {{class.className}}
+					  </label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<button type="button" class="btn btn-outline-primary" ng-click="addAssessment()">Create Assessment</button>
 
 </div>

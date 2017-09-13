@@ -21,6 +21,18 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	//gets one class object by class uglyId
+	const getSingleClass = (uglyId) => {
+		return $q((resolve, reject) => {
+			$http.get(`${url}/classes/${uglyId}.json`)
+				.then(classes => {
+					console.log("classes from getSingleClass", classes.data);
+					resolve(classes.data);
+				})
+				.catch(error => console.log("error from getSingleClass", error.message));
+		});
+	};
+
 	//adds new class to classes collection w/ object taken from classesCtrl
 	const postClass = (classInfo) => {
 		let newClass = JSON.stringify(classInfo);
@@ -39,6 +51,7 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 
 	return {
 		getAllClasses,
+		getSingleClass,
 		postClass,
 		deleteClass
 	};
