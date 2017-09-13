@@ -20,6 +20,14 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	const getSingleAssessment = (assessmentId) => {
+		return $q((resolve, reject) => {
+			$http.get(`${url}/assessments/${assessmentId}.json`)
+				.then(assessments => resolve(assessments.data))
+				.catch(error => console.log("error from getSingleAssessment", error.message));
+		});
+	};
+
 	const postAssessment = (obj) => {
 		console.log("postAssessment firing");
 		let newObj = JSON.stringify(obj);
@@ -39,6 +47,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 
 	return {
 		getAllAssessments,
+		getSingleAssessment,
 		postAssessment,
 		deleteAssessment
 	};

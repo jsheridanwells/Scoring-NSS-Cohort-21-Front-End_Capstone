@@ -55,11 +55,13 @@ app.config(($routeProvider) => {
 	})
 	.when('/assessment-scoring-overview', {
 		templateUrl: 'partials/assessment-scoring-overview.html',
-		controller: 'assessmentScoringCtrl'
+		controller: 'assessmentListCtrl',
+		resolve: {isAuth}
 	})
-	.when('/assessment-scoring-form', {
+	.when('/score/:assessmentId', {
 		templateUrl: 'partials/assessment-scoring-form.html',
-		controller: 'assessmentScoringCtrl'
+		controller: 'assessmentScoringCtrl',
+		resolve: {isAuth}
 	})
 	.otherwise('/');
 });
