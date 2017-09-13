@@ -15,6 +15,7 @@ body {
 
 //PALETTE
 $lightblue: #b6d9f5;
+$medblue: #3595e3;
 $darkblue: #0c375a;
 $blueblack: #011627;
 
@@ -51,8 +52,18 @@ $blueblack: #011627;
 		@include logo();
 	}
 
+	input {
+		margin-bottom: 5rem;
+		font-size: 2em;
+	}
+
 	.splash-btn {
 		margin-top: 10rem;
+	}
+
+	.btn {
+		background-color: $medblue;
+		color: #f4f4f4;
 	}
 }
 
@@ -67,6 +78,10 @@ $blueblack: #011627;
 	a {
 		color: initial;
 		text-decoration: none;
+	}
+	a:hover {
+		background-color: $medblue;
+		color: #f4f4f4;
 	}
 	h1 {
 		display: inline;
@@ -99,6 +114,9 @@ li.nav-li {
 
 //MAIN VIEWS
 .main {
+
+	max-width: 70%;
+
 	h2 {
 		margin-top: 1.2em;
 		font-size: 1.5em;
@@ -110,6 +128,15 @@ li.nav-li {
 
 	label {
 		margin-left: 2em;
+	}
+	.list-group-item {
+		border: 0;
+
+		button {
+			float: right;
+			margin-right: 12%;
+		}
+
 	}
 }
 
