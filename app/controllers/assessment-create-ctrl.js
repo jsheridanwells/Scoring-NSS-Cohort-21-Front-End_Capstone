@@ -19,7 +19,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 		assessmentName: '',
 		totalPoints: '',
 		date: '',
-		classes: [],
+		students: [],
 		uid: userId
 	};
 
@@ -32,8 +32,12 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	};
 
 	$scope.addClass = (id) => {
-		$scope.newAssessmentObj.classes.push(id);
-		console.log("$scope.newAssessmentObj.classes", $scope.newAssessmentObj.classes);
+		classFactory.getSingleClass(id)
+			.then(myClass => {
+				myClass.students.forEach(student => $scope.newAssessmentObj.students.push(student));
+				console.log("$scope.newAssessmentObj.students", $scope.newAssessmentObj.students);
+			})
+			.catch(error => console.log("error in addClass", error.message));
 	};
 
 	getClassList();
