@@ -18,14 +18,31 @@ $lightblue: #b6d9f5;
 $darkblue: #0c375a;
 $blueblack: #011627;
 
+//MATERIALZE SHADOWS
+@mixin box-shadow1() {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+@mixin box-shadow2() {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 
 // SPLASH STYLES
+
+.jumbotron-container {
+	display: flex;
+	justify-content: center;
+}
 
 .jumbotron {
 	margin-top: 6em;
 	height: 70%;
-	box-shadow: 10px 2px 0xp $blueblack;
-	border: 1px solid black;
+	width: 50%;
+	margin: 6em, auto;
+	@include box-shadow2();
+	background-image: url('../img/splash.jpg');
+	text-align: left;
 
 	h1 {
 		color: $darkblue;
@@ -33,10 +50,14 @@ $blueblack: #011627;
 		@include logo();
 	}
 
-	.btn {
+	.splash-btn {
 		margin-top: 10rem;
 	}
 }
+
+//REGISTRATION / LOGIN STYLES
+
+
 
 // NAVBAR STYLES
 .navbar {
