@@ -8,15 +8,17 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 	$scope.saveAssessment = (assessment) => {
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
-			.then()
-			.catch();
+			.then(data => console.log("data from saveAssessment", data))
+			.catch(error => console.log("error from saveAssessment", error.message));
 	};
 
 	const loadAssessmentInfo = () => {
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
 			.then(assessment => {
 				$scope.assessment = assessment;
-				loadStudentNames(assessment.students);
+				for (let i = 0; i < assessment.classes.length; i++) {
+					loadStudentNames(assessment.classes[i].students);
+				}
 				console.log("$scope.assessments", $scope.assessment);
 			})
 			.catch(error => console.log("error from loadAssessmentInfo", error.message));
