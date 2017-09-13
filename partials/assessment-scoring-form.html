@@ -15,11 +15,10 @@
 	<p><strong>Class: </strong></p>
 	<p><strong>Total Points Possible: {{assessment.totalPoints}}</strong></p>
 	<p><strong>Date Assigned: {{assessment.date}}</strong></p>
-	<p><strong>Students: </strong></p>
-	<ul>
+	<p><strong>Students  /  Scores: </strong></p>
+	<ul ng-repeat="student in students">
 		<li>
-			<strong>Student: {{studentName}}</strong>
-			Score:
+			<strong>{{student.firstName}} {{student.lastName}}</strong>
 			<input type="text">
 		</li>
 	</ul>

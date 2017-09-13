@@ -59,6 +59,7 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 
 	return {
 		getAllStudents,
+		getSingleStudent,
 		postStudent,
 		deleteStudent
 	};

@@ -9,6 +9,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
 			.then(assessment => {
 				$scope.assessment = assessment;
+				loadStudentNames(assessment.students);
 				console.log("$scope.assessments", $scope.assessment);
 			})
 			.catch(error => console.log("error from loadAssessmentInfo", error.message));
@@ -26,6 +27,5 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 	};
 
 	loadAssessmentInfo();
-	loadStudentNames($scope.assessments.students);
 
 });
