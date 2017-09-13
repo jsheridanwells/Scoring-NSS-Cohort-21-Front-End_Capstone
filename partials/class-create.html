@@ -3,18 +3,18 @@
 <div class="container">
 	<div class="secondary-tabs">
 		<ul class="nav nav-tabs">
-			<li class="nav-item"><a class="nav-link" ng-href="#!/classes">My Classes</a></li>
-			<li class="nav-item"><a class="nav-link active" ng-href="#!/class-create">Create a Class</a></li>
+			<li class="nav-item"><a class="nav-link" ng-href="#!/classes">My Rosters</a></li>
+			<li class="nav-item"><a class="nav-link active" ng-href="#!/class-create"> Create a Roster</a></li>
 		</ul>
 	</div>
 </div>
 
 <div class="container main">
-	<h2>Create a Class</h2>
+	<h2>Create a Roster</h2>
 	<form>
 		<div class="form-group">
 			<label for="class_name">
-				Class Name:
+				Roster Name:
 				<input type="text" ng-model="newClassObj.className">
 			</label>
 		</div>
@@ -31,7 +31,7 @@
 				</li>
 			</ul>
 		</div>
-		<button type="button" class="btn btn-outline-primary" ng-click="addClass()">Add Class</button>
+		<button type="button" class="btn btn-outline-primary" ng-click="addClass()">Add Roster</button>
 	</form>
 
 </div>
