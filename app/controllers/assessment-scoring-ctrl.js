@@ -1,19 +1,18 @@
 'use strict';
-app.controller('assessmentScoringCtrl', function($scope, userFactory, studentFactory, assessmentFactory){
+app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory){
 	let userId = userFactory.getUserId();
 
-	$scope.assessments = [];
+	$scope.assessment = {};
 
-	const showAssessments = () => {
-		console.log("firing");
-		assessmentFactory.getAllAssessments(userId)
-			.then(list => {
-				console.log("entering then", userId, list);
-				$scope.assessments = list;
+	const loadAssessmentInfo = () => {
+		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
+			.then(assessment => {
+				$scope.assessment = assessment;
+				console.log("$scope.assessments", $scope.assessment);
 			})
-			.catch(error => console.log("error from showAssessments", error.message));
+			.catch(error => console.log("error from loadAssessmentInfo", error.message));
 	};
 
-	showAssessments();
+	loadAssessmentInfo();
 
 });
