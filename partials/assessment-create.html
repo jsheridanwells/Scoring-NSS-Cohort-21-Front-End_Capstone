@@ -31,16 +31,16 @@
 		</div>
 		<div class="form-group">
 			<h4>Assign to Classes:</h4>
-			<!-- <ul class="list-group" ng-repeat="student in students">
+			<ul class="list-group" ng-repeat="class in classes">
 				<li class="list-group-item">
 					<div class="form-check">
 					  <label class="form-check-label">
-					    <input class="form-check-input" type="checkbox" ng-click="addStudent(student.id)">
-					    {{student.firstName}} {{student.lastName}}
+					    <input class="form-check-input" type="checkbox" ng-click="addClass(class.id)">
+					    {{class.className}}
 					  </label>
 					</div>
 				</li>
-			</ul> -->
+			</ul>
 		</div>
 		<button type="button" class="btn btn-outline-primary" ng-click="addAssessment()">Create Assessment</button>
 
