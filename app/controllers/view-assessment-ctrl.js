@@ -1,12 +1,13 @@
 'use strict';
-app.controller('viewAssessmentCtrl', function($scope, $routeParams, userFactory, assessmentFactory, classFactory) {
+app.controller('viewAssessmentCtrl', function($rootScope, $scope, $routeParams, userFactory, assessmentFactory, classFactory) {
 
 	let userId = userFactory.getUserId();
 
 	$scope.assessment = {};
 
 	const getAssessment = () => {
-		console.log("$routeParams.assessmentId", $routeParams.assessmentId);
+		$rootScope.currentAssessment = $routeParams.assessmentId;
+		console.log("rootScope", $rootScope);
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
 			.then(assessment => {
 				console.log("assessment", assessment);
