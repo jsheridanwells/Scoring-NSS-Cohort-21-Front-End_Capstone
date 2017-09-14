@@ -16,7 +16,10 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 	const getAllAssessments = (userId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/assessments.json?orderBy="uid"&equalTo="${userId}"`)
-				.then(assessments => resolve(makeArray(assessments.data)))
+				.then(assessments => {
+					console.log("assessment from getAll", assessments.data);
+					resolve(makeArray(assessments.data));
+				})
 				.catch(error => console.log("error from getAllAssessments", error.message));
 		});
 	};

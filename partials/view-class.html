@@ -11,5 +11,10 @@
 </div>
 
 <div class="container main">
-	Class View
+	<h2>{{assessment.assessmentName}}</h2>
+	<p>Class:  {{currentClass.className}}</p>
+	<p>Results:</p>
+	<ul ng-repeat="student in currentStudents">
+		<li><a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>: {{student.score}}</li>
+	</ul>
 </div>
