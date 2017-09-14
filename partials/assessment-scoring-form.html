@@ -13,19 +13,20 @@
 <div class="container main">
 	<h2>{{assessment.assessmentName}}</h2>
 	<p><strong>Classes: </strong></p>
-
-	<ul ng-repeat="class in assessment.classes">
-		<li>{{class.className}}</li>
-	</ul>
-
 	<p><strong>Total Points Possible: {{assessment.totalPoints}}</strong></p>
 	<p><strong>Date Assigned: {{assessment.date}}</strong></p>
-	<p><strong>Students  /  Scores: </strong></p>
-	<ul ng-repeat="student in students">
-		<li>
-			<strong>{{student.firstName}} {{student.lastName}}</strong>
-			<input type="text" ng-model="assessment.scores[student.id]">
-		</li>
+	
+	<ul ng-repeat="class in assessment.classes track by $index">
+		<li>{{class.className}}</li>
+			<ul ng-repeat="student in assessment.classes[$index].students">
+				<li>
+					{{student.firstName}} 
+					{{student.lastName}}
+					<input type="text" ng-model="student.score">
+				</li>
+			</ul>
 	</ul>
+
+
 	<button ng-click="saveAssessment(assessment)">Save</button>
 </div>
