@@ -12,7 +12,12 @@
 
 <div class="container main">
 	<h2>{{assessment.assessmentName}}</h2>
-	<p><strong>Class: </strong></p>
+	<p><strong>Classes: </strong></p>
+
+	<ul ng-repeat="class in assessment.classes">
+		<li>{{class.className}}</li>
+	</ul>
+
 	<p><strong>Total Points Possible: {{assessment.totalPoints}}</strong></p>
 	<p><strong>Date Assigned: {{assessment.date}}</strong></p>
 	<p><strong>Students  /  Scores: </strong></p>

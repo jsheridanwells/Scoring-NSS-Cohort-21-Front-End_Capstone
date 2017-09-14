@@ -2,9 +2,8 @@
 app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory){
 	let userId = userFactory.getUserId();
 
-	$scope.students = [];
 	$scope.assessment = {};
-	$scope.assessment.scores = [];
+	$scope.students = [];
 
 	$scope.saveAssessment = (assessment) => {
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
@@ -14,25 +13,17 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 	const loadAssessmentInfo = () => {
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
-			.then(assessment => {
-				$scope.assessment = assessment;
-				for (let i = 0; i < assessment.classes.length; i++) {
-					loadStudentNames(assessment.classes[i].students);
+			.then(assessmentObj => {
+				$scope.assessment = assessmentObj;
+				for (let i = 0; i < assessmentObj.classes.length; i++) {
+					for (let j = 0; j < assessmentObj.classes[i].students.length; j++) {
+						$scope.students.push(assessmentObj.classes[i].students[j]);
+					}
 				}
-				console.log("$scope.assessments", $scope.assessment);
+				console.log("scope assessment", $scope.assessment);
+				console.log("scope students", $scope.students);
 			})
-			.catch(error => console.log("error from loadAssessmentInfo", error.message));
-	};
-
-	const loadStudentNames = (studentArray) => {
-		studentArray.forEach(student => {
-			studentFactory.getSingleStudent(student)
-				.then(student => {
-					$scope.students.push(student);
-					console.log("$scope.students", $scope.students);
-				})
-				.catch(error => console.log("error from loadStudentNames", error.message));
-		});
+			.catch(error => console.log(error.message));
 	};
 
 	loadAssessmentInfo();
