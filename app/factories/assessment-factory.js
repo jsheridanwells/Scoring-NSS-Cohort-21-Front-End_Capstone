@@ -12,6 +12,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	// returns all assessments from FB by user ID
 	const getAllAssessments = (userId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/assessments.json?orderBy="uid"&equalTo="${userId}"`)
@@ -20,6 +21,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	// gets one assessment from FB by assessmentId
 	const getSingleAssessment = (assessmentId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/assessments/${assessmentId}.json`)
@@ -28,6 +30,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	//adds new assessment to FB
 	const postAssessment = (obj) => {
 		console.log("postAssessment firing");
 		let newObj = JSON.stringify(obj);
@@ -36,13 +39,17 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 			.catch(error => console.log("error from postAssessment", error.message));
 	};
 
+	//updates assessments with students' scores added to assessment object
 	const updateAssessment = (id, obj) => {
-		let newObj = JSON.stringify(obj);
-		return $http.patch(`${url}/assessments/${id}.json`, newObj)
-			.then(response => console.log("response from updateAssessment", response))
-			.catch(error => console.log("error from updateAssessment", error.message));
+		return $q((resolve, reject) => {
+			let newObj = angular.toJson(obj);
+			$http.patch(`${url}/assessments/${id}.json`, newObj)
+			.then(response => resolve(response))
+			.catch(error => reject(error));
+		});
 	};
 
+	//removes an assessment from FB
 	const deleteAssessment = (assessmentId) => {
 		console.log("function firing also", assessmentId);
 		return $q((resolve, reject) => {

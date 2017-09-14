@@ -34,6 +34,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	$scope.addClass = (id) => {
 		classFactory.getSingleClass(id)
 			.then(myClass => {
+				myClass.students.forEach(student => student.score = '');
 				$scope.newAssessmentObj.classes.push(myClass);
 				console.log("addClass data", $scope.newAssessmentObj);
 			})
