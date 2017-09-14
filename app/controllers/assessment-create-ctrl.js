@@ -25,6 +25,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	$scope.addAssessment = () => {
 		assessmentFactory.postAssessment($scope.newAssessmentObj)
 			.then(() => {
+				console.log("addClass data", $scope.newAssessmentObj);
 				$location.url('/assessments');
 			})
 			.catch(error => console.log("error in addAssessment", error.message));
@@ -33,7 +34,9 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	$scope.addClass = (id) => {
 		classFactory.getSingleClass(id)
 			.then(myClass => {
+				myClass.students.forEach(student => student.score = '');
 				$scope.newAssessmentObj.classes.push(myClass);
+				console.log("addClass data", $scope.newAssessmentObj);
 			})
 			.catch(error => console.log("error in addClass", error.message));
 	};
