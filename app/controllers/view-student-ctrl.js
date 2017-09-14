@@ -1,28 +1,51 @@
 'use strict';
-app.controller('viewStudentCtrl', function($routeParams, $rootScope, $scope, assessmentFactory, userFactory, studentFactory){
+app.controller('viewStudentCtrl', function($routeParams, $rootScope, $scope, assessmentFactory, userFactory){
 
 	let userId = userFactory.getUserId();
 
 	$scope.scores = [];
+	$scope.student = {};
 
+	//gets all assessments from DB
 	const getAssessments = (userId) => {
 		assessmentFactory.getAllAssessments(userId)
 			.then(assessments => {
-				console.log("assessmentData", assessments);
-				console.log("scope.student", $scope.student);
+				$scope.student = getStudent($routeParams.studentId, assessments);
+				$scope.scores = makeScoresArray($routeParams.studentId, assessments);
 			})
 			.catch(error => console.log("error from getAssessments", error.message));
 	};
 
-	const getStudent = (id) => {
-		console.log("id", id);
-		studentFactory.getSingleStudent(id)
-			.then(studentObj => studentObj)
-			.catch(error => console.log("error grom getStudentName", error.message));
+	//searches assessment object for student object to display name
+	const getStudent = (studentId, arr) => {
+		for (let i = 0; i < arr[0].classes.length; i++) {
+			for (let j = 0; j < arr[0].classes[i].students.length; j++) {
+				if (arr[0].classes[i].students[j].id === studentId) {
+					return arr[0].classes[i].students[j];
+				}
+			}
+		}
 	};
 
+	//creates an array with all student's test scores, searching by id
+	const makeScoresArray = (studentId, arr) => {
+		let studentsArr = [];
+		for (let i = 0; i < arr.length; i++) {
+			for (let j = 0; j < arr[i].classes.length; j++) {
+				for (let k = 0; k < arr[i].classes[j].students.length; k++) {
+					studentsArr.push(arr[i].classes[j].students[k]);
+				}
+			}
+		}
+		let scoresArr = [];
+		studentsArr.forEach(student => {
+			if (student.id === studentId) {
+				scoresArr.push(student.score);
+			}
+		});
+		return scoresArr;
+	};
 
-	$scope.student = getStudent($routeParams.studentId);
 	getAssessments(userId);
 
 });
