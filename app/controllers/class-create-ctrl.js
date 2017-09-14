@@ -31,8 +31,9 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	};
 
 	$scope.addStudent = (id) => {
-		$scope.newClassObj.students.push(id);
-		console.log("$scope.newClassObj.students", $scope.newClassObj.students);
+		studentFactory.getSingleStudent(id)
+		.then(studentData => $scope.newClassObj.students.push(studentData))
+		.catch(error => console.log(error));
 	};
 
 	getStudentList();
