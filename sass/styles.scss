@@ -181,8 +181,15 @@ li.nav-li {
 
 }
 
+//TABLE STYLES
+
+td.shaded {
+	background-color: $offwhite;
+	color: $darkblue;
+}
+
 //ROSTERS OVERVIEW
-.students, .classes {
+.students, .classes, .assessments {
 	margin-left: 5em;
 }
 
