@@ -9,15 +9,18 @@
 	font-size: $size;
 }
 
-body {
-	@include mainFontStack(1em);
-}
-
 //PALETTE
 $lightblue: #b6d9f5;
 $medblue: #3595e3;
 $darkblue: #0c375a;
 $blueblack: #011627;
+$offwhite: #f0f0f0;
+
+body {
+	@include mainFontStack(1em);
+	background-color: $offwhite;
+}
+
 
 //MATERIALZE SHADOWS
 @mixin box-shadow1() {
@@ -84,6 +87,8 @@ $blueblack: #011627;
 		color: #f4f4f4;
 	}
 	h1 {
+		color: $darkblue;
+		text-shadow: 1px 1px 1px black;
 		display: inline;
 		font-size: 3em;
 		margin-left: 1.2em;
@@ -113,10 +118,12 @@ li.nav-li {
 }
 
 //MAIN VIEWS
+
 .main {
-
+	@include box-shadow2();
 	max-width: 90%;
-
+	background-color: #fff;
+	padding: 3em;
 	h2 {
 		margin-top: 1.2em;
 		font-size: 1.5em;
