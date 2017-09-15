@@ -17,11 +17,15 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 		let scores = [];
 		arr.forEach(thisClass => {
 			thisClass.students.forEach(student => {
-				scores.push(parseInt(student.score));
+				if (student.score !== '') {
+					scores.push(parseInt(student.score));
+				}
 			});
 		});
-		let total = scores.reduce((a,b) => a+b);
-		return (total / scores.length).toFixed();
+		if (scores.length > 0) {
+			let total = scores.reduce((a,b) => a+b);
+			return (total / scores.length).toFixed();
+		}
 	};
 
 	//retrieves all assessment data and stores it in $scope.assessments array
