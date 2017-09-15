@@ -27,6 +27,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 			.catch(error => console.log(error.message));
 	};
 
+	//converts date from timestamp to readable date
 	const convertDate = (date) => {
 		return new Date(date).toString().slice(4,15);
 	};
