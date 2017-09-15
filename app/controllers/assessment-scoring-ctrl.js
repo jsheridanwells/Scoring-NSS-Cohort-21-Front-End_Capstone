@@ -7,6 +7,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 	//creates assessment object to print to DOM
 	$scope.assessment = {};
 
+
 	//saves assessment to FB with updated data
 	$scope.saveAssessment = (assessment) => {
 		console.log("assessment", assessment);
@@ -20,9 +21,14 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
 			.then(assessmentObj => {
 				$scope.assessment = assessmentObj;
+				$scope.assessment.displayDate = convertDate(assessmentObj.date);
 				console.log("scope assessment", $scope.assessment);
 			})
 			.catch(error => console.log(error.message));
+	};
+
+	const convertDate = (date) => {
+		return new Date(date).toString().slice(4,15);
 	};
 
 	//loads assessment data for current assessment
