@@ -1,7 +1,14 @@
 //FONTS
 @import url('https://fonts.googleapis.com/css?family=Bitter|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Quattrocento+Sans');
+
 @mixin logo() {
-	font-family: 'Bitter', serif;
+	font-family: 'Arvo', serif;
+}
+
+@mixin navbar() {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1em;
 }
 
 @mixin mainFontStack($size) {
@@ -9,15 +16,18 @@
 	font-size: $size;
 }
 
-body {
-	@include mainFontStack(1em);
-}
-
 //PALETTE
 $lightblue: #b6d9f5;
 $medblue: #3595e3;
 $darkblue: #0c375a;
 $blueblack: #011627;
+$offwhite: #f0f0f0;
+
+body {
+	@include mainFontStack(1em);
+	background-color: $offwhite;
+}
+
 
 //MATERIALZE SHADOWS
 @mixin box-shadow1() {
@@ -48,7 +58,7 @@ $blueblack: #011627;
 
 	h1 {
 		color: $darkblue;
-		text-shadow: 1px 1px 1px black;
+		// text-shadow: 1px 1px 1px black;
 		@include logo();
 	}
 
@@ -75,6 +85,7 @@ $blueblack: #011627;
 }
 
 .navbar {
+	margin-top: 1em;
 	a {
 		color: initial;
 		text-decoration: none;
@@ -84,10 +95,15 @@ $blueblack: #011627;
 		color: #f4f4f4;
 	}
 	h1 {
+		color: $darkblue;
 		display: inline;
 		font-size: 3em;
 		margin-left: 1.2em;
 		@include logo();
+	}
+
+	li {
+		@include navbar();
 	}
 }
 
@@ -99,6 +115,7 @@ ul.nav-ul {
 li.nav-li {
 	margin-right: 2em;
 	display: inline;
+	font-weight: 100;
 }
 
 //SECONDARY NAVBARS
@@ -107,19 +124,26 @@ li.nav-li {
 		list-style-type: none;
 	}
 	li {
+		@include navbar();
 		display: inline;
 		margin: 1em;
 	}
 }
 
 //MAIN VIEWS
+
 .main {
-
+	@include box-shadow2();
 	max-width: 90%;
-
+	background-color: #fff;
+	padding: 3em;
+	margin-bottom: 3em;
 	h2 {
-		margin-top: 1.2em;
+		@include logo();
+		margin: 1.2em 0 1.2em 0;
 		font-size: 1.5em;
+		font-weight: 100;
+		font-size: 3em;
 	}
 
 	h4 {
@@ -140,26 +164,38 @@ li.nav-li {
 	}
 }
 
+.main-title {
+	text-align: center;
+}
+
 //ASSESSMENT OVERVIEW TABLE
 .assessments {
 
+	.table-class-list {
+		list-style-type: none;
+	}
+
+	.table-class-list-item{
+		font-size: 0.8em;
+	}
+
 }
 
-.table-class-list {
-	list-style-type: none;
+//TABLE STYLES
+
+td.shaded {
+	background-color: $offwhite;
+	color: $darkblue;
 }
 
-.table-class-list-item{
-	font-size: 0.8em;
+//ROSTERS OVERVIEW
+.students, .classes, .assessments {
+	margin-left: 5em;
 }
-
 
 
 //NEW ASSESSMENT FORM
 
-	.date-form {
-		width: 3em;
-	}
 
 //NEW STUDENT FORM
 .add-student-form {

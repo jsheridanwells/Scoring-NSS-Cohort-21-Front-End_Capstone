@@ -12,20 +12,35 @@
 
 <div class="container main">
 	<h2>{{assessment.assessmentName}}</h2>
-	<p><strong>Total Points Possible: {{assessment.totalPoints}}</strong></p>
-	<p><strong>Date Assigned: {{assessment.displayDate}}</strong></p>
-
-	<ul ng-repeat="class in assessment.classes track by $index">
-		<li>{{class.className}}</li>
-			<ul ng-repeat="student in assessment.classes[$index].students">
-				<li>
-					{{student.firstName}}
-					{{student.lastName}}
-					<input type="text" ng-model="student.points">
-				</li>
+	<div class="row assessments">
+		<div class="col-6">
+			<p><strong>Total Points Possible: {{assessment.totalPoints}}</strong></p>
+			<p><strong>Date Assigned: {{assessment.displayDate}}</strong></p>
+		</div>
+		<div class="col-6">
+			<button type="button" class="btn btn-outline-primary" ng-click="saveAssessment(assessment)">Save Assessment</button>
+		</div>
+	</div>
+	<div class="row assessments">
+		<div class="col-12">
+			<ul ng-repeat="class in assessment.classes track by $index">
+				<li>{{class.className}}</li>
+					<ul class="secondary-tabs" ng-repeat="student in assessment.classes[$index].students">
+						<li >
+							<div class="row">
+								<div class="col-4">
+									{{student.firstName}}
+									{{student.lastName}}
+								</div>
+								<div class="col-4">
+									<input type="text" ng-model="student.points">
+								</div>
+								<div class="col-4"></div>
+							</div>
+						</li>
+					</ul>
 			</ul>
-	</ul>
+		</div>
+	</div>
 
-
-	<button ng-click="saveAssessment(assessment)">Save</button>
 </div>
