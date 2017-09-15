@@ -33,6 +33,7 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	//returns one student object by student ID
 	const getSingleStudent = (studentId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/students/${studentId}.json`)
@@ -52,6 +53,7 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 			.catch(error => console.log("error from postStudent", error.message));
 	};
 
+	//deletes student from students collection by ID
 	const deleteStudent = (studentId) => {
 		return $q((resolve, reject) => {
 			$http.delete(`${url}/students/${studentId}.json`)

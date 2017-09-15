@@ -1,6 +1,7 @@
 'use strict';
 app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory){
 
+	//holds uid of current user
 	let userId = userFactory.getUserId();
 
 	//creates assessment object to print to DOM
@@ -24,6 +25,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 			.catch(error => console.log(error.message));
 	};
 
+	//loads assessment data for current assessment
 	loadAssessmentInfo();
 
 });
