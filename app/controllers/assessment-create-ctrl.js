@@ -16,9 +16,6 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 			.catch(error => console.log("error from getClassList", error));
 	};
 
-
-	//hold values to create date
-
 	//scaffolds object to hold assessment data
 	$scope.newAssessmentObj = {
 		assessmentName: '',
