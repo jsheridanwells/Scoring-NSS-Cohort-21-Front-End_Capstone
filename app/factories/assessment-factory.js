@@ -4,14 +4,6 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 	//saves fb url
 	let url = FBCreds.databaseURL;
 
-	// // return array with assement names, uid, and uglyId
-	// const makeArray = (obj) => {
-	// 	return Object.keys(obj).map(key => {
-	// 		obj[key].id = key;
-	// 		return obj[key];
-	// 	});
-	// };
-
 	const sortByDate = (objA, objB) => {
 		if (objA.date < objB.date) {
 			return -1;

@@ -10,7 +10,13 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 	//saves assessment to FB with updated data
 	$scope.saveAssessment = (assessment) => {
-		console.log("assessment", assessment);
+		//assigns score to each student before sending data object
+		assessment.classes.forEach(thisClass => {
+			thisClass.students.forEach(student => {
+				student.score = getScore(student.points, assessment.totalPoints);
+			});
+		});
+		//sends data object
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
 			.then(data => console.log("data from saveAssessment", data))
 			.catch(error => console.log("error from saveAssessment", error.message));
@@ -22,7 +28,6 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 			.then(assessmentObj => {
 				$scope.assessment = assessmentObj;
 				$scope.assessment.displayDate = convertDate(assessmentObj.date);
-				console.log("scope assessment", $scope.assessment);
 			})
 			.catch(error => console.log(error.message));
 	};
@@ -30,6 +35,11 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 	//converts date from timestamp to readable date
 	const convertDate = (date) => {
 		return new Date(date).toString().slice(4,15);
+	};
+
+	//divides student's points by total points to post test score
+	const getScore = (points, total) => {
+		return (points / total) * 100;
 	};
 
 	//loads assessment data for current assessment

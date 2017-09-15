@@ -20,13 +20,13 @@
 					<th>Assessment Name:</th>
 					<th>Classes Assigned:</th>
 					<th>Date Assigned:</th>
-					<th>Average:</th>
+					<th>Average Score:</th>
 					<th> </th>
 				</tr>
 			</thead>
 			<tbody ng-repeat="assessment in assessments">
 				<tr>
-					<td><a ng-href="#!/view-assessment/{{assessment.id}}}">{{assessment.assessmentName}}</a></td>
+					<td><a ng-href="#!/view-assessment/{{assessment.id}}">{{assessment.assessmentName}}</a></td>
 					<td>
 						<ul class="table-class-list" ng-repeat="class in assessment.classes">
 							<li class="table-class-list-item"><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></li>

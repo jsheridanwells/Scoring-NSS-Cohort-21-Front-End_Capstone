@@ -14,14 +14,14 @@
 	<h2>{{assessment.assessmentName}}</h2>
 	<p><strong>Total Points Possible: {{assessment.totalPoints}}</strong></p>
 	<p><strong>Date Assigned: {{assessment.displayDate}}</strong></p>
-	
+
 	<ul ng-repeat="class in assessment.classes track by $index">
 		<li>{{class.className}}</li>
 			<ul ng-repeat="student in assessment.classes[$index].students">
 				<li>
-					{{student.firstName}} 
+					{{student.firstName}}
 					{{student.lastName}}
-					<input type="text" ng-model="student.score">
+					<input type="text" ng-model="student.points">
 				</li>
 			</ul>
 	</ul>
