@@ -25,6 +25,8 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 		if (scores.length > 0) {
 			let total = scores.reduce((a,b) => a+b);
 			return (total / scores.length).toFixed();
+		} else {
+			return 'No Scores';
 		}
 	};
 
