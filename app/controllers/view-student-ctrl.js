@@ -1,6 +1,7 @@
 'use strict';
-app.controller('viewStudentCtrl', function($routeParams, $rootScope, $scope, assessmentFactory, userFactory){
+app.controller('viewStudentCtrl', function($routeParams, $scope, assessmentFactory, userFactory){
 
+	//holds uid of current user
 	let userId = userFactory.getUserId();
 
 	$scope.scores = [];
@@ -46,6 +47,7 @@ app.controller('viewStudentCtrl', function($routeParams, $rootScope, $scope, ass
 		return scoresArr;
 	};
 
+	//loads all assessment objects on page load
 	getAssessments(userId);
 
 });
