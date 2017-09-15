@@ -24,12 +24,12 @@
 					<th> </th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody ng-repeat="assessment in assessments">
 				<tr>
-					<td><a href="">Fractions</a></td>
+					<td><a ng-href="#!/view-assessment/{{assessment.id}}}">{{assessment.assessmentName}}</a></td>
 					<td>
-						<ul class="table-class-list">
-							<li class="table-class-list-item"><a href="">Algebra I</a></li>
+						<ul class="table-class-list" ng-repeat="class in assessment.classes">
+							<li class="table-class-list-item"><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></li>
 						</ul>
 					</td>
 					<td>Sep 15 2017</td>
