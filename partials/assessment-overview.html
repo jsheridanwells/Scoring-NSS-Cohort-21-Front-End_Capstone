@@ -32,8 +32,8 @@
 							<li class="table-class-list-item"><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></li>
 						</ul>
 					</td>
-					<td>Sep 15 2017</td>
-					<td>80%</td>
+					<td>{{assessment.displayDate}}</td>
+					<td>{{assessment.average}}</td>
 					<td>
 						<button class="btn btn-secondary btn-sm">Edit</button>
 						<button class="btn btn-danger btn-sm" ng-click="deleteAssessment(assessment.id)">Delete</button>
