@@ -137,6 +137,7 @@ li.nav-li {
 	max-width: 90%;
 	background-color: #fff;
 	padding: 3em;
+	margin-bottom: 3em;
 	h2 {
 		@include logo();
 		margin: 1.2em 0 1.2em 0;
@@ -180,14 +181,14 @@ li.nav-li {
 
 }
 
-
+//ROSTERS OVERVIEW
+.students, .classes {
+	margin-left: 5em;
+}
 
 
 //NEW ASSESSMENT FORM
 
-	.date-form {
-		width: 3em;
-	}
 
 //NEW STUDENT FORM
 .add-student-form {

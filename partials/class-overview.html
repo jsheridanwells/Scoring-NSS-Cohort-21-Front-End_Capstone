@@ -10,17 +10,16 @@
 </div>
 
 <div class="container main">
-		<h2>Roster Overview</h2>
-		<div class="classes">
+	<h2>Roster Overview</h2>
+	<div class="classes">
 		<ul class="class-list list-group" ng-repeat="class in classes">
 			<li class="list-group-item">
 				<p class="class-list-name">
 					{{class.className}}
-					<button class="btn btn-secondary btn-sm">Edit</button>
 					<button class="btn btn-danger btn-sm" ng-click="deleteClass(class.id)">Delete</button>
+					<button class="btn btn-secondary btn-sm">Edit</button>
 				</p>
 			</li>
 		</ul>
 	</div>
-
 </div>
