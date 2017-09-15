@@ -4,7 +4,7 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 	//saves fb url
 	let url = FBCreds.databaseURL;
 
-	// return array with class names, uid, and uglyId
+	// returns array with class names, uid, and uglyId
 	const makeArray = (obj) => {
 		return Object.keys(obj).map(key => {
 			obj[key].id = key;
@@ -42,6 +42,7 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 			.catch(error => console.log("error from postStudents", error.message));
 	};
 
+	//removes class from classes collection by ID
 	const deleteClass = (classId) => {
 		return $q((resolve, reject) => {
 			$http.delete(`${url}/classes/${classId}.json`)

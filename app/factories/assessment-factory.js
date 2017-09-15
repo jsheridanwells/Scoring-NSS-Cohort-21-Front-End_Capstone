@@ -35,8 +35,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 
 	//adds new assessment to FB
 	const postAssessment = (obj) => {
-		console.log("postAssessment firing");
-		let newObj = JSON.stringify(obj);
+		let newObj = angular.toJson(obj);
 		return $http.post(`${url}/assessments.json`, newObj)
 			.then( data => console.log("data from postAssessment", data))
 			.catch(error => console.log("error from postAssessment", error.message));
@@ -54,7 +53,6 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 
 	//removes an assessment from FB
 	const deleteAssessment = (assessmentId) => {
-		console.log("function firing also", assessmentId);
 		return $q((resolve, reject) => {
 			$http.delete(`${url}/assessments/${assessmentId}.json`)
 				.then(response => resolve(response))
