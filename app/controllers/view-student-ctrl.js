@@ -30,20 +30,19 @@ app.controller('viewStudentCtrl', function($routeParams, $scope, assessmentFacto
 
 	//creates an array with all student's test scores, searching by id
 	const makeScoresArray = (studentId, arr) => {
-		let studentsArr = [];
-		for (let i = 0; i < arr.length; i++) {
-			for (let j = 0; j < arr[i].classes.length; j++) {
-				for (let k = 0; k < arr[i].classes[j].students.length; k++) {
-					studentsArr.push(arr[i].classes[j].students[k]);
-				}
-			}
-		}
 		let scoresArr = [];
-		studentsArr.forEach(student => {
-			if (student.id === studentId) {
-				scoresArr.push(student.score);
-			}
+
+		arr.forEach(assessment => {
+			assessment.classes.forEach(thisClass => {
+				thisClass.students.forEach(student => {
+					if (student.id === studentId && student.score !== '') {
+						console.log("loop info", assessment, thisClass);
+						scoresArr.push({assessment: assessment.assessmentName, score: student.score});
+					}
+				});
+			});
 		});
+		console.log("scoresArr", scoresArr);
 		return scoresArr;
 	};
 
