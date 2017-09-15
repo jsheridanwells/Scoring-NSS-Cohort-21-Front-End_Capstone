@@ -38,6 +38,7 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 				list.forEach(item => {
 					item.displayDate = convertDate(item.date);
 				});
+				//add test average
 				list.forEach(assessment => {
 					assessment.average = getAverages(assessment.classes);
 				});
