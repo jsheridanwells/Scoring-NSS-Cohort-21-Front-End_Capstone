@@ -25,4 +25,6 @@ app.controller('viewAssessmentCtrl', function($rootScope, $scope, $routeParams, 
 	//loads assessment data to DOM
 	getAssessment();
 
+	
+
 });
