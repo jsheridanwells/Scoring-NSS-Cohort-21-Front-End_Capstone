@@ -4,6 +4,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 	//saves fb url
 	let url = FBCreds.databaseURL;
 
+	//sorts assessments by date assigned
 	const sortByDate = (objA, objB) => {
 		if (objA.date < objB.date) {
 			return -1;
@@ -14,6 +15,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		return 0;
 	};
 
+	//creates array of assessments with uglyId assigned as key
 	const makeArray = (obj) => {
 		let myArray = Object.keys(obj).map(key => {
 			obj[key].id = key;
