@@ -13,7 +13,14 @@
 <div class="container main">
 	<p><strong>Assessment:</strong> {{assessment.assessmentName}}</p>
 	<p><strong>Assigned To:</strong> </p>
-	<ul ng-repeat="class in assessment.classes">
-		<li><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></li>
-	</ul>
+	<div class="single-assessment" ng-repeat="class in assessment.classes">
+		<div class="class-name">
+			<a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a>
+		</div>
+		<!-- <div class="row" ng-repeat="level in proficiency">
+			<div class="col-3">
+				<p>{{level.levelName}}: {{level.levelCount}} Students</p>
+			</div>
+		</div> -->
+	</div>
 </div>
