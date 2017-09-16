@@ -36,13 +36,11 @@ app.controller('viewStudentCtrl', function($routeParams, $scope, assessmentFacto
 			assessment.classes.forEach(thisClass => {
 				thisClass.students.forEach(student => {
 					if (student.id === studentId && student.score !== '') {
-						console.log("loop info", assessment, thisClass);
 						scoresArr.push({assessment: assessment.assessmentName, score: student.score});
 					}
 				});
 			});
 		});
-		console.log("scoresArr", scoresArr);
 		return scoresArr;
 	};
 
