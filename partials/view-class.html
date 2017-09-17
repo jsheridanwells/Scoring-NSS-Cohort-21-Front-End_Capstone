@@ -11,10 +11,21 @@
 </div>
 
 <div class="container main">
-	<h2>{{assessment.assessmentName}}</h2>
-	<p>Class:  {{currentClass.className}}</p>
-	<p>Results:</p>
-	<ul ng-repeat="student in currentStudents">
-		<li><a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>: {{student.score}}</li>
-	</ul>
+	<div class="row">
+		<div class="col-12">
+			<h2>{{assessment.assessmentName}}</h2>
+			<h4>Class:  {{currentClass.className}}</h4>
+			<p>Results:</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-3 border">
+			<ul class="view-class-student-list" ng-repeat="student in currentStudents">
+				<li class="{{student.proficiency}}"><a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>: {{student.score}}</li>
+			</ul>
+		</div>
+		<div class="col-9 border">
+			
+		</div>
+	</div>
 </div>
