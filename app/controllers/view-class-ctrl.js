@@ -5,6 +5,7 @@ app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, asses
 	$scope.assessment = {};
 	$scope.currentClass = {};
 	$scope.currentStudents = [];
+	$scope.donutDate = [];
 
 	//loads data from current selected assessment using id stored in $rootScope, stores objects in scope
 	const getAssessment = () => {
