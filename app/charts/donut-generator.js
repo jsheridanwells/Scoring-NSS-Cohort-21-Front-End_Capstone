@@ -11,7 +11,8 @@ app.service('donutGenerator', function (){
         let pie = d3.layout.pie().sort(null);
         let arc = d3.svg.arc()
           .outerRadius(min / 2 * 0.9)
-          .innerRadius(min / 2 * 0.5);
+          // .innerRadius(min / 2 * 0.5);
+          .innerRadius(10);
 
         svg.attr({width: width, height: height});
         var g = svg.append('g')
