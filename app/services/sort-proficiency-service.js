@@ -11,17 +11,17 @@ app.service('proficiencySort', function(){
 		//sort for each class
 		assessmentObj.classes.forEach((item, index) => {
 			//construct an object of categories for each class
-			levelArr[index] = {advanced : [], proficient: [], basic: [], belowBasic: []};
+			levelArr[index] = {Advanced : [], Proficient: [], Basic: [], BelowBasic: []};
 			//for each student in each class, sort the students into a level based on test score
 			item.students.forEach(student => {
 				if (student.score >= 90) {
-					levelArr[index].advanced.push({student});
+					levelArr[index].Advanced.push({student});
 				} else if (student.score >= 80 && student.score < 90) {
-					levelArr[index].proficient.push({student});
+					levelArr[index].Proficient.push({student});
 				} else if (student.score >= 60 && student.score < 80) {
-					levelArr[index].basic.push({student});
+					levelArr[index].Basic.push({student});
 				} else if (student.score < 60) {
-					levelArr[index].belowBasic.push({student});
+					levelArr[index].BelowBasic.push({student});
 				}
 			});
 		});
@@ -29,13 +29,10 @@ app.service('proficiencySort', function(){
 		return levelArr;
 	};
 
-	// this.getLevelCounts = (proficiencyArr) => {
-	// 	let levelCounts = [];
-	// 	levelCounts.length = proficiencyArr.length;
-	// 	proficiencyArr.forEach((item, index)=> {
-	// 		levelCounts[index] = {levelName: '', levelCount: ''};
-	// 		levelCounts[index].push();
-	// 	});
-	// };
+	this.getLevelCounts = (proficiencyArr) => {
+		return Object.keys(proficiencyArr).map(key => {
+			return {levelName: key, levelCount: proficiencyArr[key].length};
+		});
+	};
 
 });

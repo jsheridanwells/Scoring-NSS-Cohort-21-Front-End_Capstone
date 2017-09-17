@@ -23,6 +23,12 @@ $darkblue: #0c375a;
 $blueblack: #011627;
 $offwhite: #f0f0f0;
 
+//LEVEL INDICATOR COLORS
+$advanced: #99d6ff;
+$proficient: #99ff99;
+$basic: #ffff99;
+$belowBasic: #ff9999;
+
 body {
 	@include mainFontStack(1em);
 	background-color: $offwhite;
@@ -206,3 +212,49 @@ td.shaded {
 	font-size: 0.3em;
 	width: 5em;
 }
+
+//VIEW ASSESSMENT STYLES
+.level-row {
+	margin: 1em 3em 3em 2em;
+	@include box-shadow1();
+}
+
+.Advanced {
+	padding: 1em;
+	margin: 0;
+	background-color: $advanced;
+}
+
+.Proficient {
+	@extend .Advanced;
+	background-color: $proficient;
+}
+
+.Basic {
+	@extend .Advanced;
+	background-color: $basic;
+}
+
+.BelowBasic {
+	@extend .Advanced;
+	background-color: $belowBasic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
