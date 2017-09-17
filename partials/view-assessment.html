@@ -11,19 +11,18 @@
 </div>
 
 <div class="container main">
-	<p><strong>Assessment:</strong> {{assessment.assessmentName}}</p>
-	<p><strong>Assigned To:</strong> </p>
+	<h2>{{assessment.assessmentName}}</h2>
+	<h4><strong>Assigned To:</strong> </h4>
 	<div class="single-assessment" ng-repeat="class in assessment.classes track by $index">
 		<div class="class-name">
-			<a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a>
+			<h4><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></h4>
 		</div>
-		<div class="row" >
-			<div class="col-3" ng-repeat="level in levelCounts[$index]">
+		<div class="row level-row">
+			<div class="col-3 level-col" ng-repeat="level in levelCounts[$index]">
 				<div class="{{level.levelName}}">
 					<p>{{level.levelName}}:</p> 
-					<p>{{level.levelCount}} Students</p>
+					<p><em>{{level.levelCount}} Students</em></p>
 				</div>
-				
 			</div>
 		</div>
 	</div>
