@@ -16,6 +16,29 @@ app.service('proficiencySort', function(){
 			}
 	};
 
+	//checks array of student assessment results for proficiency levels and returns array with percentages
+	this.calculateLevelPercentages = (studentArr) => {
+		let percentagesArr = [];
+		let advancedCount = 0, proficientCount = 0, basicCount = 0, belowBasicCount = 0;
+		studentArr.forEach(student => {
+			if (student.proficiency === 'Advanced') {
+				advancedCount++;
+			} else if (student.proficiency === 'Proficient') {
+				proficientCount++;
+			} else if (student.proficiency === 'Basic') {
+				basicCount++;
+			} else if (student.proficiency === 'BelowBasic') {
+				belowBasicCount++;
+			}
+		});
+		console.log("counts", advancedCount, proficientCount, basicCount, belowBasicCount);
+		percentagesArr.push((advancedCount / studentArr.length) * 100);
+		percentagesArr.push((proficientCount / studentArr.length) * 100);
+		percentagesArr.push((basicCount / studentArr.length) * 100);
+		percentagesArr.push((belowBasicCount / studentArr.length) * 100);
+		return percentagesArr;
+	};
+
 	//takes single assessment and sorts students into classes and proficiency levels
 	this.sortByLevel = (assessmentObj) => {
 		//create an array to hold classes and sorted students

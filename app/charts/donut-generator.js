@@ -1,42 +1,29 @@
 'use strict';
-app.direction('donutChart', function() {
-	function link(scope, el, attr) {
-		let color = d3.scale.category10();
-		let width = 200;
-		let height = 200;
-		let min = Math.min(width, height);
-		let svg = d3.select(el[0].append('svg'));
-		let pie = d3.layout.pie().sort(null);
-		let arc = d3.svg.arc()
-						.outerRadius(min / 2 * 0.9)
-						.innerRadius(min / 2 * 0.5);
 
-		svg.attr({
-			width: width,
-			height: height
-		});
+app.service('donutGenerator', function (){
 
-		let g = svg.append('g')
-					.attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+	this.createDonutChart = (data, el) => {
+		var color = d3.scale.category10();
+        var width = 300;
+        var height = 300;
+        var min = Math.min(width, height);
+        var svg = d3.select(el).append('svg');
+        var pie = d3.layout.pie().sort(null);
+        var arc = d3.svg.arc()
+          .outerRadius(min / 2 * 0.9)
+          .innerRadius(min / 2 * 0.5);
 
-		let arcs = g.selectAll('path');
+        svg.attr({width: width, height: height});
+        var g = svg.append('g')
+          // center the donut chart
+          .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
 
-		scope.$watch('data', function(data){
-			if (!data) {return;}
-			arcs = arcs.data(pie(data));
-			arcs.exit().remove();
-			arcs.enter().append('path')
-				.style('stroke', 'white')
-				.attr('fill', function(d,i){return color(i);});
-			arcs.attr('d', arc);
+        // add the <path>s for each arc slice
+        g.selectAll('path').data(pie(data))
+          .enter().append('path')
+            .style('stroke', 'white')
+            .attr('d', arc)
+            .attr('fill', function(d, i){ return color(i); });
+	};
 
-		}, true);
-
-		return {
-			link: link,
-			restrict: 'E',
-			scope: {data: '='}
-		};
-
-	}
 });
