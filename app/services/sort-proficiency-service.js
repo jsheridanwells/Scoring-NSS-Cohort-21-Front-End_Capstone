@@ -29,13 +29,10 @@ app.service('proficiencySort', function(){
 		return levelArr;
 	};
 
-	// this.getLevelCounts = (proficiencyArr) => {
-	// 	let levelCounts = [];
-	// 	levelCounts.length = proficiencyArr.length;
-	// 	proficiencyArr.forEach((item, index)=> {
-	// 		levelCounts[index] = {levelName: '', levelCount: ''};
-	// 		levelCounts[index].push();
-	// 	});
-	// };
+	this.getLevelCounts = (proficiencyArr) => {
+		return Object.keys(proficiencyArr).map(key => {
+			return {levelName: key, levelCount: proficiencyArr[key].length};
+		});
+	};
 
 });
