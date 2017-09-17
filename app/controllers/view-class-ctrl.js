@@ -11,8 +11,11 @@ app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, asses
 		assessmentFactory.getSingleAssessment($rootScope.currentAssessment)
 			.then(assessment => {
 				$scope.assessment = assessment;
+				console.log("assessment", assessment);
 				$scope.currentClass = findCurrentClass(assessment, $routeParams.classId);
+				console.log("currentClass", $scope.currentClass);
 				$scope.currentStudents = $scope.currentClass.students;
+				console.log("currentStudents", $scope.currentStudents);
 			})
 			.catch(error => console.log("error from getAssessment", error.message));
 	};

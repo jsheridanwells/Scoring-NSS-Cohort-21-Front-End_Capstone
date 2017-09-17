@@ -1,5 +1,5 @@
 'use strict';
-app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory){
+app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory, proficiencySort){
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();
@@ -10,10 +10,11 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 	//saves assessment to FB with updated data
 	$scope.saveAssessment = (assessment) => {
-		//assigns score to each student before sending data object
+		//assigns score and proficiency level to each student before sending data object
 		assessment.classes.forEach(thisClass => {
 			thisClass.students.forEach(student => {
 				student.score = getScore(student.points, assessment.totalPoints);
+				student.proficiency = proficiencySort.assignLevel(student.score);
 			});
 		});
 		//sends data object
@@ -39,7 +40,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 	//divides student's points by total points to post test score
 	const getScore = (points, total) => {
-		return (points / total) * 100;
+		return ((points / total) * 100).toFixed(0);
 	};
 
 	//loads assessment data for current assessment

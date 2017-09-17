@@ -2,6 +2,20 @@
 
 app.service('proficiencySort', function(){
 
+
+	//inputs student score and outputs proficiency level
+	this.assignLevel = (score) => {
+		if (score >= 90) {
+				return 'Advanced';
+			} else if (score >= 80 && score < 90) {
+				return 'Proficient';
+			} else if (score >= 60 && score < 80) {
+				return 'Basic';
+			} else if (score < 60) {
+				return 'BelowBasic';
+			}
+	};
+
 	//takes single assessment and sorts students into classes and proficiency levels
 	this.sortByLevel = (assessmentObj) => {
 		//create an array to hold classes and sorted students
