@@ -3,7 +3,7 @@
 app.service('donutGenerator', function (){
 
 	this.createDonutChart = (data, el) => {
-		let color = ['#99d6ff', '#99ff99', '#ffff99', '#ff9999'];
+    		let color = ['#99d6ff', '#99ff99', '#ffff99', '#ff9999'];
         let width = 300;
         let height = 300;
         let min = Math.min(width, height);
