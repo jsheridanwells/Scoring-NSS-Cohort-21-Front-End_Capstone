@@ -19,7 +19,7 @@ app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, asses
 				console.log("currentStudents", $scope.currentStudents);
 				$scope.donutData = proficiencySort.calculateLevelPercentages($scope.currentStudents);
 				console.log("$scope.donutData", $scope.donutData);
-				donutGenerator.createDonutChart($scope.donutData, '#donut-chart');
+				donutGenerator.createDonutChart($scope.donutData.map(d => d.percentage), '#donut-chart');
 
 			})
 			.catch(error => console.log("error from getAssessment", error.message));

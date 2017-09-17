@@ -21,10 +21,19 @@
 	<div class="row">
 		<div class="col-3 border">
 			<ul class="view-class-student-list" ng-repeat="student in currentStudents">
-				<li class="{{student.proficiency}}"><a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>: {{student.score}}</li>
+				<li class="{{student.proficiency}}">
+					<a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>: {{student.score}}
+				</li>
 			</ul>
 		</div>
 		<div class="col-9 border">
-			<div id="donut-chart"> </div>
+			<div class="row">
+				<div id="donut-chart" class="col-6"> </div>
+				<div class="col-6">
+					<ul class="view-class-student-list" ng-repeat="d in donutData">
+						<li class="{{d.level}}"><strong>{{d.level}}:</strong> {{d.percentage}} %</li>
+					</ul>
+				</div>
+			</div>
 	</div>
 </div>
