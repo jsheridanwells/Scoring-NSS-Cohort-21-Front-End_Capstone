@@ -1,11 +1,12 @@
 'use strict';
-app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, assessmentFactory, classFactory, proficiencySort, donutGenerator) {
+app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, assessmentFactory, classFactory, proficiencySort) {
 
 	//makes assessment, current class, and current student information available in DOM
 	$scope.assessment = {};
 	$scope.currentClass = {};
 	$scope.currentStudents = [];
 	$scope.donutData = [];
+	$scope.donutOutput = [];
 
 	//loads data from current selected assessment using id stored in $rootScope, stores objects in scope
 	const getAssessment = () => {
@@ -19,7 +20,9 @@ app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, asses
 				console.log("currentStudents", $scope.currentStudents);
 				$scope.donutData = proficiencySort.calculateLevelPercentages($scope.currentStudents);
 				console.log("$scope.donutData", $scope.donutData);
-				donutGenerator.createDonutChart($scope.donutData.map(d => d.percentage), '#donut-chart');
+				$scope.donutOutput = $scope.donutData.map(d => d.percentage);
+				console.log("$scope.donutOutput", $scope.donutOutput);
+				// donutGenerator.createDonutChart($scope.donutData.map(d => d.percentage), '#donut-chart');
 
 			})
 			.catch(error => console.log("error from getAssessment", error.message));
