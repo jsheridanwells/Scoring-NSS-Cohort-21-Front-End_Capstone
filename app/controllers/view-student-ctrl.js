@@ -12,9 +12,7 @@ app.controller('viewStudentCtrl', function($routeParams, $scope, assessmentFacto
 		assessmentFactory.getAllAssessments(userId)
 			.then(assessments => {
 				$scope.student = getStudent($routeParams.studentId, assessments);
-				console.log("scope.student", $scope.student);
 				$scope.scores = makeScoresArray($routeParams.studentId, assessments).reverse();
-				console.log("scope.scores", $scope.scores);
 			})
 			.catch(error => console.log("error from getAssessments", error.message));
 	};
@@ -37,7 +35,7 @@ app.controller('viewStudentCtrl', function($routeParams, $scope, assessmentFacto
 		arr.forEach(assessment => {
 			assessment.classes.forEach(thisClass => {
 				thisClass.students.forEach(student => {
-					if (student.id === studentId && student.score !== '') {
+					if (student.id === studentId && !isNaN(student.score)) {
 						scoresArr.push({assessment: assessment.assessmentName, score: student.score});
 					}
 				});
