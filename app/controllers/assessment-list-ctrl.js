@@ -12,24 +12,6 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 		return new Date(date).toString().slice(4,15);
 	};
 
-	//averages all test scores for one assessment and adds to $scope.assessment array
-	const getAverages = (arr) => {
-		let scores = [];
-		arr.forEach(thisClass => {
-			thisClass.students.forEach(student => {
-				if (Number.isInteger(student.score)) {
-					scores.push(student.score);
-				}
-			});
-		});
-		if (scores.length > 0) {
-			let total = scores.reduce((a,b) => a + b);
-			return (total / scores.length).toFixed();
-		} else {
-			return 'No Scores';
-		}
-	};
-
 	//retrieves all assessment data and stores it in $scope.assessments array
 	const showAssessments = () => {
 		assessmentFactory.getAllAssessments(userId)
@@ -38,11 +20,6 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 				list.forEach(item => {
 					item.displayDate = convertDate(item.date);
 				});
-				//add test average
-				list.forEach(assessment => {
-					assessment.average = getAverages(assessment.classes);
-				});
-				console.log("list", list);
 				$scope.assessments = list;
 				console.log("$scope.assessments", $scope.assessments);
 			})
