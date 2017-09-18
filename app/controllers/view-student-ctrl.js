@@ -12,7 +12,9 @@ app.controller('viewStudentCtrl', function($routeParams, $scope, assessmentFacto
 		assessmentFactory.getAllAssessments(userId)
 			.then(assessments => {
 				$scope.student = getStudent($routeParams.studentId, assessments);
+				console.log("scope.student", $scope.student);
 				$scope.scores = makeScoresArray($routeParams.studentId, assessments);
+				console.log("scope.scores", $scope.scores);
 			})
 			.catch(error => console.log("error from getAssessments", error.message));
 	};
