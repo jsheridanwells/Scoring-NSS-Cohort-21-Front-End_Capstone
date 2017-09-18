@@ -7,7 +7,6 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 	//creates assessment object to print to DOM
 	$scope.assessment = {};
 
-
 	//saves assessment to FB with updated data
 	$scope.saveAssessment = (assessment) => {
 		//assigns score and proficiency level to each student before sending data object
@@ -17,25 +16,23 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 				student.proficiency = proficiencySort.assignLevel(student.score);
 			});
 		});
+
 		//goes through each score on assessment to assign overall average
 		let scoresArr = [];
 		assessment.classes.forEach(thisClass => {
 			thisClass.students.forEach(student => {
 				if (!isNaN(student.score)) {
-					console.log("student.score", student.score);
 					scoresArr.push(parseInt(student.score));
 				}
 			});
 		});
-		console.log("scoresArr", scoresArr);
 		assessment.average = calculations.getAverage(scoresArr).toFixed();
-		console.log("assessment", assessment);
 
 		//sends data object
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
 			.then(data => console.log("data from saveAssessment", data))
 			.catch(error => console.log("error from saveAssessment", error.message));
-	};
+		};
 
 	//loads assessment data to the assessment object to load to the DOM
 	const loadAssessmentInfo = () => {
@@ -43,7 +40,6 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 			.then(assessmentObj => {
 				$scope.assessment = assessmentObj;
 				$scope.assessment.displayDate = convertDate(assessmentObj.date);
-				console.log("scope.assessment", $scope.assessment);
 			})
 			.catch(error => console.log(error.message));
 	};
