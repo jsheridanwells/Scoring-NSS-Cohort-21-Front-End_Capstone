@@ -28,12 +28,14 @@
 		</div>
 		<div class="col-9 border">
 			<div class="row">
-				<div id="donut-chart" class="col-6"> </div>
+				<!-- <div id="donut-chart" class="col-6"> </div> -->
+				<div donut-chart data="donutOutput"></div>
 				<div class="col-6">
 					<ul class="view-class-student-list" ng-repeat="d in donutData">
 						<li class="{{d.level}}"><strong>{{d.level}}:</strong> {{d.percentage}} %</li>
 					</ul>
 				</div>
 			</div>
+		</div>
 	</div>
 </div>
