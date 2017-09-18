@@ -13,8 +13,8 @@
 <div class="container main">
 	<h2>{{student.firstName}} {{student.lastName}}</h2>
 	<h3>All Assessment Scores:</h3>
-	<ul ng-repeat="test in scores track by $index">
+	<!-- <ul ng-repeat="test in scores track by $index">
 		<li>{{test.assessment}}: {{test.score}}</li>
-	</ul>
+	</ul> -->
 	<div bar-chart data="scores"></div>
 </div>

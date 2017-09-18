@@ -34,7 +34,7 @@ app.directive('barChart', function() {
 			// y axis shows bar names
 			let yAxis = d3.svg.axis()
 								.scale(y)
-								.tickSize(0)
+								.tickSize(1)
 								.orient('left');
 
 			let gy = svg.append('g')
@@ -55,9 +55,9 @@ app.directive('barChart', function() {
 
 			bars.append('text')
 				.attr('class', 'label')
-				.attr('y', (d) => y(d.assessment) + y.rangeBand() / 2 + 4)
+				.attr('y', (d) => (y(d.assessment) + y.rangeBand() / 2) + 4)
 				.attr('x', (d) => x(d.score) + 3)
-				.text((d) => d.score);
+				.text((d) => d.score + '%');
 
 		}, true);
 	};
