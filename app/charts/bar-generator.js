@@ -35,8 +35,10 @@ app.directive('barChart', function() {
 									.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 		scope.$watch('data', function() {
+
 			let data = scope.data;
-			console.log("data", data);
+
+			console.log("scope data", data);
 
 			//create scale for x axis w/ highest score value in data set
 			let x = d3.scale.linear()
