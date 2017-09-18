@@ -19,13 +19,15 @@ app.directive('donutChart', function() {
     var g = svg.append('g')
       .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
 
-      //when given an array for scope.data, svg updates with paths for chart
+    //when given an array for scope.data, svg updates with paths for chart
     scope.$watch('data', function(data) {
-        g.selectAll('path').data(pie(data))
-            .enter().append('path')
-            .style('stroke', 'white')
-            .attr('d', arc)
-            .attr('fill', function(d, i){ return color[i]; });
+
+      let percentages = data.map(d => d.percentage);
+      g.selectAll('path').data(pie(percentages))
+          .enter().append('path')
+          .style('stroke', 'white')
+          .attr('d', arc)
+          .attr('fill', function(d, i){ return color[i]; });
 
     }, true);
   };
@@ -36,5 +38,3 @@ app.directive('donutChart', function() {
     scope: {data: '='}
   };
 });
-
-// scope: {data: '=chartData'},

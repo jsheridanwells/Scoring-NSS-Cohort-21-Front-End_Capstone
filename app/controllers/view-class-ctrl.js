@@ -6,7 +6,6 @@ app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, asses
 	$scope.currentClass = {};
 	$scope.currentStudents = [];
 	$scope.donutData = [];
-	$scope.donutOutput = [];
 
 	//loads data from current selected assessment using id stored in $rootScope, stores objects in scope
 	const getAssessment = () => {
@@ -20,9 +19,6 @@ app.controller('viewClassCtrl', function($rootScope, $scope, $routeParams, asses
 				console.log("currentStudents", $scope.currentStudents);
 				$scope.donutData = proficiencySort.calculateLevelPercentages($scope.currentStudents);
 				console.log("$scope.donutData", $scope.donutData);
-				$scope.donutOutput = $scope.donutData.map(d => d.percentage);
-				console.log("$scope.donutOutput", $scope.donutOutput);
-				// donutGenerator.createDonutChart($scope.donutData.map(d => d.percentage), '#donut-chart');
 
 			})
 			.catch(error => console.log("error from getAssessment", error.message));
