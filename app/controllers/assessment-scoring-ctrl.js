@@ -1,5 +1,5 @@
 'use strict';
-app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory, proficiencySort){
+app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory, proficiencySort, calculations){
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();

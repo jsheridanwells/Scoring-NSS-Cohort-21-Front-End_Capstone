@@ -2,7 +2,6 @@
 
 app.service('proficiencySort', function(){
 
-
 	//inputs student score and outputs proficiency level
 	this.assignLevel = (score) => {
 		if (score >= 90) {
@@ -31,11 +30,10 @@ app.service('proficiencySort', function(){
 				belowBasicCount++;
 			}
 		});
-		console.log("counts", advancedCount, proficientCount, basicCount, belowBasicCount);
-		percentagesArr.push((advancedCount / studentArr.length) * 100);
-		percentagesArr.push((proficientCount / studentArr.length) * 100);
-		percentagesArr.push((basicCount / studentArr.length) * 100);
-		percentagesArr.push((belowBasicCount / studentArr.length) * 100);
+		percentagesArr.push({level: 'Advanced', percentage: (advancedCount / studentArr.length) * 100});
+		percentagesArr.push({level: 'Proficient', percentage: (proficientCount / studentArr.length) * 100});
+		percentagesArr.push({level: 'Basic', percentage: (basicCount / studentArr.length) * 100});
+		percentagesArr.push({level: 'BelowBasic', percentage: (belowBasicCount / studentArr.length) * 100});
 		return percentagesArr;
 	};
 
@@ -66,6 +64,7 @@ app.service('proficiencySort', function(){
 		return levelArr;
 	};
 
+	//takes single assessment and returns numbers of students at each proficiency level
 	this.getLevelCounts = (proficiencyArr) => {
 		return Object.keys(proficiencyArr).map(key => {
 			return {levelName: key, levelCount: proficiencyArr[key].length};

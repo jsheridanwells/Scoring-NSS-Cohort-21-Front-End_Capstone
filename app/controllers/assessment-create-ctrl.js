@@ -22,7 +22,8 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 		totalPoints: '',
 		date: '',
 		classes: [],
-		uid: userId
+		uid: userId,
+		average: 'No Score'
 	};
 
 	//pulls all input from $scope.newAssessmentObj and posts new assessment to assessments collection in FB
