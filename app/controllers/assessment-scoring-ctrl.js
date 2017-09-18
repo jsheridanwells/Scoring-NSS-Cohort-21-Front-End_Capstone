@@ -17,6 +17,20 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 				student.proficiency = proficiencySort.assignLevel(student.score);
 			});
 		});
+		//goes through each score on assessment to assign overall average
+		let scoresArr = [];
+		assessment.classes.forEach(thisClass => {
+			thisClass.students.forEach(student => {
+				if (!isNaN(student.score)) {
+					console.log("student.score", student.score);
+					scoresArr.push(parseInt(student.score));
+				}
+			});
+		});
+		console.log("scoresArr", scoresArr);
+		assessment.average = calculations.getAverage(scoresArr).toFixed();
+		console.log("assessment", assessment);
+
 		//sends data object
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
 			.then(data => console.log("data from saveAssessment", data))
@@ -29,6 +43,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 			.then(assessmentObj => {
 				$scope.assessment = assessmentObj;
 				$scope.assessment.displayDate = convertDate(assessmentObj.date);
+				console.log("scope.assessment", $scope.assessment);
 			})
 			.catch(error => console.log(error.message));
 	};
