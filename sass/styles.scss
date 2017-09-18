@@ -251,9 +251,18 @@ ul.view-class-student-list {
 //DONUT CHARTS
 
 svg {
-	margin-left: 5em;
+	margin-left: 5;
 }
 
+//BAR CHARTS
+
+.bar {
+	fill: #5f89ad;
+}
+
+.label, .y-axis {
+	font-size: 13px;
+}
 
 
 
