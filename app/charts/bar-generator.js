@@ -4,7 +4,7 @@ app.directive('barChart', function() {
 	const link = (scope, el, attr) => {
 
 		//set up margins, space on left is for labels
-		let margin = {top: 15, right: 25, bottom: 25, left: 60};
+		let margin = {top: 15, right: 25, bottom: 25, left: 200};
 
 		//set height and width of SVG
 		let width = 960 - margin.left - margin.right,
@@ -19,6 +19,7 @@ app.directive('barChart', function() {
 
 		scope.$watch('data', function() {
 			let data = scope.data;
+			console.log("data", data);
 
 			//create scale for x axis w/ highest score value in data set
 			let x = d3.scale.linear()
