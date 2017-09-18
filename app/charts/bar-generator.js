@@ -3,6 +3,23 @@
 app.directive('barChart', function() {
 	const link = (scope, el, attr) => {
 
+		//helper function to set color of bar based on proficiency level
+		const setColor = (score) => {
+			if (score >= 90) {
+				console.log("score", score);
+				return 'Advanced-bar';
+			} else if (score < 90 && score >= 80) {
+				console.log("score", score);
+				return 'Proficient-bar';
+			} else if (score < 80 && score >= 60) {
+				console.log("score", score);
+				return 'Basic-bar';
+			} else if (score < 60) {
+				console.log("score", score);
+				return 'BelowBasic-bar';
+			}
+		};
+
 		//set up margins, space on left is for labels
 		let margin = {top: 15, right: 25, bottom: 25, left: 200};
 
@@ -47,7 +64,7 @@ app.directive('barChart', function() {
 							.append('g');
 
 			bars.append('rect')
-					.attr('class', 'bar')
+					.attr('class', (d) => setColor(d.score))
 					.attr('y', (d) => y(d.assessment))
 					.attr('height', y.rangeBand())
 					.attr('x', 0)

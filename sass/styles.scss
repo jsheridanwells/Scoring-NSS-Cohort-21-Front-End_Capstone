@@ -260,8 +260,24 @@ svg {
 	fill: #5f89ad;
 }
 
+.Advanced-bar {
+	fill: $advanced;
+}
+
+.Proficient-bar {
+	fill: $proficient;
+}
+
+.Basic-bar {
+	fill: $basic;
+}
+
+.BelowBasic-bar {
+	fill: $belowBasic;
+}
+
 .label, .y-axis {
-	font-size: 13px;
+	font-size: 14px;
 }
 
 
