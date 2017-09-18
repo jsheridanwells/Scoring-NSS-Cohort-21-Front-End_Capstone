@@ -27,15 +27,37 @@
 
 // });
 
-app.directive('donutChart', function($parse) {
-
-  // let output = 'LINK WORKS TOO';
+app.directive('donutChart', function() {
 
   const link = (scope, el, attr) => {
 
     scope.$watch('data', function(data) {
-      el[0].innerHTML = scope.data;
+      console.log("scope watch firing");
+      let results = scope.data;
+
+      let donut = d3.layout.pie();
+      let arcData = donut(results);
+      let arc = d3.svg.arc().innerRadius(100).outerRadius(160);
+
+      arc.startAngle(function (d) {return d.startAngle;});
+      arc.endAngle(function (d) {return d.endAngle;});
+
+      let color = ['#99d6ff', '#99ff99', '#ffff99', '#ff9999'];
+
+      let svg = d3.select(el[0]).append('svg');
+      svg.attr('height', '200').attr('width', '200');
+
+      svg.append('g').attr('transform', 'translate(200,175)')
+                      .selectAll('path').data(arcData).enter()
+                      .append('path').attr('d', arc)
+                      .style('fill', (d,i) => {return color[i];});
+
     }, true);
+
+
+    // scope.$watch('data', function(data) {
+    //   el[0].innerHTML = scope.data;
+    // }, true);
 
   };
 
