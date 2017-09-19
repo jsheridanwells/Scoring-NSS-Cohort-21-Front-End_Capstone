@@ -21,7 +21,7 @@ app.directive('barChart', function() {
 		};
 
 		//set up margins, space on left is for labels
-		let margin = {top: 15, right: 25, bottom: 25, left: 200};
+		let margin = {top: 15, right: 95, bottom: 25, left: 200};
 
 		//set height and width of SVG
 		let width = 960 - margin.left - margin.right,
