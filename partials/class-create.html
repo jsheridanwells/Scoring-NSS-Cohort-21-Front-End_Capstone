@@ -18,18 +18,16 @@
 				<input type="text" ng-model="newClassObj.className">
 			</label>
 		</div>
-		<div class="form-group">
+		<div class="form-group class-list">
 			<h4>Add Students:</h4>
-			<ul class="list-group" ng-repeat="student in students">
-				<li class="list-group-item">
-					<div class="form-check">
-					  <label class="form-check-label">
-					    <input class="form-check-input" type="checkbox" ng-click="addRemoveStudent(student, student.id)">
-					    {{student.firstName}} {{student.lastName}}
-					  </label>
-					</div>
-				</li>
-			</ul>
+			<div class="row">
+				<div class="col-4" ng-repeat="column in columns">
+					<p ng-repeat="student in students | slice:column.start:column.end">
+						<input class="form-check-input" type="checkbox" ng-click="addRemoveStudent(student, student.id)">
+						{{student.firstName}} {{student.lastName}}
+					</p>
+				</div>
+			</div>
 		</div>
 		<button type="button" class="btn btn-outline-primary" ng-click="addClass()">Add Roster</button>
 	</form>
