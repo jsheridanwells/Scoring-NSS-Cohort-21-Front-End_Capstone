@@ -36,10 +36,10 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 
 	//adds new class to classes collection w/ object taken from classesCtrl
 	const postClass = (classInfo) => {
-		let newClass = JSON.stringify(classInfo);
+		let newClass = angular.toJson(classInfo);
 		return $http.post(`${url}/classes.json`, newClass)
-			.then(data => console.log("data from postStudents", data))
-			.catch(error => console.log("error from postStudents", error.message));
+			.then(data => console.log("data from postClass", data))
+			.catch(error => console.log("error from postClass", error.message));
 	};
 
 	//removes class from classes collection by ID
