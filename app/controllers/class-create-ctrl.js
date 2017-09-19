@@ -1,6 +1,6 @@
 'use strict';
 
-app.controller('classCreateCtrl', function ($scope, $location, userFactory, classFactory, studentFactory) {
+app.controller('classCreateCtrl', function ($scope, $location, userFactory, classFactory, studentFactory, layout) {
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();
@@ -19,7 +19,7 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 		studentFactory.getAllStudents(userId)
 			.then(students => {
 				$scope.students = students;
-				$scope.columns = createColumns($scope.students, 3);
+				$scope.columns = layout.createColumns($scope.students, 3);
 			})
 			.catch(error => console.log("error from getStudentList", error.message));
 	};
@@ -34,17 +34,6 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 		return false;
 	};
 
-	//creates data for sorting long student list into three columns
-	const createColumns = (arr, colCount) => {
-		let itemsPerColumn = Math.ceil(arr.length / colCount);
-		let returnArr = [];
-		for (let i = 0; i < arr.length; i += colCount) {
-			let col = {start:i, end: Math.min(i + colCount, arr.length) };
-			returnArr.push(col);
-		}
-		return returnArr;
-	};
-
 	//scaffolds object to hold class data
 	$scope.newClassObj = {
 		className: '',
@@ -55,7 +44,6 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	//adds class to classes collections in FB
 	$scope.addClass = () => {
 		$scope.newClassObj.students = $scope.selectedStudents;
-		console.log("newClassObject from add Class", $scope.newClassObj);
 		classFactory.postClass($scope.newClassObj)
 			.then(data => {
 				console.log("data from addClass", data);
@@ -68,19 +56,12 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	$scope.addRemoveStudent = (obj, id) => {
 		if (checkStudents(id)) {
 			$scope.selectedStudents.splice($scope.selectedStudents.indexOf(obj), 1);
-			console.log("remove student: ", $scope.selectedStudents);
 		} else {
 			$scope.selectedStudents.push(obj);
-			console.log("add student: ", $scope.selectedStudents);
 		}
 	};
 
 	//loads all student information to DOM on page load
 	getStudentList();
 
-});
-
-//slice filter to create 3 columns to display long lists
-app.filter('slice', function () {
-	return (arr, start, end) => arr.slice(start,end);
 });
