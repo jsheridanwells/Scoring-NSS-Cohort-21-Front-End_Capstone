@@ -1,8 +1,10 @@
 'use strict';
-app.controller('viewAssessmentCtrl', function($rootScope, $scope, $routeParams, userFactory, assessmentFactory, classFactory, proficiencySort) {
-
-	//holds uid of current user
-	let userId = userFactory.getUserId();
+app.controller('viewAssessmentCtrl', function(
+	$rootScope,
+	$scope,
+	$routeParams,
+	assessmentFactory,
+	proficiencySort) {
 
 	//object holds information for assessment retrieved via $routeParams
 	$scope.assessment = {};
@@ -14,6 +16,7 @@ app.controller('viewAssessmentCtrl', function($rootScope, $scope, $routeParams, 
 	//stores current assessment id in $rootScope so it's available for subsequent views
 	const getAssessment = () => {
 		$rootScope.currentAssessment = $routeParams.assessmentId;
+		console.log("rootScope", $rootScope.currentAssessment);
 		assessmentFactory.getSingleAssessment($routeParams.assessmentId)
 			.then(assessment => {
 				$scope.assessment = assessment;
