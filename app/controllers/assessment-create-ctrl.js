@@ -10,7 +10,6 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 		classFactory.getAllClasses(userId)
 			.then(classes => {
 				$scope.classes = classes;
-				console.log("$scope.classes", $scope.classes);
 			})
 			.catch(error => console.log("error from getClassList", error));
 	};
@@ -37,14 +36,14 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 
 	//holds data for all classes
 	$scope.classes = [];
-	//tracks state of checkbox for addRemoveClass function
+	//holds classes in array to be added to assessment object when addAssessment() fires
 	$scope.selectedClasses = [];
 
 	//pulls all input from $scope.newAssessmentObj and posts new assessment to assessments collection in FB
 	$scope.addAssessment = () => {
+		$scope.newAssessmentObj.classes = $scope.selectedClasses;
 		assessmentFactory.postAssessment($scope.newAssessmentObj)
 			.then(() => {
-				console.log("addAssessment data", $scope.newAssessmentObj);
 				$location.url('/assessments');
 			})
 			.catch(error => console.log("error in addAssessment", error.message));
@@ -54,10 +53,8 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	$scope.addRemoveClass = (obj, id) => {
 		if (checkClasses(id)) {
 			$scope.selectedClasses.splice($scope.selectedClasses.indexOf(obj), 1);
-			console.log("$scope.selectedClasses", $scope.selectedClasses);
 		} else {
 			$scope.selectedClasses.push(obj);
-			console.log("$scope.selectedClasses", $scope.selectedClasses);
 		}
 	};
 
@@ -65,14 +62,3 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	getClassList();
 
 });
-
-
-
-
-// classFactory.getSingleClass(id)
-// 	.then(myClass => {
-// 		myClass.students.forEach(student => student.score = '');
-// 		$scope.selectedClasses.push(myClass);
-// 		console.log("addClass data", $scope.selectedClasses);
-// 	})
-// 	.catch(error => console.log("error in addClass", error.message));
