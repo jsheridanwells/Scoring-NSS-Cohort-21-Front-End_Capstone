@@ -15,7 +15,7 @@
 		<ul class="class-list list-group" ng-repeat="class in classes">
 			<li class="list-group-item">
 				<p class="class-list-name">
-					{{class.className}}
+					<a ng-href="#!/class-roster-view/{{class.id}}">{{class.className}}</a>
 					<button class="btn btn-danger btn-sm" ng-click="deleteClass(class.id)">Delete</button>
 					<button class="btn btn-secondary btn-sm">Edit</button>
 				</p>
