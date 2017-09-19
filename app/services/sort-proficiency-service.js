@@ -30,10 +30,10 @@ app.service('proficiencySort', function(){
 				belowBasicCount++;
 			}
 		});
-		percentagesArr.push({level: 'Advanced', percentage: (advancedCount / studentArr.length) * 100});
-		percentagesArr.push({level: 'Proficient', percentage: (proficientCount / studentArr.length) * 100});
-		percentagesArr.push({level: 'Basic', percentage: (basicCount / studentArr.length) * 100});
-		percentagesArr.push({level: 'BelowBasic', percentage: (belowBasicCount / studentArr.length) * 100});
+		percentagesArr.push({level: 'Advanced', percentage: ((advancedCount / studentArr.length) * 100).toFixed()});
+		percentagesArr.push({level: 'Proficient', percentage: ((proficientCount / studentArr.length) * 100).toFixed()});
+		percentagesArr.push({level: 'Basic', percentage: ((basicCount / studentArr.length) * 100).toFixed()});
+		percentagesArr.push({level: 'BelowBasic', percentage: ((belowBasicCount / studentArr.length) * 100).toFixed()});
 		return percentagesArr;
 	};
 

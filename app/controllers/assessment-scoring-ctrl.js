@@ -1,5 +1,5 @@
 'use strict';
-app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFactory, studentFactory, assessmentFactory, proficiencySort, calculations){
+app.controller('assessmentScoringCtrl', function($scope, $location, $routeParams, userFactory, studentFactory, assessmentFactory, proficiencySort, calculations){
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();
@@ -13,6 +13,7 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 		assessment.classes.forEach(thisClass => {
 			thisClass.students.forEach(student => {
 				student.score = getScore(student.points, assessment.totalPoints);
+				console.log("student.score", student.score);
 				student.proficiency = proficiencySort.assignLevel(student.score);
 			});
 		});
@@ -30,7 +31,10 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 		//sends data object
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
-			.then(data => console.log("data from saveAssessment", data))
+			.then(data => {
+				console.log("data from saveAssessment", data);
+				$location.url('/assessments');
+			})
 			.catch(error => console.log("error from saveAssessment", error.message));
 		};
 
@@ -51,7 +55,12 @@ app.controller('assessmentScoringCtrl', function($scope, $routeParams, userFacto
 
 	//divides student's points by total points to post test score
 	const getScore = (points, total) => {
-		return ((points / total) * 100).toFixed(0);
+		console.log("points", points);
+		if (points) {
+			return ((points / total) * 100).toFixed(0);
+		} else {
+			return 'No Score';
+		}
 	};
 
 	//loads assessment data for current assessment
