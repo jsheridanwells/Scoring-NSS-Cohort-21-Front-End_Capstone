@@ -40,7 +40,10 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 	const getSingleAssessment = (assessmentId) => {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/assessments/${assessmentId}.json`)
-				.then(assessments => resolve(assessments.data))
+				.then(assessments => {
+					assessments.data.id = assessmentId;
+					resolve(assessments.data);
+				})
 				.catch(error => console.log("error from getSingleAssessment", error.message));
 		});
 	};

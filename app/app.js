@@ -73,6 +73,11 @@ app.config(($routeProvider) => {
 		controller: 'viewClassCtrl',
 		resolve: {isAuth}
 	})
+	.when('/view-assessment-level/:classId/:levelName', {
+		templateUrl: 'partials/view-assessment-level.html',
+		controller: 'viewAssessmentLevelCtrl',
+		resolve: {isAuth}
+	})
 	.when('/view-assessment-student/:studentId', {
 		templateUrl: 'partials/view-student.html',
 		controller: 'viewStudentCtrl',
