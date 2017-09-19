@@ -15,7 +15,6 @@ app.controller('studentCreateCtrl', function ($scope, $location, userFactory, st
 	$scope.addStudent = () => {
 		studentFactory.postStudent($scope.newStudentObj)
 		.then((data => {
-			console.log("data from addStudent", data);
 			$location.url('/students');
 		}))
 		.catch(error => console.log("error from addStudent", error.message));

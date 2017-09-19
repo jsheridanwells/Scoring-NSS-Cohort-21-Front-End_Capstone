@@ -13,7 +13,6 @@ app.controller('assessmentScoringCtrl', function($scope, $location, $routeParams
 		assessment.classes.forEach(thisClass => {
 			thisClass.students.forEach(student => {
 				student.score = getScore(student.points, assessment.totalPoints);
-				console.log("student.score", student.score);
 				student.proficiency = proficiencySort.assignLevel(student.score);
 			});
 		});
@@ -32,7 +31,6 @@ app.controller('assessmentScoringCtrl', function($scope, $location, $routeParams
 		//sends data object
 		assessmentFactory.updateAssessment($routeParams.assessmentId, assessment)
 			.then(data => {
-				console.log("data from saveAssessment", data);
 				$location.url('/assessments');
 			})
 			.catch(error => console.log("error from saveAssessment", error.message));

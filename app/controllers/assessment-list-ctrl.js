@@ -21,14 +21,12 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 					item.displayDate = convertDate(item.date);
 				});
 				$scope.assessments = list;
-				console.log("$scope.assessments", $scope.assessments);
 			})
 			.catch(error => console.log("error from showAssessments", error.message));
 	};
 
 	//removes an assessment from assessments collection
 	$scope.deleteAssessment = (assessmentId) => {
-		console.log("function firing", assessmentId);
 		assessmentFactory.deleteAssessment(assessmentId)
 			.then(() => showAssessments())
 			.catch(error => console.log("error from deleteAssessment", error.message));

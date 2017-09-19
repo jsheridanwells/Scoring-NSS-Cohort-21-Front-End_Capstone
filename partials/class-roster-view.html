@@ -11,13 +11,11 @@
 
 <div class="container main">
 	<h2>{{myClass.className}}</h2>
-	<ul class="class-list list-group" ng-repeat="student in myClass.students">
-		<li class="list-group-item">
-			<p class="class-list-name">
-				<a ng-href="#!/view-assessment-student/{{student.id}}">
-					{{student.firstName}} {{student.lastName}}
-				</a>
+	<div class="row mt-5">
+		<div class="col-4" ng-repeat="column in columns">
+			<p ng-repeat="student in myClass.students | slice:column.start:column.end">
+				<a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>
 			</p>
-		</li>
-	</ul>
+		</div>
+	</div>
 </div>

@@ -51,7 +51,7 @@ app.directive('donutChart', function() {
                   })
                   .attr('dy', '0.35em')
                   .html(d => {
-                    if (d.data.percentage !== 0) {
+                    if (d.data.percentage != 0) {
                       return d.data.level + ' : ' + d.data.percentage + '%';
                     } else {
                       return '';
