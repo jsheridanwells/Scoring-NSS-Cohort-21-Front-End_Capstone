@@ -11,12 +11,15 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	//holds array of students selected to add to new class
 	$scope.selectedStudents = [];
 
+	//holds data for creating three columns for lists
+	$scope.columns = [];
+
 	//loads $scope.students array with all students associated with current user
 	const getStudentList = () => {
 		studentFactory.getAllStudents(userId)
 			.then(students => {
 				$scope.students = students;
-				console.log("$scope.students", $scope.students);
+				$scope.columns = createColumns($scope.students, 3);
 			})
 			.catch(error => console.log("error from getStudentList", error.message));
 	};
@@ -29,6 +32,17 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 			}
 		}
 		return false;
+	};
+
+	//creates data for sorting long student list into three columns
+	const createColumns = (arr, colCount) => {
+		let itemsPerColumn = Math.ceil(arr.length / colCount);
+		let returnArr = [];
+		for (let i = 0; i < arr.length; i += colCount) {
+			let col = {start:i, end: Math.min(i + colCount, arr.length) };
+			returnArr.push(col);
+		}
+		return returnArr;
 	};
 
 	//scaffolds object to hold class data
@@ -64,4 +78,9 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	//loads all student information to DOM on page load
 	getStudentList();
 
+});
+
+//slice filter to create 3 columns to display long lists
+app.filter('slice', function () {
+	return (arr, start, end) => arr.slice(start,end);
 });
