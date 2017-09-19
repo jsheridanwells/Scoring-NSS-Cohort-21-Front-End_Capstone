@@ -64,10 +64,6 @@ app.service('proficiencySort', function(){
 		return levelArr;
 	};
 
-	this.getStudentsAtLevel = (classArr, level) => {
-		
-	};
-
 	//takes single assessment and returns numbers of students at each proficiency level
 	this.getLevelCounts = (proficiencyArr) => {
 		return Object.keys(proficiencyArr).map(key => {

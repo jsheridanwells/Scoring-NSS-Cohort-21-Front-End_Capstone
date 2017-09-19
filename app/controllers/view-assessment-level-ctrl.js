@@ -18,12 +18,6 @@ app.controller('viewAssessmentLevelCtrl', function (
 				$scope.assessment = assessment;
 				$scope.currentClass = getCurrentClass(assessment, $routeParams.classId);
 				$scope.currentStudents = getCurrentStudents($scope.currentClass, $routeParams.levelName);
-
-
-
-				console.log("scope assessment", $scope.assessment);
-				console.log("scope currentClass", $scope.currentClass);
-				console.log("scope currentStudents", $scope.currentStudents);
 			})
 			.catch(error => console.log("error from getAssessment", error.message));
 	};
