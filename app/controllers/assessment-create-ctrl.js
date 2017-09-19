@@ -44,7 +44,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 		$scope.newAssessmentObj.classes = $scope.selectedClasses;
 		assessmentFactory.postAssessment($scope.newAssessmentObj)
 			.then(() => {
-				$location.url('/assessments');
+				$location.url('/assessment-scoring-overview');
 			})
 			.catch(error => console.log("error in addAssessment", error.message));
 	};
