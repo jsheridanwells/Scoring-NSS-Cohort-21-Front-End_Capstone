@@ -13,7 +13,6 @@ app.controller('viewAssessmentLevelCtrl', function (
 	$scope.currentStudents = [];
 
 	const getAssessment = () => {
-		console.log("rootScope", $rootScope.currentAssessment);
 		assessmentFactory.getSingleAssessment($rootScope.currentAssessment)
 			.then(assessment => {
 				$scope.assessment = assessment;

@@ -13,16 +13,20 @@
 <div class="container main">
 	<h2>{{assessment.assessmentName}}</h2>
 	<h4><strong>Assigned To:</strong> </h4>
-	<div class="single-assessment" ng-repeat="class in assessment.classes track by $index">
+	<div class="single-assessment">
 		<div class="class-name">
-			<h4><a ng-href="#!/view-assessment-class/{{class.id}}">{{class.className}}</a></h4>
+			<h4><a ng-href="#!/view-assessment-class/{{currentClass.id}}">{{currentClass.className}}</a></h4>
 		</div>
-		<div class="row level-row">
-			<div class="col-3 level-col" ng-repeat="level in levelCounts[$index]">
-				<div class="{{level.levelName}}">
-					<p>{{level.levelName}}:</p> 
-					<p><em><a ng-href="#!/view-assessment-level/{{level.levelName}}">{{level.levelCount}} Students</a></em></p>
-				</div>
+		<div class="row">
+			<div class="col-6">
+				<h4>Students At: {{currentStudents[0].proficiency}}</h4>
+			</div>
+			<div class="col-6">
+				<ul class="view-class-student-list" ng-repeat="student in currentStudents">
+					<li class="{{student.proficiency}}">
+						<a ng-href="#!/view-assessment-student/{{student.id}}">{{student.firstName}} {{student.lastName}}</a>: {{student.score}}
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
