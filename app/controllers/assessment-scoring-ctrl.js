@@ -13,6 +13,7 @@ app.controller('assessmentScoringCtrl', function($scope, $location, $routeParams
 		assessment.classes.forEach(thisClass => {
 			thisClass.students.forEach(student => {
 				student.score = getScore(student.points, assessment.totalPoints);
+				console.log("student.score", student.score);
 				student.proficiency = proficiencySort.assignLevel(student.score);
 			});
 		});
@@ -54,7 +55,12 @@ app.controller('assessmentScoringCtrl', function($scope, $location, $routeParams
 
 	//divides student's points by total points to post test score
 	const getScore = (points, total) => {
-		return ((points / total) * 100).toFixed(0);
+		console.log("points", points);
+		if (points) {
+			return ((points / total) * 100).toFixed(0);
+		} else {
+			return 'No Score';
+		}
 	};
 
 	//loads assessment data for current assessment
