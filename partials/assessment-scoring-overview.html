@@ -15,9 +15,16 @@
 	<div class="assessments">
 		<ul class="assessment-list list-group" ng-repeat="assessment in assessments">
 			<li class="list-group-item">
-				<p class="class-list-name">
-					<a ng-href="#!/score/{{assessment.id}}">{{assessment.assessmentName}}</a>
-				</p>
+				<div class="row">
+					<div class="col-6">
+						<p class="class-list-name">
+							<a ng-href="#!/score/{{assessment.id}}">{{assessment.assessmentName}}</a>
+						</p>
+					</div>
+					<div class="col-6">
+						{{assessment.average}}
+					</div>
+				</div>
 			</li>
 		</ul>
 	</div>

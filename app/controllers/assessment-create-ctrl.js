@@ -31,7 +31,7 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 		date: '',
 		classes: [],
 		uid: userId,
-		average: 'No Score'
+		average: 'No Scores'
 	};
 
 	//holds data for all classes
