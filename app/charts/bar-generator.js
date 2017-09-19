@@ -6,7 +6,6 @@ app.directive('barChart', function() {
 		//helper function to set color of bar based on proficiency level
 		const setColor = (score) => {
 			if (score >= 90) {
-				console.log("score", score);
 				return 'Advanced-bar';
 			} else if (score < 90 && score >= 80) {
 				console.log("score", score);
@@ -37,8 +36,6 @@ app.directive('barChart', function() {
 		scope.$watch('data', function() {
 
 			let data = scope.data;
-
-			console.log("scope data", data);
 
 			//create scale for x axis w/ highest score value in data set
 			let x = d3.scale.linear()

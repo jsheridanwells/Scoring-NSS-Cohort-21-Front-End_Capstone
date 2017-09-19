@@ -29,7 +29,6 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		return $q((resolve, reject) => {
 			$http.get(`${url}/assessments.json?orderBy="uid"&equalTo="${userId}"`)
 				.then(assessments => {
-					console.log("assessment from getAll", assessments.data);
 					resolve(makeArray(assessments.data));
 				})
 				.catch(error => console.log("error from getAllAssessments", error.message));

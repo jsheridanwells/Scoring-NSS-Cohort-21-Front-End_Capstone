@@ -16,8 +16,6 @@ app.controller('studentListCtrl', function ($scope, userFactory, studentFactory,
 		.then(studentList => {
 			$scope.students = studentList;
 			$scope.columns = layout.createColumns($scope.students, 3);
-			console.log("$scope.students", $scope.students);
-			console.log("$scope.columns", $scope.columns);
 		})
 		.catch(error => console.log("error from showStudents", error.message));
 	};

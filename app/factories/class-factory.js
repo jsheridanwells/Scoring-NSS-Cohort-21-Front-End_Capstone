@@ -27,7 +27,6 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 			$http.get(`${url}/classes/${uglyId}.json`)
 				.then(classes => {
 					classes.data.id = uglyId;
-					console.log("classes from getSingleClass", classes.data);
 					resolve(classes.data);
 				})
 				.catch(error => console.log("error from getSingleClass", error.message));

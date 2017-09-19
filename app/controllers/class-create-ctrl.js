@@ -46,7 +46,6 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 		$scope.newClassObj.students = $scope.selectedStudents;
 		classFactory.postClass($scope.newClassObj)
 			.then(data => {
-				console.log("data from addClass", data);
 				$location.url('/classes');
 			})
 			.catch(error => console.log("error from addClass", error.message));
