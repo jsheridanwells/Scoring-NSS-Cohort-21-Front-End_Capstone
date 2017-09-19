@@ -4,13 +4,13 @@ app.directive('donutChart', function() {
 
   const link = (scope, el, attr) => {
 
-    let width = 960, height= 500, radius = Math.min(width, height) /2;
+    let width = 680, height= 500, radius = Math.min(width, height) /2;
 
     let color = ['#99d6ff', '#99ff99', '#ffff99', '#ff9999'];
 
     let arc = d3.svg.arc()
                     .outerRadius(radius - 10)
-                    .innerRadius(radius - 70);
+                    .innerRadius(radius - 100);
 
     let pie = d3.layout.pie()
                         .sort(null)
@@ -32,10 +32,15 @@ app.directive('donutChart', function() {
 
       g.append('path')
                   .attr('d', arc)
-                  .style('fill', (d,i) => color[i]);
+                  .style('fill', (d,i) => color[i])
+                  .style('stroke', '<div id="fff"></div>');
 
       g.append('text')
-                  .attr('transform', d => 'translate(' + arc.centroid(d) + ')')
+                  .attr('transform', d => {
+                    console.log("arc centroid d", arc.centroid(d));
+                    let positionArr = arc.centroid(d);
+                    return 'translate(' + (positionArr[0] - 30) + ',' + positionArr[1] + ')';
+                  })
                   .attr('dy', '0.35em')
                   .html(d => {
                     return d.data.level + ' : ' + d.data.percentage + '%';
