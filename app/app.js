@@ -38,6 +38,11 @@ app.config(($routeProvider) => {
 		controller: 'classListCtrl',
 		resolve: {isAuth}
 	})
+	.when('/class-roster-view/:classId', {
+		templateUrl: 'partials/class-roster-view.html',
+		controller: 'classRosterViewCtrl',
+		resolve: {isAuth}
+	})
 	.when('/class-create', {
 		templateUrl: 'partials/class-create.html',
 		controller: 'classCreateCtrl',
