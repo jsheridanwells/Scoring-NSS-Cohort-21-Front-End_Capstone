@@ -37,13 +37,16 @@ app.directive('donutChart', function() {
 
       g.append('text')
                   .attr('transform', d => {
-                    console.log("arc centroid d", arc.centroid(d));
                     let positionArr = arc.centroid(d);
-                    return 'translate(' + (positionArr[0] - 30) + ',' + (positionArr[1] - 30) + ')';
+                    return 'translate(' + (positionArr[0] - 30) + ',' + (positionArr[1]) + ')';
                   })
                   .attr('dy', '0.35em')
                   .html(d => {
-                    return d.data.level + ' : ' + d.data.percentage + '%';
+                    if (d.data.percentage !== 0) {
+                      return d.data.level + ' : ' + d.data.percentage + '%';
+                    } else {
+                      return '';
+                    }
                   });
 
     }, true);
