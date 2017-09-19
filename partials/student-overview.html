@@ -16,8 +16,8 @@
 			<div class="col-4" ng-repeat="column in columns">
 				<p ng-repeat="student in students | slice:column.start:column.end">
 					{{student.firstName}} {{student.lastName}} <br>
-					<button class="btn btn-danger btn-sm" ng-click="deleteStudent(student.id)">Delete</button>
-					<button class="btn btn-secondary btn-sm">Edit</button>
+					<button class="btn btn-outline-danger btn-sm" ng-click="deleteStudent(student.id)">Delete</button>
+					<button class="btn btn-outline-secondary btn-sm">Edit</button>
 				</p>
 			</div>
 		</div>
