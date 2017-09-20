@@ -1,5 +1,5 @@
 'use strict';
-app.controller('studentListCtrl', function ($scope, userFactory, studentFactory, layout) {
+app.controller('studentListCtrl', function ($scope, userFactory, studentFactory, layout, $location) {
 
 	//holds uid of current user`
 	let userId = userFactory.getUserId();
@@ -25,6 +25,11 @@ app.controller('studentListCtrl', function ($scope, userFactory, studentFactory,
 		studentFactory.deleteStudent(studentId)
 			.then(() => showStudents())
 			.catch(error => console.log("error from $scope.deleteStudent", error.message));
+	};
+
+	//captures id of student to edit, changes window location to edit form
+	$scope.editStudent = (studentId) => {
+		$location.url('/student-edit/' + studentId);
 	};
 
 	//loads all student informatino to DOM on page load

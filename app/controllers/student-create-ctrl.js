@@ -11,6 +11,11 @@ app.controller('studentCreateCtrl', function ($scope, $location, userFactory, st
 		uid: userId
 	};
 
+	//holds text of submit button
+	$scope.buttonText = 'Create Student';
+	//holds page title
+	$scope.title = 'Add a New Student';
+
 	//adds new student to students collection in FB
 	$scope.addStudent = () => {
 		studentFactory.postStudent($scope.newStudentObj)
