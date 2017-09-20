@@ -60,6 +60,7 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 	};
 	loadAssessmentData();
 
+	//patches assessment object in firebase
 	$scope.addAssessment = () => {
 		assessmentFactory.editAssessment($scope.newAssessmentObj.id, $scope.newAssessmentObj)
 			.then(() => {
