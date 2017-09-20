@@ -29,8 +29,13 @@ app.config(($routeProvider) => {
 		resolve: {isAuth}
 	})
 	.when('/assessment-create', {
-		templateUrl: 'partials/assessment-create.html',
+		templateUrl: 'partials/assessment-form.html',
 		controller: 'assessmentCreateCtrl',
+		resolve: {isAuth}
+	})
+	.when('/assessment-edit/:assessmentId', {
+		templateUrl: 'partials/assessment-form.html',
+		controller: 'assessmentEditCtrl',
 		resolve: {isAuth}
 	})
 	.when('/classes', {

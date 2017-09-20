@@ -38,6 +38,8 @@ app.controller('assessmentCreateCtrl', function ($scope, $location, userFactory,
 	$scope.classes = [];
 	//holds classes in array to be added to assessment object when addAssessment() fires
 	$scope.selectedClasses = [];
+	$scope.title = 'New Assessment';
+	$scope.buttonText = 'Create Assessment';
 
 	//pulls all input from $scope.newAssessmentObj and posts new assessment to assessments collection in FB
 	$scope.addAssessment = () => {

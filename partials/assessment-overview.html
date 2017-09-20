@@ -36,7 +36,7 @@
 					<td>{{assessment.displayDate}}</td>
 					<td>{{assessment.average}}</td>
 					<td>
-						<button class="btn btn-secondary btn-sm">Edit</button>
+						<button class="btn btn-secondary btn-sm" ng-click="editAssessment(assessment.id)">Edit</button>
 						<button class="btn btn-danger btn-sm" ng-click="deleteAssessment(assessment.id)">Delete</button>
 					</td>
 				</tr>

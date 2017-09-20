@@ -1,5 +1,5 @@
 'use strict';
-app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFactory) {
+app.controller('assessmentListCtrl', function ($scope, $location, userFactory, assessmentFactory) {
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();
@@ -33,8 +33,9 @@ app.controller('assessmentListCtrl', function ($scope, userFactory, assessmentFa
 	};
 
 	//patches an assessment in assessments collection
-	$scope.editAssessment = () => {
-
+	//captures id of student to edit, changes window location to edit form
+	$scope.editAssessment = (assessmentId) => {
+		$location.url('/assessment-edit/' + assessmentId);
 	};
 
 	//loads list of assessments to DOM on page load
