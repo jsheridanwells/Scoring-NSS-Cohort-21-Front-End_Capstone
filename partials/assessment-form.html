@@ -34,6 +34,19 @@
 			</div>
 		</div>
 		<div class="col-6">
+			<div class="form-group" ng-if="currentClasses.length > 0">
+				<h4>Assigned To:</h4>
+				<ul class="list-group" ng-repeat="class in currentClasses">
+					<li class="list-group-item">
+						<div class="form-check">
+						  <label class="form-check-label">
+						    <input class="form-check-input" class="checkbox" type="checkbox" ng-click="addRemoveClass(class, class.id)" checked>
+						    {{class.className}}
+						  </label>
+						</div>
+					</li>
+				</ul>
+			</div>
 			<div class="form-group">
 				<h4>Assign to Classes:</h4>
 				<ul class="list-group" ng-repeat="class in classes">
