@@ -35,6 +35,7 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 
 	//returns one student object by student ID
 	const getSingleStudent = (studentId) => {
+		console.log("getSingleStudent Firing");
 		return $q((resolve, reject) => {
 			$http.get(`${url}/students/${studentId}.json`)
 				.then(student => {
@@ -53,6 +54,16 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 			.catch(error => console.log("error from postStudent", error.message));
 	};
 
+	//edits student details in students collection w/ obj taken from studentEditCtrl
+	const editStudent = (obj, id) => {
+		return $q((resolve, reject) => {
+			let newObj = angular.toJson(obj);
+			$http.patch(`${url}/students/${id}.json`, newObj)
+				.then(data => resolve(data))
+				.catch(error => reject(error));
+		});
+	};
+
 	//deletes student from students collection by ID
 	const deleteStudent = (studentId) => {
 		return $q((resolve, reject) => {
@@ -66,6 +77,7 @@ app.factory('studentFactory', function ($q, $http, FBCreds) {
 		getAllStudents,
 		getSingleStudent,
 		postStudent,
+		editStudent,
 		deleteStudent
 	};
 });

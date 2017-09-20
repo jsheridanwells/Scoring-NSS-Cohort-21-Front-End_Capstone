@@ -54,8 +54,13 @@ app.config(($routeProvider) => {
 		resolve: {isAuth}
 	})
 	.when('/student-create', {
-		templateUrl: 'partials/student-create.html',
+		templateUrl: 'partials/student-form.html',
 		controller: 'studentCreateCtrl',
+		resolve: {isAuth}
+	})
+	.when('/student-edit/:studentId', {
+		templateUrl: 'partials/student-form.html',
+		controller: 'studentEditCtrl',
 		resolve: {isAuth}
 	})
 	.when('/assessment-scoring-overview', {
