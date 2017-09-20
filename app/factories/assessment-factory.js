@@ -60,8 +60,17 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		return $q((resolve, reject) => {
 			let newObj = angular.toJson(obj);
 			$http.patch(`${url}/assessments/${id}.json`, newObj)
-			.then(response => resolve(response))
-			.catch(error => reject(error));
+				.then(response => resolve(response))
+				.catch(error => reject(error));
+		});
+	};
+
+	const editAssessment = (id, obj) => {
+		return $q((resolve, reject) => {
+			let newObj = angular.toJson(obj);
+			$http.patch(`${url}/assessments/${id}.json`, newObj)
+				.then(response => resolve(response))
+				.catch(error => reject(error));
 		});
 	};
 
@@ -79,6 +88,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		getSingleAssessment,
 		postAssessment,
 		updateAssessment,
+		editAssessment,
 		deleteAssessment
 	};
 
