@@ -1,6 +1,6 @@
 'use strict';
 
-app.controller('assessmentEditCtrl', function ($scope, $routeParams, assessmentFactory, classFactory, userFactory) {
+app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, assessmentFactory, classFactory, userFactory) {
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();
@@ -59,5 +59,13 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, assessmentF
 		}
 	};
 	loadAssessmentData();
+
+	$scope.addAssessment = () => {
+		assessmentFactory.editAssessment($scope.newAssessmentObj.id, $scope.newAssessmentObj)
+			.then(() => {
+				$location.url('/assessments');
+			})
+			.catch(error => console.log("error from addAssessment", error.message));
+	};
 
 });
