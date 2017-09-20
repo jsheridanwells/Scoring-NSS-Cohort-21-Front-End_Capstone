@@ -17,13 +17,16 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			.then(assessmentObj => {
 				$scope.newAssessmentObj = assessmentObj;
 				$scope.newAssessmentObj.date = new Date(assessmentObj.date);
-				$scope.currentClasses = assessmentObj.classes;
+				console.log("assessmentObj", assessmentObj);
+				if (assessmentObj.classes) {
+					$scope.currentClasses = assessmentObj.classes;
+				}
 				return classFactory.getAllClasses(userId);
 			})
 			.then(classes => {
 				$scope.classes = loadCurrentClasses($scope.currentClasses, classes);
 			})
-			.catch(error => console.log("error from loadAssessment", error.message));
+			.catch(error => console.log("error from loadAssessmentData", error.message));
 	};
 
 	//removes classes already assigned assessment from classes list
