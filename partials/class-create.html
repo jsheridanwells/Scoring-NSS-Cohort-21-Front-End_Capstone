@@ -15,14 +15,17 @@
 		<div class="form-group">
 			<label for="class_name">
 				Roster Name:
-				<input type="text" ng-model="newClassObj.className">
+				<input type="text" class="form-control" ng-model="newClassObj.className">
 			</label>
 		</div>
 		<div class="form-group class-list">
 			<h4>Add Students:</h4>
+			<div class="search-input">
+	          <input type="text" class="form-control" placeholder="Search" ng-model="searchText">
+	        </div>
 			<div class="row mt-5">
 				<div class="col-4" ng-repeat="column in columns">
-					<p ng-repeat="student in students | slice:column.start:column.end">
+					<p ng-repeat="student in students | slice:column.start:column.end | filter: searchText">
 						<input class="form-check-input" type="checkbox" ng-click="addRemoveStudent(student, student.id)">
 						{{student.firstName}} {{student.lastName}}
 					</p>
