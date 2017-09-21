@@ -25,8 +25,8 @@
 					<th> </th>
 				</tr>
 			</thead>
-			<tbody ng-repeat="assessment in assessments">
-				<tr>
+			<tbody>
+				<tr ng-repeat="assessment in assessments">
 					<td><a ng-href="#!/view-assessment/{{assessment.id}}">{{assessment.assessmentName}}</a></td>
 					<td>
 						<ul class="table-class-list" ng-repeat="class in assessment.classes">

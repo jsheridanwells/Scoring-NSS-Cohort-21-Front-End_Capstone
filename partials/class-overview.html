@@ -11,6 +11,33 @@
 
 <div class="container main">
 	<h2>Roster Overview</h2>
+	<div class="assessments">
+		<table class="table table-hover">
+			<thead class="thead">
+				<th>Class:</th>
+				<th>Students:</th>
+				<th></th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="class in classes">
+					<td>
+						<a ng-href="#!/class-roster-view/{{class.id}}">
+							{{class.className}}
+						</a>
+					</td>
+					<td>{{class.students.length}}</td>
+					<td>
+						<button class="btn btn-secondary btn-sm">Edit</button>
+						<button class="btn btn-danger btn-sm" ng-click="deleteClass(class.id)">Delete</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<!-- <div class="container main">
+	<h2>Roster Overview</h2>
 	<div class="classes">
 		<ul class="class-list list-group" ng-repeat="class in classes">
 			<li class="list-group-item">

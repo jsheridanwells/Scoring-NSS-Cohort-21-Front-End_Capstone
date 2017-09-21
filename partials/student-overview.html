@@ -13,7 +13,8 @@
 	<h2>Student Overview</h2>
 	<div class="students">
 		<div class="search-input">
-	          <input type="text" class="form-control" placeholder="Search" ng-model="searchText">
+	          <input type="text" class="form-control" placeholder="Search Students" ng-model="searchText">
+	          <hr>
 	        </div>
 		<div class="row mt-5">
 			<div class="col-4" ng-repeat="column in columns">
@@ -24,6 +25,7 @@
 					<button class="btn btn-outline-danger btn-sm" ng-click="deleteStudent(student.id)">Delete</button>
 					<!-- <button class="btn btn-outline-secondary btn-sm" ng-href="#!/student-edit/{{student.id}}">Edit</button> -->
 					<button class="btn btn-outline-secondary btn-sm" ng-click="editStudent(student.id)">Edit</button>
+					<hr>
 				</p>
 			</div>
 		</div>
