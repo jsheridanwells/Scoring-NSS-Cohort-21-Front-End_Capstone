@@ -8,13 +8,10 @@ app.directive('barChart', function() {
 			if (score >= 90) {
 				return 'Advanced-bar';
 			} else if (score < 90 && score >= 80) {
-				console.log("score", score);
 				return 'Proficient-bar';
 			} else if (score < 80 && score >= 60) {
-				console.log("score", score);
 				return 'Basic-bar';
 			} else if (score < 60) {
-				console.log("score", score);
 				return 'BelowBasic-bar';
 			}
 		};
