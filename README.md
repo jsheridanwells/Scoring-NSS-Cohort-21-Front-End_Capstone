@@ -17,7 +17,7 @@ A web-based tool for teachers to organize and visualize formative assessment dat
 
 * Visualize data of class and student performance.
 
-![Class-Data-Viz](/documentation/Class-Data-Viz.jpg)
+![Class-Data-Viz](/documentation/Class-Data-Viz.png)
 ![Student-Data-Viz](/documentation/Student-Data-Viz.png)
 
 ### Installation and Setup
