@@ -91,13 +91,13 @@ app.constant('FBCreds', {
 
 ### Built With
 
-[Angular JS] (https://angularjs.org/)
-[Firebase] (https://firebase.google.com/)
-[Bootstrap 4] (https://v4-alpha.getbootstrap.com/)
-[D3] (https://d3js.org/)
+[Angular JS](https://angularjs.org/)
+[Firebase](https://firebase.google.com/)
+[Bootstrap 4](https://v4-alpha.getbootstrap.com/)
+[D3](https://d3js.org/)
 
 ### Author
 Jeremy Sheridan Wells
 
-[Github: jsheridanwells] (http://www.github.com/jsheridanwells)
-[Twitter: @jsheridanwells] (http://twitter.com/jsheridanwells)
+[Github: jsheridanwells](http://www.github.com/jsheridanwells)
+[Twitter: @jsheridanwells](http://twitter.com/jsheridanwells)
