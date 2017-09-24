@@ -5,20 +5,20 @@ A web-based tool for teachers to organize and visualize formative assessment dat
 
 * Create and store student lists organized by class roster.
 
-![Roster-List](/documentation/Roster-List.jpg)
+![Roster-List](/documentation/Roster-List.png)
 
 * Organize assessments given over a marking period.
 
-![Assessment-Overview](/documentation/Assessment-Overview.jpg)
+![Assessment-Overview](/documentation/Assessment-Overview.png)
 
 * Generated lists of students sorted by level of performance.
 
-![Performance-Levels](/documentation/Performance-Levels.jpg)
+![Performance-Levels](/documentation/Performance-Levels.png)
 
 * Visualize data of class and student performance.
 
 ![Class-Data-Viz](/documentation/Class-Data-Viz.jpg)
-![Student-Data-Viz](/documentation/Student-Data-Viz.jpg)
+![Student-Data-Viz](/documentation/Student-Data-Viz.png)
 
 ### Installation and Setup
 
