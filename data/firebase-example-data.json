@@ -1,0 +1,4108 @@
+{
+  "assessments" : {
+    "-KuWYQFAfBS_98x9ybA6" : {
+      "assessmentName" : "Integers and Absolute Value",
+      "average" : "69",
+      "classes" : [ {
+        "className" : "Algebra I - Block A",
+        "id" : "-KuWXcPSUyFAl2HGnoHU",
+        "students" : [ {
+          "firstName" : "Uthman",
+          "id" : "-Ku1wPUJb6qgq08XqhU8",
+          "lastName" : "Abbas",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Hildred",
+          "id" : "-Ku1uaSwFxntioCxN62z",
+          "lastName" : "Agua",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Haytham",
+          "id" : "-Ku1wWsfaFOIixf23T1N",
+          "lastName" : "Amador",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Chad",
+          "id" : "-Ku1vBk9qZ_YEg3QqElC",
+          "lastName" : "Barnet",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Luna",
+          "id" : "-Ku1woGACJ7R8AqVkDzn",
+          "lastName" : "Barrios",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Louis",
+          "id" : "-Ku1x2wBAS2v_b-J2PZ7",
+          "lastName" : "Beck",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Forrest",
+          "id" : "-Ku1yqkNm4y5TuXcQqW7",
+          "lastName" : "Carlyle",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ethel",
+          "id" : "-Ku1x0RRu4zHT0B-U7sR",
+          "lastName" : "Cartwright",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "43",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Byung-Ho",
+          "id" : "-Ku1tlczRvs63nv2rS6i",
+          "lastName" : "Chen",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "40",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w0ZqRx2EvijNLxWT",
+          "lastName" : "Easom",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "43",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lucas",
+          "id" : "-Ku1tZHze8IQ4v064PKp",
+          "lastName" : "Elwin",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "40",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jamila",
+          "id" : "-Ku1vyMm_pz7plBzaZMc",
+          "lastName" : "Everett",
+          "points" : "12",
+          "proficiency" : "BelowBasic",
+          "score" : "15",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rene",
+          "id" : "-Ku1wZW49eDn0c_cvAPE",
+          "lastName" : "Hodson",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "43",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mavis",
+          "id" : "-Ku1udDb5A7rRDYY1sQO",
+          "lastName" : "Howse",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Joelle",
+          "id" : "-Ku1wEatjTXp2S_-ADve",
+          "lastName" : "Hurst",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block C",
+        "id" : "-KuWXqQFvbmBf9ufhNjX",
+        "students" : [ {
+          "firstName" : "Nohemi",
+          "id" : "-Ku1tP271bEcI1Y376-9",
+          "lastName" : "Atkins",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Umar",
+          "id" : "-Ku1veNnyFqDZ4VzIJSv",
+          "lastName" : "Aziz",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Martin",
+          "id" : "-Ku1wh-gtua0gxQ4eIp9",
+          "lastName" : "Baines",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rona",
+          "id" : "-Ku1vIg4BjoFWKrFrtyY",
+          "lastName" : "Bray",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rhett",
+          "id" : "-Ku1uE7S4DofTC0vYFkY",
+          "lastName" : "Brooke",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Valerie",
+          "id" : "-Ku1tsW8uuQ5gtuFKs2G",
+          "lastName" : "Carl",
+          "points" : "43",
+          "proficiency" : "BelowBasic",
+          "score" : "54",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruby",
+          "id" : "-Ku1wbdEb6IAcYKGgXD5",
+          "lastName" : "Crist",
+          "points" : "35",
+          "proficiency" : "BelowBasic",
+          "score" : "44",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Margarita",
+          "id" : "-Ku1xabicTTGRf8lZwaH",
+          "lastName" : "Cuevas",
+          "points" : "46",
+          "proficiency" : "BelowBasic",
+          "score" : "57",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cyrus",
+          "id" : "-Ku1zA0am5T6i-6etvDR",
+          "lastName" : "Earle",
+          "points" : "53",
+          "proficiency" : "Basic",
+          "score" : "66",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aminah",
+          "id" : "-Ku1uHSyUy3dKOuwKfXC",
+          "lastName" : "Geary",
+          "points" : "42",
+          "proficiency" : "BelowBasic",
+          "score" : "53",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naaji",
+          "id" : "-Ku1umOSB8MDRuIekRX2",
+          "lastName" : "Hamsa",
+          "points" : "35",
+          "proficiency" : "BelowBasic",
+          "score" : "44",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Anselma",
+          "id" : "-Ku1xPYNms21wFdH0-uX",
+          "lastName" : "Hardwick",
+          "points" : "43",
+          "proficiency" : "BelowBasic",
+          "score" : "54",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Dena",
+          "id" : "-Ku1vauPIhEzGol52Sj7",
+          "lastName" : "Kay",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alexia",
+          "id" : "-Ku1volfyWTTKF3Z1Rq9",
+          "lastName" : "Kemper",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Edwina",
+          "id" : "-Ku1xqKPSX70LsWydl-f",
+          "lastName" : "Kim",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block B",
+        "id" : "-KuWXk3_g3vt06JLfdMS",
+        "students" : [ {
+          "firstName" : "Estrella",
+          "id" : "-Ku1xfbNLGDK3TQiTMZQ",
+          "lastName" : "Anselmo",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Errol",
+          "id" : "-Ku1uq9xhQadKkxD_aX1",
+          "lastName" : "Araujo",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mikha'il",
+          "id" : "-Ku1wlCYfxN_svyXyDAG",
+          "lastName" : "Arkwright",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Nigel",
+          "id" : "-Ku1wL9yd8GKOLLCtfYs",
+          "lastName" : "Bernard",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Pedro",
+          "id" : "-Ku1wr2vHUGK4nQQe77I",
+          "lastName" : "Boniface",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jennifer",
+          "id" : "-Ku1SuPaEeSJJNffdGRm",
+          "lastName" : "Branson",
+          "points" : "43",
+          "proficiency" : "BelowBasic",
+          "score" : "54",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cathy",
+          "id" : "-Ku1xMvy6Xxe8T__t2bk",
+          "lastName" : "Chen",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ye-Jun",
+          "id" : "-Ku1vZDBMaht2Wnzrp71",
+          "lastName" : "Choe",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jeffrey",
+          "id" : "-Ku1tV__YJvEWVyha3jr",
+          "lastName" : "Connor",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Julia",
+          "id" : "-Ku1w8yNV2Edu7sB2IFG",
+          "lastName" : "Ewart",
+          "points" : "43",
+          "proficiency" : "BelowBasic",
+          "score" : "54",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabas",
+          "id" : "-Ku1wCBwlMuufFd7sgPg",
+          "lastName" : "Fazl",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rocio",
+          "id" : "-Ku1vm3l4XKNvGxZl9MB",
+          "lastName" : "Garcia",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Binyamin",
+          "id" : "-Ku1xjWn0WyH3tzN2-2G",
+          "lastName" : "Hussein",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Bethany",
+          "id" : "-Ku1xYoqK8eJmzi7nRB8",
+          "lastName" : "Jewell",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Conrad",
+          "id" : "-Ku1Si_i-ftBIcE9DAbf",
+          "lastName" : "Joyner",
+          "points" : "43",
+          "proficiency" : "BelowBasic",
+          "score" : "54",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-08T05:00:00.000Z",
+      "displayDate" : "Sep 08 2017",
+      "id" : "-KuWYQFAfBS_98x9ybA6",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWYZDUnMllKF4igO8R" : {
+      "assessmentName" : "Simplifying Expressions",
+      "average" : "86",
+      "classes" : [ {
+        "className" : "Algebra I - Block A",
+        "id" : "-KuWXcPSUyFAl2HGnoHU",
+        "students" : [ {
+          "firstName" : "Uthman",
+          "id" : "-Ku1wPUJb6qgq08XqhU8",
+          "lastName" : "Abbas",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Hildred",
+          "id" : "-Ku1uaSwFxntioCxN62z",
+          "lastName" : "Agua",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Haytham",
+          "id" : "-Ku1wWsfaFOIixf23T1N",
+          "lastName" : "Amador",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Chad",
+          "id" : "-Ku1vBk9qZ_YEg3QqElC",
+          "lastName" : "Barnet",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Luna",
+          "id" : "-Ku1woGACJ7R8AqVkDzn",
+          "lastName" : "Barrios",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Louis",
+          "id" : "-Ku1x2wBAS2v_b-J2PZ7",
+          "lastName" : "Beck",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Forrest",
+          "id" : "-Ku1yqkNm4y5TuXcQqW7",
+          "lastName" : "Carlyle",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ethel",
+          "id" : "-Ku1x0RRu4zHT0B-U7sR",
+          "lastName" : "Cartwright",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Byung-Ho",
+          "id" : "-Ku1tlczRvs63nv2rS6i",
+          "lastName" : "Chen",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w0ZqRx2EvijNLxWT",
+          "lastName" : "Easom",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lucas",
+          "id" : "-Ku1tZHze8IQ4v064PKp",
+          "lastName" : "Elwin",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jamila",
+          "id" : "-Ku1vyMm_pz7plBzaZMc",
+          "lastName" : "Everett",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rene",
+          "id" : "-Ku1wZW49eDn0c_cvAPE",
+          "lastName" : "Hodson",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mavis",
+          "id" : "-Ku1udDb5A7rRDYY1sQO",
+          "lastName" : "Howse",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Joelle",
+          "id" : "-Ku1wEatjTXp2S_-ADve",
+          "lastName" : "Hurst",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block C",
+        "id" : "-KuWXqQFvbmBf9ufhNjX",
+        "students" : [ {
+          "firstName" : "Nohemi",
+          "id" : "-Ku1tP271bEcI1Y376-9",
+          "lastName" : "Atkins",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Umar",
+          "id" : "-Ku1veNnyFqDZ4VzIJSv",
+          "lastName" : "Aziz",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Martin",
+          "id" : "-Ku1wh-gtua0gxQ4eIp9",
+          "lastName" : "Baines",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rona",
+          "id" : "-Ku1vIg4BjoFWKrFrtyY",
+          "lastName" : "Bray",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rhett",
+          "id" : "-Ku1uE7S4DofTC0vYFkY",
+          "lastName" : "Brooke",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Valerie",
+          "id" : "-Ku1tsW8uuQ5gtuFKs2G",
+          "lastName" : "Carl",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruby",
+          "id" : "-Ku1wbdEb6IAcYKGgXD5",
+          "lastName" : "Crist",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Margarita",
+          "id" : "-Ku1xabicTTGRf8lZwaH",
+          "lastName" : "Cuevas",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cyrus",
+          "id" : "-Ku1zA0am5T6i-6etvDR",
+          "lastName" : "Earle",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aminah",
+          "id" : "-Ku1uHSyUy3dKOuwKfXC",
+          "lastName" : "Geary",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naaji",
+          "id" : "-Ku1umOSB8MDRuIekRX2",
+          "lastName" : "Hamsa",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Anselma",
+          "id" : "-Ku1xPYNms21wFdH0-uX",
+          "lastName" : "Hardwick",
+          "points" : "66",
+          "proficiency" : "Proficient",
+          "score" : "83",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Dena",
+          "id" : "-Ku1vauPIhEzGol52Sj7",
+          "lastName" : "Kay",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alexia",
+          "id" : "-Ku1volfyWTTKF3Z1Rq9",
+          "lastName" : "Kemper",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Edwina",
+          "id" : "-Ku1xqKPSX70LsWydl-f",
+          "lastName" : "Kim",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block B",
+        "id" : "-KuWXk3_g3vt06JLfdMS",
+        "students" : [ {
+          "firstName" : "Estrella",
+          "id" : "-Ku1xfbNLGDK3TQiTMZQ",
+          "lastName" : "Anselmo",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Errol",
+          "id" : "-Ku1uq9xhQadKkxD_aX1",
+          "lastName" : "Araujo",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mikha'il",
+          "id" : "-Ku1wlCYfxN_svyXyDAG",
+          "lastName" : "Arkwright",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Nigel",
+          "id" : "-Ku1wL9yd8GKOLLCtfYs",
+          "lastName" : "Bernard",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Pedro",
+          "id" : "-Ku1wr2vHUGK4nQQe77I",
+          "lastName" : "Boniface",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "43",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jennifer",
+          "id" : "-Ku1SuPaEeSJJNffdGRm",
+          "lastName" : "Branson",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cathy",
+          "id" : "-Ku1xMvy6Xxe8T__t2bk",
+          "lastName" : "Chen",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ye-Jun",
+          "id" : "-Ku1vZDBMaht2Wnzrp71",
+          "lastName" : "Choe",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jeffrey",
+          "id" : "-Ku1tV__YJvEWVyha3jr",
+          "lastName" : "Connor",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Julia",
+          "id" : "-Ku1w8yNV2Edu7sB2IFG",
+          "lastName" : "Ewart",
+          "points" : "66",
+          "proficiency" : "Proficient",
+          "score" : "83",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabas",
+          "id" : "-Ku1wCBwlMuufFd7sgPg",
+          "lastName" : "Fazl",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rocio",
+          "id" : "-Ku1vm3l4XKNvGxZl9MB",
+          "lastName" : "Garcia",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Binyamin",
+          "id" : "-Ku1xjWn0WyH3tzN2-2G",
+          "lastName" : "Hussein",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Bethany",
+          "id" : "-Ku1xYoqK8eJmzi7nRB8",
+          "lastName" : "Jewell",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Conrad",
+          "id" : "-Ku1Si_i-ftBIcE9DAbf",
+          "lastName" : "Joyner",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-15T05:00:00.000Z",
+      "displayDate" : "Sep 15 2017",
+      "id" : "-KuWYZDUnMllKF4igO8R",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWYdtheCLwjzYtlSKc" : {
+      "assessmentName" : "Literal Equations",
+      "average" : "85",
+      "classes" : [ {
+        "className" : "Algebra I - Block A",
+        "id" : "-KuWXcPSUyFAl2HGnoHU",
+        "students" : [ {
+          "firstName" : "Uthman",
+          "id" : "-Ku1wPUJb6qgq08XqhU8",
+          "lastName" : "Abbas",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Hildred",
+          "id" : "-Ku1uaSwFxntioCxN62z",
+          "lastName" : "Agua",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Haytham",
+          "id" : "-Ku1wWsfaFOIixf23T1N",
+          "lastName" : "Amador",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Chad",
+          "id" : "-Ku1vBk9qZ_YEg3QqElC",
+          "lastName" : "Barnet",
+          "points" : "75",
+          "proficiency" : "Advanced",
+          "score" : "94",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Luna",
+          "id" : "-Ku1woGACJ7R8AqVkDzn",
+          "lastName" : "Barrios",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Louis",
+          "id" : "-Ku1x2wBAS2v_b-J2PZ7",
+          "lastName" : "Beck",
+          "points" : "53",
+          "proficiency" : "Basic",
+          "score" : "66",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Forrest",
+          "id" : "-Ku1yqkNm4y5TuXcQqW7",
+          "lastName" : "Carlyle",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "29",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ethel",
+          "id" : "-Ku1x0RRu4zHT0B-U7sR",
+          "lastName" : "Cartwright",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Byung-Ho",
+          "id" : "-Ku1tlczRvs63nv2rS6i",
+          "lastName" : "Chen",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w0ZqRx2EvijNLxWT",
+          "lastName" : "Easom",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lucas",
+          "id" : "-Ku1tZHze8IQ4v064PKp",
+          "lastName" : "Elwin",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jamila",
+          "id" : "-Ku1vyMm_pz7plBzaZMc",
+          "lastName" : "Everett",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rene",
+          "id" : "-Ku1wZW49eDn0c_cvAPE",
+          "lastName" : "Hodson",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mavis",
+          "id" : "-Ku1udDb5A7rRDYY1sQO",
+          "lastName" : "Howse",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Joelle",
+          "id" : "-Ku1wEatjTXp2S_-ADve",
+          "lastName" : "Hurst",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block C",
+        "id" : "-KuWXqQFvbmBf9ufhNjX",
+        "students" : [ {
+          "firstName" : "Nohemi",
+          "id" : "-Ku1tP271bEcI1Y376-9",
+          "lastName" : "Atkins",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Umar",
+          "id" : "-Ku1veNnyFqDZ4VzIJSv",
+          "lastName" : "Aziz",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Martin",
+          "id" : "-Ku1wh-gtua0gxQ4eIp9",
+          "lastName" : "Baines",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rona",
+          "id" : "-Ku1vIg4BjoFWKrFrtyY",
+          "lastName" : "Bray",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rhett",
+          "id" : "-Ku1uE7S4DofTC0vYFkY",
+          "lastName" : "Brooke",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Valerie",
+          "id" : "-Ku1tsW8uuQ5gtuFKs2G",
+          "lastName" : "Carl",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruby",
+          "id" : "-Ku1wbdEb6IAcYKGgXD5",
+          "lastName" : "Crist",
+          "points" : "75",
+          "proficiency" : "Advanced",
+          "score" : "94",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Margarita",
+          "id" : "-Ku1xabicTTGRf8lZwaH",
+          "lastName" : "Cuevas",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cyrus",
+          "id" : "-Ku1zA0am5T6i-6etvDR",
+          "lastName" : "Earle",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aminah",
+          "id" : "-Ku1uHSyUy3dKOuwKfXC",
+          "lastName" : "Geary",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naaji",
+          "id" : "-Ku1umOSB8MDRuIekRX2",
+          "lastName" : "Hamsa",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Anselma",
+          "id" : "-Ku1xPYNms21wFdH0-uX",
+          "lastName" : "Hardwick",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Dena",
+          "id" : "-Ku1vauPIhEzGol52Sj7",
+          "lastName" : "Kay",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alexia",
+          "id" : "-Ku1volfyWTTKF3Z1Rq9",
+          "lastName" : "Kemper",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Edwina",
+          "id" : "-Ku1xqKPSX70LsWydl-f",
+          "lastName" : "Kim",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block B",
+        "id" : "-KuWXk3_g3vt06JLfdMS",
+        "students" : [ {
+          "firstName" : "Estrella",
+          "id" : "-Ku1xfbNLGDK3TQiTMZQ",
+          "lastName" : "Anselmo",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Errol",
+          "id" : "-Ku1uq9xhQadKkxD_aX1",
+          "lastName" : "Araujo",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mikha'il",
+          "id" : "-Ku1wlCYfxN_svyXyDAG",
+          "lastName" : "Arkwright",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Nigel",
+          "id" : "-Ku1wL9yd8GKOLLCtfYs",
+          "lastName" : "Bernard",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Pedro",
+          "id" : "-Ku1wr2vHUGK4nQQe77I",
+          "lastName" : "Boniface",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jennifer",
+          "id" : "-Ku1SuPaEeSJJNffdGRm",
+          "lastName" : "Branson",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cathy",
+          "id" : "-Ku1xMvy6Xxe8T__t2bk",
+          "lastName" : "Chen",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ye-Jun",
+          "id" : "-Ku1vZDBMaht2Wnzrp71",
+          "lastName" : "Choe",
+          "points" : "66",
+          "proficiency" : "Proficient",
+          "score" : "83",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jeffrey",
+          "id" : "-Ku1tV__YJvEWVyha3jr",
+          "lastName" : "Connor",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Julia",
+          "id" : "-Ku1w8yNV2Edu7sB2IFG",
+          "lastName" : "Ewart",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabas",
+          "id" : "-Ku1wCBwlMuufFd7sgPg",
+          "lastName" : "Fazl",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rocio",
+          "id" : "-Ku1vm3l4XKNvGxZl9MB",
+          "lastName" : "Garcia",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Binyamin",
+          "id" : "-Ku1xjWn0WyH3tzN2-2G",
+          "lastName" : "Hussein",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Bethany",
+          "id" : "-Ku1xYoqK8eJmzi7nRB8",
+          "lastName" : "Jewell",
+          "points" : "33",
+          "proficiency" : "BelowBasic",
+          "score" : "41",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Conrad",
+          "id" : "-Ku1Si_i-ftBIcE9DAbf",
+          "lastName" : "Joyner",
+          "points" : "21",
+          "proficiency" : "BelowBasic",
+          "score" : "26",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-22T05:00:00.000Z",
+      "displayDate" : "Sep 22 2017",
+      "id" : "-KuWYdtheCLwjzYtlSKc",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWYqV_zxQYmSbhC7DF" : {
+      "assessmentName" : "Slope Intercept Form",
+      "average" : "79",
+      "classes" : [ {
+        "className" : "Algebra I - Block A",
+        "id" : "-KuWXcPSUyFAl2HGnoHU",
+        "students" : [ {
+          "firstName" : "Uthman",
+          "id" : "-Ku1wPUJb6qgq08XqhU8",
+          "lastName" : "Abbas",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Hildred",
+          "id" : "-Ku1uaSwFxntioCxN62z",
+          "lastName" : "Agua",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Haytham",
+          "id" : "-Ku1wWsfaFOIixf23T1N",
+          "lastName" : "Amador",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Chad",
+          "id" : "-Ku1vBk9qZ_YEg3QqElC",
+          "lastName" : "Barnet",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Luna",
+          "id" : "-Ku1woGACJ7R8AqVkDzn",
+          "lastName" : "Barrios",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Louis",
+          "id" : "-Ku1x2wBAS2v_b-J2PZ7",
+          "lastName" : "Beck",
+          "points" : "75",
+          "proficiency" : "Advanced",
+          "score" : "94",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Forrest",
+          "id" : "-Ku1yqkNm4y5TuXcQqW7",
+          "lastName" : "Carlyle",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ethel",
+          "id" : "-Ku1x0RRu4zHT0B-U7sR",
+          "lastName" : "Cartwright",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Byung-Ho",
+          "id" : "-Ku1tlczRvs63nv2rS6i",
+          "lastName" : "Chen",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w0ZqRx2EvijNLxWT",
+          "lastName" : "Easom",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lucas",
+          "id" : "-Ku1tZHze8IQ4v064PKp",
+          "lastName" : "Elwin",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jamila",
+          "id" : "-Ku1vyMm_pz7plBzaZMc",
+          "lastName" : "Everett",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rene",
+          "id" : "-Ku1wZW49eDn0c_cvAPE",
+          "lastName" : "Hodson",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mavis",
+          "id" : "-Ku1udDb5A7rRDYY1sQO",
+          "lastName" : "Howse",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Joelle",
+          "id" : "-Ku1wEatjTXp2S_-ADve",
+          "lastName" : "Hurst",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block C",
+        "id" : "-KuWXqQFvbmBf9ufhNjX",
+        "students" : [ {
+          "firstName" : "Nohemi",
+          "id" : "-Ku1tP271bEcI1Y376-9",
+          "lastName" : "Atkins",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Umar",
+          "id" : "-Ku1veNnyFqDZ4VzIJSv",
+          "lastName" : "Aziz",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Martin",
+          "id" : "-Ku1wh-gtua0gxQ4eIp9",
+          "lastName" : "Baines",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rona",
+          "id" : "-Ku1vIg4BjoFWKrFrtyY",
+          "lastName" : "Bray",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rhett",
+          "id" : "-Ku1uE7S4DofTC0vYFkY",
+          "lastName" : "Brooke",
+          "score" : "No Score",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Valerie",
+          "id" : "-Ku1tsW8uuQ5gtuFKs2G",
+          "lastName" : "Carl",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruby",
+          "id" : "-Ku1wbdEb6IAcYKGgXD5",
+          "lastName" : "Crist",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Margarita",
+          "id" : "-Ku1xabicTTGRf8lZwaH",
+          "lastName" : "Cuevas",
+          "points" : "53",
+          "proficiency" : "Basic",
+          "score" : "66",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cyrus",
+          "id" : "-Ku1zA0am5T6i-6etvDR",
+          "lastName" : "Earle",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "43",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aminah",
+          "id" : "-Ku1uHSyUy3dKOuwKfXC",
+          "lastName" : "Geary",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naaji",
+          "id" : "-Ku1umOSB8MDRuIekRX2",
+          "lastName" : "Hamsa",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Anselma",
+          "id" : "-Ku1xPYNms21wFdH0-uX",
+          "lastName" : "Hardwick",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Dena",
+          "id" : "-Ku1vauPIhEzGol52Sj7",
+          "lastName" : "Kay",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alexia",
+          "id" : "-Ku1volfyWTTKF3Z1Rq9",
+          "lastName" : "Kemper",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Edwina",
+          "id" : "-Ku1xqKPSX70LsWydl-f",
+          "lastName" : "Kim",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block B",
+        "id" : "-KuWXk3_g3vt06JLfdMS",
+        "students" : [ {
+          "firstName" : "Estrella",
+          "id" : "-Ku1xfbNLGDK3TQiTMZQ",
+          "lastName" : "Anselmo",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Errol",
+          "id" : "-Ku1uq9xhQadKkxD_aX1",
+          "lastName" : "Araujo",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mikha'il",
+          "id" : "-Ku1wlCYfxN_svyXyDAG",
+          "lastName" : "Arkwright",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Nigel",
+          "id" : "-Ku1wL9yd8GKOLLCtfYs",
+          "lastName" : "Bernard",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Pedro",
+          "id" : "-Ku1wr2vHUGK4nQQe77I",
+          "lastName" : "Boniface",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "43",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jennifer",
+          "id" : "-Ku1SuPaEeSJJNffdGRm",
+          "lastName" : "Branson",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "29",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cathy",
+          "id" : "-Ku1xMvy6Xxe8T__t2bk",
+          "lastName" : "Chen",
+          "points" : "21",
+          "proficiency" : "BelowBasic",
+          "score" : "26",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ye-Jun",
+          "id" : "-Ku1vZDBMaht2Wnzrp71",
+          "lastName" : "Choe",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "29",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jeffrey",
+          "id" : "-Ku1tV__YJvEWVyha3jr",
+          "lastName" : "Connor",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Julia",
+          "id" : "-Ku1w8yNV2Edu7sB2IFG",
+          "lastName" : "Ewart",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabas",
+          "id" : "-Ku1wCBwlMuufFd7sgPg",
+          "lastName" : "Fazl",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rocio",
+          "id" : "-Ku1vm3l4XKNvGxZl9MB",
+          "lastName" : "Garcia",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Binyamin",
+          "id" : "-Ku1xjWn0WyH3tzN2-2G",
+          "lastName" : "Hussein",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Bethany",
+          "id" : "-Ku1xYoqK8eJmzi7nRB8",
+          "lastName" : "Jewell",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Conrad",
+          "id" : "-Ku1Si_i-ftBIcE9DAbf",
+          "lastName" : "Joyner",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-13T05:00:00.000Z",
+      "displayDate" : "Sep 13 2017",
+      "id" : "-KuWYqV_zxQYmSbhC7DF",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWZ54MfofkiazPBlFJ" : {
+      "assessmentName" : "Rate of Change",
+      "average" : "92",
+      "classes" : [ {
+        "className" : "Algebra I - Block A",
+        "id" : "-KuWXcPSUyFAl2HGnoHU",
+        "students" : [ {
+          "firstName" : "Uthman",
+          "id" : "-Ku1wPUJb6qgq08XqhU8",
+          "lastName" : "Abbas",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Hildred",
+          "id" : "-Ku1uaSwFxntioCxN62z",
+          "lastName" : "Agua",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Haytham",
+          "id" : "-Ku1wWsfaFOIixf23T1N",
+          "lastName" : "Amador",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Chad",
+          "id" : "-Ku1vBk9qZ_YEg3QqElC",
+          "lastName" : "Barnet",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Luna",
+          "id" : "-Ku1woGACJ7R8AqVkDzn",
+          "lastName" : "Barrios",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Louis",
+          "id" : "-Ku1x2wBAS2v_b-J2PZ7",
+          "lastName" : "Beck",
+          "points" : "57",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Forrest",
+          "id" : "-Ku1yqkNm4y5TuXcQqW7",
+          "lastName" : "Carlyle",
+          "points" : "68",
+          "proficiency" : "Advanced",
+          "score" : "97",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ethel",
+          "id" : "-Ku1x0RRu4zHT0B-U7sR",
+          "lastName" : "Cartwright",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Byung-Ho",
+          "id" : "-Ku1tlczRvs63nv2rS6i",
+          "lastName" : "Chen",
+          "points" : "45",
+          "proficiency" : "Basic",
+          "score" : "64",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w0ZqRx2EvijNLxWT",
+          "lastName" : "Easom",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lucas",
+          "id" : "-Ku1tZHze8IQ4v064PKp",
+          "lastName" : "Elwin",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jamila",
+          "id" : "-Ku1vyMm_pz7plBzaZMc",
+          "lastName" : "Everett",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rene",
+          "id" : "-Ku1wZW49eDn0c_cvAPE",
+          "lastName" : "Hodson",
+          "points" : "55",
+          "proficiency" : "Basic",
+          "score" : "79",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mavis",
+          "id" : "-Ku1udDb5A7rRDYY1sQO",
+          "lastName" : "Howse",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Joelle",
+          "id" : "-Ku1wEatjTXp2S_-ADve",
+          "lastName" : "Hurst",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block C",
+        "id" : "-KuWXqQFvbmBf9ufhNjX",
+        "students" : [ {
+          "firstName" : "Nohemi",
+          "id" : "-Ku1tP271bEcI1Y376-9",
+          "lastName" : "Atkins",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Umar",
+          "id" : "-Ku1veNnyFqDZ4VzIJSv",
+          "lastName" : "Aziz",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Martin",
+          "id" : "-Ku1wh-gtua0gxQ4eIp9",
+          "lastName" : "Baines",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rona",
+          "id" : "-Ku1vIg4BjoFWKrFrtyY",
+          "lastName" : "Bray",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rhett",
+          "id" : "-Ku1uE7S4DofTC0vYFkY",
+          "lastName" : "Brooke",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Valerie",
+          "id" : "-Ku1tsW8uuQ5gtuFKs2G",
+          "lastName" : "Carl",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruby",
+          "id" : "-Ku1wbdEb6IAcYKGgXD5",
+          "lastName" : "Crist",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Margarita",
+          "id" : "-Ku1xabicTTGRf8lZwaH",
+          "lastName" : "Cuevas",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cyrus",
+          "id" : "-Ku1zA0am5T6i-6etvDR",
+          "lastName" : "Earle",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aminah",
+          "id" : "-Ku1uHSyUy3dKOuwKfXC",
+          "lastName" : "Geary",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naaji",
+          "id" : "-Ku1umOSB8MDRuIekRX2",
+          "lastName" : "Hamsa",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Anselma",
+          "id" : "-Ku1xPYNms21wFdH0-uX",
+          "lastName" : "Hardwick",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Dena",
+          "id" : "-Ku1vauPIhEzGol52Sj7",
+          "lastName" : "Kay",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alexia",
+          "id" : "-Ku1volfyWTTKF3Z1Rq9",
+          "lastName" : "Kemper",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Edwina",
+          "id" : "-Ku1xqKPSX70LsWydl-f",
+          "lastName" : "Kim",
+          "points" : "45",
+          "proficiency" : "Basic",
+          "score" : "64",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Algebra I - Block B",
+        "id" : "-KuWXk3_g3vt06JLfdMS",
+        "students" : [ {
+          "firstName" : "Estrella",
+          "id" : "-Ku1xfbNLGDK3TQiTMZQ",
+          "lastName" : "Anselmo",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Errol",
+          "id" : "-Ku1uq9xhQadKkxD_aX1",
+          "lastName" : "Araujo",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Mikha'il",
+          "id" : "-Ku1wlCYfxN_svyXyDAG",
+          "lastName" : "Arkwright",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Nigel",
+          "id" : "-Ku1wL9yd8GKOLLCtfYs",
+          "lastName" : "Bernard",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Pedro",
+          "id" : "-Ku1wr2vHUGK4nQQe77I",
+          "lastName" : "Boniface",
+          "points" : "45",
+          "proficiency" : "Basic",
+          "score" : "64",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jennifer",
+          "id" : "-Ku1SuPaEeSJJNffdGRm",
+          "lastName" : "Branson",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Cathy",
+          "id" : "-Ku1xMvy6Xxe8T__t2bk",
+          "lastName" : "Chen",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ye-Jun",
+          "id" : "-Ku1vZDBMaht2Wnzrp71",
+          "lastName" : "Choe",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Jeffrey",
+          "id" : "-Ku1tV__YJvEWVyha3jr",
+          "lastName" : "Connor",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Julia",
+          "id" : "-Ku1w8yNV2Edu7sB2IFG",
+          "lastName" : "Ewart",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "109",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabas",
+          "id" : "-Ku1wCBwlMuufFd7sgPg",
+          "lastName" : "Fazl",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Rocio",
+          "id" : "-Ku1vm3l4XKNvGxZl9MB",
+          "lastName" : "Garcia",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Binyamin",
+          "id" : "-Ku1xjWn0WyH3tzN2-2G",
+          "lastName" : "Hussein",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Bethany",
+          "id" : "-Ku1xYoqK8eJmzi7nRB8",
+          "lastName" : "Jewell",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Conrad",
+          "id" : "-Ku1Si_i-ftBIcE9DAbf",
+          "lastName" : "Joyner",
+          "points" : "77",
+          "proficiency" : "Advanced",
+          "score" : "110",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-20T05:00:00.000Z",
+      "displayDate" : "Sep 20 2017",
+      "id" : "-KuWZ54MfofkiazPBlFJ",
+      "totalPoints" : 70,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWZMmZMQ-dM9Wfw2i5" : {
+      "assessmentName" : "Points, Lines, and Planes",
+      "average" : "87",
+      "classes" : [ {
+        "className" : "Geometry - Block A",
+        "id" : "-KuWY7pMwP2vqk8fXMy2",
+        "students" : [ {
+          "firstName" : "Amelia",
+          "id" : "-Ku1uuAVyvaWI2CMoTCI",
+          "lastName" : "Woodrow",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w6RbrNxaDN6diinh",
+          "lastName" : "Wilton",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Corrine",
+          "id" : "-Ku1xSUnZY_kgcGfKQm5",
+          "lastName" : "Wilton",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Debra",
+          "id" : "-Ku1y18Ilikcv8Y4mTnS",
+          "lastName" : "Todd",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Tamela",
+          "id" : "-Ku1thOuCs4z591t2kNp",
+          "lastName" : "Thompsett",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Qusay",
+          "id" : "-Ku1T2qoGo9za7NF6MbD",
+          "lastName" : "Surafi",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Asad",
+          "id" : "-Ku1uAle2qDDVGuRASJI",
+          "lastName" : "Ruh",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Diane",
+          "id" : "-Ku1ynlI0NuTtSj8guiG",
+          "lastName" : "Ruggles",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Yeong-Gi",
+          "id" : "-Ku1wuMvPX-h90mPnUw5",
+          "lastName" : "Ru",
+          "points" : "60",
+          "proficiency" : "Basic",
+          "score" : "75",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Paola",
+          "id" : "-Ku1T5mT8Gh6B4sK2W9p",
+          "lastName" : "Ramirez",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Justina",
+          "id" : "-Ku1vsQj0LPJrRP4w2fV",
+          "lastName" : "Quirino",
+          "points" : "60",
+          "proficiency" : "Basic",
+          "score" : "75",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alya",
+          "id" : "-Ku1yklme1640pNfbMXa",
+          "lastName" : "Prescott",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ainsley",
+          "id" : "-Ku1SpoOyKSUJG8U1NNE",
+          "lastName" : "Ness",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Troy",
+          "id" : "-Ku1uS9Zk_jd4MoOV-Aa",
+          "lastName" : "Nash",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Eugenia",
+          "id" : "-Ku1uKQS6nRy5ZPEyea3",
+          "lastName" : "Morrison",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Geometry - Block B",
+        "id" : "-KuWYDnjhPVv1ATZtxsh",
+        "students" : [ {
+          "firstName" : "Naomi",
+          "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+          "lastName" : "Yang",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Kylie",
+          "id" : "-Ku1uX-sJsMEGnZMFz38",
+          "lastName" : "Yancy",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Miriam",
+          "id" : "-Ku1wxNtJg2KGj5wVffv",
+          "lastName" : "Varela",
+          "points" : "20",
+          "proficiency" : "BelowBasic",
+          "score" : "25",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naila",
+          "id" : "-Ku1Sbhji-eYoJ374zMA",
+          "lastName" : "Valdez",
+          "points" : "60",
+          "proficiency" : "Basic",
+          "score" : "75",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Brian",
+          "id" : "-Ku1u1mLQNkjLvFsd9jx",
+          "lastName" : "Turner",
+          "points" : "20",
+          "proficiency" : "BelowBasic",
+          "score" : "25",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Katheryn",
+          "id" : "-Ku1vGLSRjhwAzkYLUzk",
+          "lastName" : "Scott",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "German",
+          "id" : "-Ku1ufyMhZUpgAbwR0iz",
+          "lastName" : "Scorro",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruth",
+          "id" : "-Ku1v8dkLzKSgqNFQHUB",
+          "lastName" : "Ryers",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Vinicio",
+          "id" : "-Ku1xzdP2SEgHhmBAwFp",
+          "lastName" : "Ramos",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabina",
+          "id" : "-Ku1v6IB0rP0rgL78Viz",
+          "lastName" : "Ramos",
+          "points" : "60",
+          "proficiency" : "Basic",
+          "score" : "75",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aaron",
+          "id" : "-Ku1yuUec-IbMb0MS_js",
+          "lastName" : "Ramos",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Adelaida",
+          "id" : "-Ku1vLiI07fL7u5553ma",
+          "lastName" : "Ott",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lorena",
+          "id" : "-Ku1x686qj4J678iXkSa",
+          "lastName" : "Oliverson",
+          "points" : "70",
+          "proficiency" : "Proficient",
+          "score" : "88",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Fraser",
+          "id" : "-Ku1u4yEr7JqdqCDAboL",
+          "lastName" : "Noel",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naomi",
+          "id" : "-Ku1xmYj62_vSKYfelue",
+          "lastName" : "Mathewson",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-06T05:00:00.000Z",
+      "displayDate" : "Sep 06 2017",
+      "id" : "-KuWZMmZMQ-dM9Wfw2i5",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWZVSR8AqtZ7_t0tAH" : {
+      "assessmentName" : "Proofs Using Algebra",
+      "average" : "84",
+      "classes" : [ {
+        "className" : "Geometry - Block A",
+        "id" : "-KuWY7pMwP2vqk8fXMy2",
+        "students" : [ {
+          "firstName" : "Amelia",
+          "id" : "-Ku1uuAVyvaWI2CMoTCI",
+          "lastName" : "Woodrow",
+          "points" : "60",
+          "proficiency" : "Basic",
+          "score" : "75",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w6RbrNxaDN6diinh",
+          "lastName" : "Wilton",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Corrine",
+          "id" : "-Ku1xSUnZY_kgcGfKQm5",
+          "lastName" : "Wilton",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Debra",
+          "id" : "-Ku1y18Ilikcv8Y4mTnS",
+          "lastName" : "Todd",
+          "points" : "69",
+          "proficiency" : "Proficient",
+          "score" : "86",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Tamela",
+          "id" : "-Ku1thOuCs4z591t2kNp",
+          "lastName" : "Thompsett",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Qusay",
+          "id" : "-Ku1T2qoGo9za7NF6MbD",
+          "lastName" : "Surafi",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Asad",
+          "id" : "-Ku1uAle2qDDVGuRASJI",
+          "lastName" : "Ruh",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Diane",
+          "id" : "-Ku1ynlI0NuTtSj8guiG",
+          "lastName" : "Ruggles",
+          "points" : "69",
+          "proficiency" : "Proficient",
+          "score" : "86",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Yeong-Gi",
+          "id" : "-Ku1wuMvPX-h90mPnUw5",
+          "lastName" : "Ru",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Paola",
+          "id" : "-Ku1T5mT8Gh6B4sK2W9p",
+          "lastName" : "Ramirez",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Justina",
+          "id" : "-Ku1vsQj0LPJrRP4w2fV",
+          "lastName" : "Quirino",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alya",
+          "id" : "-Ku1yklme1640pNfbMXa",
+          "lastName" : "Prescott",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ainsley",
+          "id" : "-Ku1SpoOyKSUJG8U1NNE",
+          "lastName" : "Ness",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Troy",
+          "id" : "-Ku1uS9Zk_jd4MoOV-Aa",
+          "lastName" : "Nash",
+          "points" : "57",
+          "proficiency" : "Basic",
+          "score" : "71",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Eugenia",
+          "id" : "-Ku1uKQS6nRy5ZPEyea3",
+          "lastName" : "Morrison",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Geometry - Block B",
+        "id" : "-KuWYDnjhPVv1ATZtxsh",
+        "students" : [ {
+          "firstName" : "Naomi",
+          "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+          "lastName" : "Yang",
+          "points" : "60",
+          "proficiency" : "Basic",
+          "score" : "75",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Kylie",
+          "id" : "-Ku1uX-sJsMEGnZMFz38",
+          "lastName" : "Yancy",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Miriam",
+          "id" : "-Ku1wxNtJg2KGj5wVffv",
+          "lastName" : "Varela",
+          "points" : "46",
+          "proficiency" : "BelowBasic",
+          "score" : "57",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naila",
+          "id" : "-Ku1Sbhji-eYoJ374zMA",
+          "lastName" : "Valdez",
+          "points" : "57",
+          "proficiency" : "Basic",
+          "score" : "71",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Brian",
+          "id" : "-Ku1u1mLQNkjLvFsd9jx",
+          "lastName" : "Turner",
+          "points" : "20",
+          "proficiency" : "BelowBasic",
+          "score" : "25",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Katheryn",
+          "id" : "-Ku1vGLSRjhwAzkYLUzk",
+          "lastName" : "Scott",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "German",
+          "id" : "-Ku1ufyMhZUpgAbwR0iz",
+          "lastName" : "Scorro",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruth",
+          "id" : "-Ku1v8dkLzKSgqNFQHUB",
+          "lastName" : "Ryers",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Vinicio",
+          "id" : "-Ku1xzdP2SEgHhmBAwFp",
+          "lastName" : "Ramos",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabina",
+          "id" : "-Ku1v6IB0rP0rgL78Viz",
+          "lastName" : "Ramos",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aaron",
+          "id" : "-Ku1yuUec-IbMb0MS_js",
+          "lastName" : "Ramos",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Adelaida",
+          "id" : "-Ku1vLiI07fL7u5553ma",
+          "lastName" : "Ott",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lorena",
+          "id" : "-Ku1x686qj4J678iXkSa",
+          "lastName" : "Oliverson",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Fraser",
+          "id" : "-Ku1u4yEr7JqdqCDAboL",
+          "lastName" : "Noel",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naomi",
+          "id" : "-Ku1xmYj62_vSKYfelue",
+          "lastName" : "Mathewson",
+          "points" : "65",
+          "proficiency" : "Proficient",
+          "score" : "81",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-08T05:00:00.000Z",
+      "displayDate" : "Sep 08 2017",
+      "id" : "-KuWZVSR8AqtZ7_t0tAH",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWZbMSTmJieEj9Uczr" : {
+      "assessmentName" : "Angles and Traversals",
+      "average" : "80",
+      "classes" : [ {
+        "className" : "Geometry - Block A",
+        "id" : "-KuWY7pMwP2vqk8fXMy2",
+        "students" : [ {
+          "firstName" : "Amelia",
+          "id" : "-Ku1uuAVyvaWI2CMoTCI",
+          "lastName" : "Woodrow",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w6RbrNxaDN6diinh",
+          "lastName" : "Wilton",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Corrine",
+          "id" : "-Ku1xSUnZY_kgcGfKQm5",
+          "lastName" : "Wilton",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Debra",
+          "id" : "-Ku1y18Ilikcv8Y4mTnS",
+          "lastName" : "Todd",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Tamela",
+          "id" : "-Ku1thOuCs4z591t2kNp",
+          "lastName" : "Thompsett",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Qusay",
+          "id" : "-Ku1T2qoGo9za7NF6MbD",
+          "lastName" : "Surafi",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Asad",
+          "id" : "-Ku1uAle2qDDVGuRASJI",
+          "lastName" : "Ruh",
+          "points" : "57",
+          "proficiency" : "Basic",
+          "score" : "71",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Diane",
+          "id" : "-Ku1ynlI0NuTtSj8guiG",
+          "lastName" : "Ruggles",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Yeong-Gi",
+          "id" : "-Ku1wuMvPX-h90mPnUw5",
+          "lastName" : "Ru",
+          "points" : "57",
+          "proficiency" : "Basic",
+          "score" : "71",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Paola",
+          "id" : "-Ku1T5mT8Gh6B4sK2W9p",
+          "lastName" : "Ramirez",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Justina",
+          "id" : "-Ku1vsQj0LPJrRP4w2fV",
+          "lastName" : "Quirino",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alya",
+          "id" : "-Ku1yklme1640pNfbMXa",
+          "lastName" : "Prescott",
+          "points" : "46",
+          "proficiency" : "BelowBasic",
+          "score" : "57",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ainsley",
+          "id" : "-Ku1SpoOyKSUJG8U1NNE",
+          "lastName" : "Ness",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Troy",
+          "id" : "-Ku1uS9Zk_jd4MoOV-Aa",
+          "lastName" : "Nash",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Eugenia",
+          "id" : "-Ku1uKQS6nRy5ZPEyea3",
+          "lastName" : "Morrison",
+          "points" : "89",
+          "proficiency" : "Advanced",
+          "score" : "111",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Geometry - Block B",
+        "id" : "-KuWYDnjhPVv1ATZtxsh",
+        "students" : [ {
+          "firstName" : "Naomi",
+          "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+          "lastName" : "Yang",
+          "points" : "80",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Kylie",
+          "id" : "-Ku1uX-sJsMEGnZMFz38",
+          "lastName" : "Yancy",
+          "points" : "78",
+          "proficiency" : "Advanced",
+          "score" : "98",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Miriam",
+          "id" : "-Ku1wxNtJg2KGj5wVffv",
+          "lastName" : "Varela",
+          "points" : "42",
+          "proficiency" : "BelowBasic",
+          "score" : "53",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naila",
+          "id" : "-Ku1Sbhji-eYoJ374zMA",
+          "lastName" : "Valdez",
+          "points" : "67",
+          "proficiency" : "Proficient",
+          "score" : "84",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Brian",
+          "id" : "-Ku1u1mLQNkjLvFsd9jx",
+          "lastName" : "Turner",
+          "points" : "43",
+          "proficiency" : "BelowBasic",
+          "score" : "54",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Katheryn",
+          "id" : "-Ku1vGLSRjhwAzkYLUzk",
+          "lastName" : "Scott",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "German",
+          "id" : "-Ku1ufyMhZUpgAbwR0iz",
+          "lastName" : "Scorro",
+          "points" : "79",
+          "proficiency" : "Advanced",
+          "score" : "99",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruth",
+          "id" : "-Ku1v8dkLzKSgqNFQHUB",
+          "lastName" : "Ryers",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Vinicio",
+          "id" : "-Ku1xzdP2SEgHhmBAwFp",
+          "lastName" : "Ramos",
+          "points" : "57",
+          "proficiency" : "Basic",
+          "score" : "71",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabina",
+          "id" : "-Ku1v6IB0rP0rgL78Viz",
+          "lastName" : "Ramos",
+          "points" : "68",
+          "proficiency" : "Proficient",
+          "score" : "85",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aaron",
+          "id" : "-Ku1yuUec-IbMb0MS_js",
+          "lastName" : "Ramos",
+          "points" : "45",
+          "proficiency" : "BelowBasic",
+          "score" : "56",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Adelaida",
+          "id" : "-Ku1vLiI07fL7u5553ma",
+          "lastName" : "Ott",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lorena",
+          "id" : "-Ku1x686qj4J678iXkSa",
+          "lastName" : "Oliverson",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "68",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Fraser",
+          "id" : "-Ku1u4yEr7JqdqCDAboL",
+          "lastName" : "Noel",
+          "points" : "56",
+          "proficiency" : "Basic",
+          "score" : "70",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naomi",
+          "id" : "-Ku1xmYj62_vSKYfelue",
+          "lastName" : "Mathewson",
+          "points" : "76",
+          "proficiency" : "Advanced",
+          "score" : "95",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-13T05:00:00.000Z",
+      "displayDate" : "Sep 13 2017",
+      "id" : "-KuWZbMSTmJieEj9Uczr",
+      "totalPoints" : 80,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWZlP0LaX52Qfc5gzv" : {
+      "assessmentName" : "Congruent Triangles",
+      "average" : "79",
+      "classes" : [ {
+        "className" : "Geometry - Block A",
+        "id" : "-KuWY7pMwP2vqk8fXMy2",
+        "students" : [ {
+          "firstName" : "Amelia",
+          "id" : "-Ku1uuAVyvaWI2CMoTCI",
+          "lastName" : "Woodrow",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w6RbrNxaDN6diinh",
+          "lastName" : "Wilton",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Corrine",
+          "id" : "-Ku1xSUnZY_kgcGfKQm5",
+          "lastName" : "Wilton",
+          "points" : "46",
+          "proficiency" : "Basic",
+          "score" : "66",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Debra",
+          "id" : "-Ku1y18Ilikcv8Y4mTnS",
+          "lastName" : "Todd",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Tamela",
+          "id" : "-Ku1thOuCs4z591t2kNp",
+          "lastName" : "Thompsett",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Qusay",
+          "id" : "-Ku1T2qoGo9za7NF6MbD",
+          "lastName" : "Surafi",
+          "points" : "64",
+          "proficiency" : "Advanced",
+          "score" : "91",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Asad",
+          "id" : "-Ku1uAle2qDDVGuRASJI",
+          "lastName" : "Ruh",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Diane",
+          "id" : "-Ku1ynlI0NuTtSj8guiG",
+          "lastName" : "Ruggles",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Yeong-Gi",
+          "id" : "-Ku1wuMvPX-h90mPnUw5",
+          "lastName" : "Ru",
+          "points" : "68",
+          "proficiency" : "Advanced",
+          "score" : "97",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Paola",
+          "id" : "-Ku1T5mT8Gh6B4sK2W9p",
+          "lastName" : "Ramirez",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Justina",
+          "id" : "-Ku1vsQj0LPJrRP4w2fV",
+          "lastName" : "Quirino",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alya",
+          "id" : "-Ku1yklme1640pNfbMXa",
+          "lastName" : "Prescott",
+          "points" : "45",
+          "proficiency" : "Basic",
+          "score" : "64",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ainsley",
+          "id" : "-Ku1SpoOyKSUJG8U1NNE",
+          "lastName" : "Ness",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Troy",
+          "id" : "-Ku1uS9Zk_jd4MoOV-Aa",
+          "lastName" : "Nash",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Eugenia",
+          "id" : "-Ku1uKQS6nRy5ZPEyea3",
+          "lastName" : "Morrison",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Geometry - Block B",
+        "id" : "-KuWYDnjhPVv1ATZtxsh",
+        "students" : [ {
+          "firstName" : "Naomi",
+          "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+          "lastName" : "Yang",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "49",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Kylie",
+          "id" : "-Ku1uX-sJsMEGnZMFz38",
+          "lastName" : "Yancy",
+          "points" : "45",
+          "proficiency" : "Basic",
+          "score" : "64",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Miriam",
+          "id" : "-Ku1wxNtJg2KGj5wVffv",
+          "lastName" : "Varela",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "46",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naila",
+          "id" : "-Ku1Sbhji-eYoJ374zMA",
+          "lastName" : "Valdez",
+          "points" : "45",
+          "proficiency" : "Basic",
+          "score" : "64",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Brian",
+          "id" : "-Ku1u1mLQNkjLvFsd9jx",
+          "lastName" : "Turner",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "46",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Katheryn",
+          "id" : "-Ku1vGLSRjhwAzkYLUzk",
+          "lastName" : "Scott",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "German",
+          "id" : "-Ku1ufyMhZUpgAbwR0iz",
+          "lastName" : "Scorro",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruth",
+          "id" : "-Ku1v8dkLzKSgqNFQHUB",
+          "lastName" : "Ryers",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Vinicio",
+          "id" : "-Ku1xzdP2SEgHhmBAwFp",
+          "lastName" : "Ramos",
+          "points" : "53",
+          "proficiency" : "Basic",
+          "score" : "76",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabina",
+          "id" : "-Ku1v6IB0rP0rgL78Viz",
+          "lastName" : "Ramos",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "33",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aaron",
+          "id" : "-Ku1yuUec-IbMb0MS_js",
+          "lastName" : "Ramos",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Adelaida",
+          "id" : "-Ku1vLiI07fL7u5553ma",
+          "lastName" : "Ott",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lorena",
+          "id" : "-Ku1x686qj4J678iXkSa",
+          "lastName" : "Oliverson",
+          "points" : "56",
+          "proficiency" : "Proficient",
+          "score" : "80",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Fraser",
+          "id" : "-Ku1u4yEr7JqdqCDAboL",
+          "lastName" : "Noel",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naomi",
+          "id" : "-Ku1xmYj62_vSKYfelue",
+          "lastName" : "Mathewson",
+          "points" : "67",
+          "proficiency" : "Advanced",
+          "score" : "96",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-20T05:00:00.000Z",
+      "displayDate" : "Sep 20 2017",
+      "id" : "-KuWZlP0LaX52Qfc5gzv",
+      "totalPoints" : 70,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWZuUT6jJBY8_t1Iw3" : {
+      "assessmentName" : "Pythagorean Theorem",
+      "average" : "56",
+      "classes" : [ {
+        "className" : "Geometry - Block A",
+        "id" : "-KuWY7pMwP2vqk8fXMy2",
+        "students" : [ {
+          "firstName" : "Amelia",
+          "id" : "-Ku1uuAVyvaWI2CMoTCI",
+          "lastName" : "Woodrow",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Deidra",
+          "id" : "-Ku1w6RbrNxaDN6diinh",
+          "lastName" : "Wilton",
+          "points" : "70",
+          "proficiency" : "Advanced",
+          "score" : "100",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Corrine",
+          "id" : "-Ku1xSUnZY_kgcGfKQm5",
+          "lastName" : "Wilton",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "33",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Debra",
+          "id" : "-Ku1y18Ilikcv8Y4mTnS",
+          "lastName" : "Todd",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Tamela",
+          "id" : "-Ku1thOuCs4z591t2kNp",
+          "lastName" : "Thompsett",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Qusay",
+          "id" : "-Ku1T2qoGo9za7NF6MbD",
+          "lastName" : "Surafi",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Asad",
+          "id" : "-Ku1uAle2qDDVGuRASJI",
+          "lastName" : "Ruh",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "49",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Diane",
+          "id" : "-Ku1ynlI0NuTtSj8guiG",
+          "lastName" : "Ruggles",
+          "points" : "65",
+          "proficiency" : "Advanced",
+          "score" : "93",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Yeong-Gi",
+          "id" : "-Ku1wuMvPX-h90mPnUw5",
+          "lastName" : "Ru",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Paola",
+          "id" : "-Ku1T5mT8Gh6B4sK2W9p",
+          "lastName" : "Ramirez",
+          "points" : "12",
+          "proficiency" : "BelowBasic",
+          "score" : "17",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Justina",
+          "id" : "-Ku1vsQj0LPJrRP4w2fV",
+          "lastName" : "Quirino",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "46",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Alya",
+          "id" : "-Ku1yklme1640pNfbMXa",
+          "lastName" : "Prescott",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ainsley",
+          "id" : "-Ku1SpoOyKSUJG8U1NNE",
+          "lastName" : "Ness",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Troy",
+          "id" : "-Ku1uS9Zk_jd4MoOV-Aa",
+          "lastName" : "Nash",
+          "points" : "53",
+          "proficiency" : "Basic",
+          "score" : "76",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Eugenia",
+          "id" : "-Ku1uKQS6nRy5ZPEyea3",
+          "lastName" : "Morrison",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "49",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "className" : "Geometry - Block B",
+        "id" : "-KuWYDnjhPVv1ATZtxsh",
+        "students" : [ {
+          "firstName" : "Naomi",
+          "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+          "lastName" : "Yang",
+          "points" : "46",
+          "proficiency" : "Basic",
+          "score" : "66",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Kylie",
+          "id" : "-Ku1uX-sJsMEGnZMFz38",
+          "lastName" : "Yancy",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Miriam",
+          "id" : "-Ku1wxNtJg2KGj5wVffv",
+          "lastName" : "Varela",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "46",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naila",
+          "id" : "-Ku1Sbhji-eYoJ374zMA",
+          "lastName" : "Valdez",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "33",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Brian",
+          "id" : "-Ku1u1mLQNkjLvFsd9jx",
+          "lastName" : "Turner",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "33",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Katheryn",
+          "id" : "-Ku1vGLSRjhwAzkYLUzk",
+          "lastName" : "Scott",
+          "points" : "21",
+          "proficiency" : "BelowBasic",
+          "score" : "30",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "German",
+          "id" : "-Ku1ufyMhZUpgAbwR0iz",
+          "lastName" : "Scorro",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "33",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Ruth",
+          "id" : "-Ku1v8dkLzKSgqNFQHUB",
+          "lastName" : "Ryers",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Vinicio",
+          "id" : "-Ku1xzdP2SEgHhmBAwFp",
+          "lastName" : "Ramos",
+          "points" : "13",
+          "proficiency" : "BelowBasic",
+          "score" : "19",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Sabina",
+          "id" : "-Ku1v6IB0rP0rgL78Viz",
+          "lastName" : "Ramos",
+          "points" : "23",
+          "proficiency" : "BelowBasic",
+          "score" : "33",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Aaron",
+          "id" : "-Ku1yuUec-IbMb0MS_js",
+          "lastName" : "Ramos",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Adelaida",
+          "id" : "-Ku1vLiI07fL7u5553ma",
+          "lastName" : "Ott",
+          "points" : "54",
+          "proficiency" : "Basic",
+          "score" : "77",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Lorena",
+          "id" : "-Ku1x686qj4J678iXkSa",
+          "lastName" : "Oliverson",
+          "points" : "34",
+          "proficiency" : "BelowBasic",
+          "score" : "49",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Fraser",
+          "id" : "-Ku1u4yEr7JqdqCDAboL",
+          "lastName" : "Noel",
+          "points" : "32",
+          "proficiency" : "BelowBasic",
+          "score" : "46",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        }, {
+          "firstName" : "Naomi",
+          "id" : "-Ku1xmYj62_vSKYfelue",
+          "lastName" : "Mathewson",
+          "points" : "43",
+          "proficiency" : "Basic",
+          "score" : "61",
+          "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+        } ],
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "date" : "2017-09-22T05:00:00.000Z",
+      "displayDate" : "Sep 22 2017",
+      "id" : "-KuWZuUT6jJBY8_t1Iw3",
+      "totalPoints" : 70,
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    }
+  },
+  "classes" : {
+    "-KuWXcPSUyFAl2HGnoHU" : {
+      "className" : "Algebra I - Block A",
+      "students" : [ {
+        "firstName" : "Uthman",
+        "id" : "-Ku1wPUJb6qgq08XqhU8",
+        "lastName" : "Abbas",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Hildred",
+        "id" : "-Ku1uaSwFxntioCxN62z",
+        "lastName" : "Agua",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Haytham",
+        "id" : "-Ku1wWsfaFOIixf23T1N",
+        "lastName" : "Amador",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Chad",
+        "id" : "-Ku1vBk9qZ_YEg3QqElC",
+        "lastName" : "Barnet",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Luna",
+        "id" : "-Ku1woGACJ7R8AqVkDzn",
+        "lastName" : "Barrios",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Louis",
+        "id" : "-Ku1x2wBAS2v_b-J2PZ7",
+        "lastName" : "Beck",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Forrest",
+        "id" : "-Ku1yqkNm4y5TuXcQqW7",
+        "lastName" : "Carlyle",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Ethel",
+        "id" : "-Ku1x0RRu4zHT0B-U7sR",
+        "lastName" : "Cartwright",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Byung-Ho",
+        "id" : "-Ku1tlczRvs63nv2rS6i",
+        "lastName" : "Chen",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Deidra",
+        "id" : "-Ku1w0ZqRx2EvijNLxWT",
+        "lastName" : "Easom",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Lucas",
+        "id" : "-Ku1tZHze8IQ4v064PKp",
+        "lastName" : "Elwin",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Jamila",
+        "id" : "-Ku1vyMm_pz7plBzaZMc",
+        "lastName" : "Everett",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Rene",
+        "id" : "-Ku1wZW49eDn0c_cvAPE",
+        "lastName" : "Hodson",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Mavis",
+        "id" : "-Ku1udDb5A7rRDYY1sQO",
+        "lastName" : "Howse",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Joelle",
+        "id" : "-Ku1wEatjTXp2S_-ADve",
+        "lastName" : "Hurst",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWXk3_g3vt06JLfdMS" : {
+      "className" : "Algebra I - Block B",
+      "students" : [ {
+        "firstName" : "Estrella",
+        "id" : "-Ku1xfbNLGDK3TQiTMZQ",
+        "lastName" : "Anselmo",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Errol",
+        "id" : "-Ku1uq9xhQadKkxD_aX1",
+        "lastName" : "Araujo",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Mikha'il",
+        "id" : "-Ku1wlCYfxN_svyXyDAG",
+        "lastName" : "Arkwright",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Nigel",
+        "id" : "-Ku1wL9yd8GKOLLCtfYs",
+        "lastName" : "Bernard",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Pedro",
+        "id" : "-Ku1wr2vHUGK4nQQe77I",
+        "lastName" : "Boniface",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Jennifer",
+        "id" : "-Ku1SuPaEeSJJNffdGRm",
+        "lastName" : "Branson",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Cathy",
+        "id" : "-Ku1xMvy6Xxe8T__t2bk",
+        "lastName" : "Chen",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Ye-Jun",
+        "id" : "-Ku1vZDBMaht2Wnzrp71",
+        "lastName" : "Choe",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Jeffrey",
+        "id" : "-Ku1tV__YJvEWVyha3jr",
+        "lastName" : "Connor",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Julia",
+        "id" : "-Ku1w8yNV2Edu7sB2IFG",
+        "lastName" : "Ewart",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Sabas",
+        "id" : "-Ku1wCBwlMuufFd7sgPg",
+        "lastName" : "Fazl",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Rocio",
+        "id" : "-Ku1vm3l4XKNvGxZl9MB",
+        "lastName" : "Garcia",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Binyamin",
+        "id" : "-Ku1xjWn0WyH3tzN2-2G",
+        "lastName" : "Hussein",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Bethany",
+        "id" : "-Ku1xYoqK8eJmzi7nRB8",
+        "lastName" : "Jewell",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Conrad",
+        "id" : "-Ku1Si_i-ftBIcE9DAbf",
+        "lastName" : "Joyner",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWXqQFvbmBf9ufhNjX" : {
+      "className" : "Algebra I - Block C",
+      "students" : [ {
+        "firstName" : "Nohemi",
+        "id" : "-Ku1tP271bEcI1Y376-9",
+        "lastName" : "Atkins",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Umar",
+        "id" : "-Ku1veNnyFqDZ4VzIJSv",
+        "lastName" : "Aziz",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Martin",
+        "id" : "-Ku1wh-gtua0gxQ4eIp9",
+        "lastName" : "Baines",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Rona",
+        "id" : "-Ku1vIg4BjoFWKrFrtyY",
+        "lastName" : "Bray",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Rhett",
+        "id" : "-Ku1uE7S4DofTC0vYFkY",
+        "lastName" : "Brooke",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Valerie",
+        "id" : "-Ku1tsW8uuQ5gtuFKs2G",
+        "lastName" : "Carl",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Ruby",
+        "id" : "-Ku1wbdEb6IAcYKGgXD5",
+        "lastName" : "Crist",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Margarita",
+        "id" : "-Ku1xabicTTGRf8lZwaH",
+        "lastName" : "Cuevas",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Cyrus",
+        "id" : "-Ku1zA0am5T6i-6etvDR",
+        "lastName" : "Earle",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Aminah",
+        "id" : "-Ku1uHSyUy3dKOuwKfXC",
+        "lastName" : "Geary",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Naaji",
+        "id" : "-Ku1umOSB8MDRuIekRX2",
+        "lastName" : "Hamsa",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Anselma",
+        "id" : "-Ku1xPYNms21wFdH0-uX",
+        "lastName" : "Hardwick",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Dena",
+        "id" : "-Ku1vauPIhEzGol52Sj7",
+        "lastName" : "Kay",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Alexia",
+        "id" : "-Ku1volfyWTTKF3Z1Rq9",
+        "lastName" : "Kemper",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Edwina",
+        "id" : "-Ku1xqKPSX70LsWydl-f",
+        "lastName" : "Kim",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWY7pMwP2vqk8fXMy2" : {
+      "className" : "Geometry - Block A",
+      "students" : [ {
+        "firstName" : "Amelia",
+        "id" : "-Ku1uuAVyvaWI2CMoTCI",
+        "lastName" : "Woodrow",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Deidra",
+        "id" : "-Ku1w6RbrNxaDN6diinh",
+        "lastName" : "Wilton",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Corrine",
+        "id" : "-Ku1xSUnZY_kgcGfKQm5",
+        "lastName" : "Wilton",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Debra",
+        "id" : "-Ku1y18Ilikcv8Y4mTnS",
+        "lastName" : "Todd",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Tamela",
+        "id" : "-Ku1thOuCs4z591t2kNp",
+        "lastName" : "Thompsett",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Qusay",
+        "id" : "-Ku1T2qoGo9za7NF6MbD",
+        "lastName" : "Surafi",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Asad",
+        "id" : "-Ku1uAle2qDDVGuRASJI",
+        "lastName" : "Ruh",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Diane",
+        "id" : "-Ku1ynlI0NuTtSj8guiG",
+        "lastName" : "Ruggles",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Yeong-Gi",
+        "id" : "-Ku1wuMvPX-h90mPnUw5",
+        "lastName" : "Ru",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Paola",
+        "id" : "-Ku1T5mT8Gh6B4sK2W9p",
+        "lastName" : "Ramirez",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Justina",
+        "id" : "-Ku1vsQj0LPJrRP4w2fV",
+        "lastName" : "Quirino",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Alya",
+        "id" : "-Ku1yklme1640pNfbMXa",
+        "lastName" : "Prescott",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Ainsley",
+        "id" : "-Ku1SpoOyKSUJG8U1NNE",
+        "lastName" : "Ness",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Troy",
+        "id" : "-Ku1uS9Zk_jd4MoOV-Aa",
+        "lastName" : "Nash",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Eugenia",
+        "id" : "-Ku1uKQS6nRy5ZPEyea3",
+        "lastName" : "Morrison",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuWYDnjhPVv1ATZtxsh" : {
+      "className" : "Geometry - Block B",
+      "students" : [ {
+        "firstName" : "Naomi",
+        "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+        "lastName" : "Yang",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Kylie",
+        "id" : "-Ku1uX-sJsMEGnZMFz38",
+        "lastName" : "Yancy",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Miriam",
+        "id" : "-Ku1wxNtJg2KGj5wVffv",
+        "lastName" : "Varela",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Naila",
+        "id" : "-Ku1Sbhji-eYoJ374zMA",
+        "lastName" : "Valdez",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Brian",
+        "id" : "-Ku1u1mLQNkjLvFsd9jx",
+        "lastName" : "Turner",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Katheryn",
+        "id" : "-Ku1vGLSRjhwAzkYLUzk",
+        "lastName" : "Scott",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "German",
+        "id" : "-Ku1ufyMhZUpgAbwR0iz",
+        "lastName" : "Scorro",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Ruth",
+        "id" : "-Ku1v8dkLzKSgqNFQHUB",
+        "lastName" : "Ryers",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Vinicio",
+        "id" : "-Ku1xzdP2SEgHhmBAwFp",
+        "lastName" : "Ramos",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Sabina",
+        "id" : "-Ku1v6IB0rP0rgL78Viz",
+        "lastName" : "Ramos",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Aaron",
+        "id" : "-Ku1yuUec-IbMb0MS_js",
+        "lastName" : "Ramos",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Adelaida",
+        "id" : "-Ku1vLiI07fL7u5553ma",
+        "lastName" : "Ott",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Lorena",
+        "id" : "-Ku1x686qj4J678iXkSa",
+        "lastName" : "Oliverson",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Fraser",
+        "id" : "-Ku1u4yEr7JqdqCDAboL",
+        "lastName" : "Noel",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      }, {
+        "firstName" : "Naomi",
+        "id" : "-Ku1xmYj62_vSKYfelue",
+        "lastName" : "Mathewson",
+        "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+      } ],
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    }
+  },
+  "students" : {
+    "-Ku1Sbhji-eYoJ374zMA" : {
+      "firstName" : "Naila",
+      "lastName" : "Valdez",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1SfWGtepRdtbxTn1z" : {
+      "firstName" : "Bryn",
+      "lastName" : "Readie",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1Si_i-ftBIcE9DAbf" : {
+      "firstName" : "Conrad",
+      "lastName" : "Joyner",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1SpoOyKSUJG8U1NNE" : {
+      "firstName" : "Ainsley",
+      "lastName" : "Ness",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1SuPaEeSJJNffdGRm" : {
+      "firstName" : "Jennifer",
+      "lastName" : "Branson",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1Sxl1SHxcflPEBjHQ" : {
+      "firstName" : "Brandon",
+      "lastName" : "Peters",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1T2qoGo9za7NF6MbD" : {
+      "firstName" : "Qusay",
+      "lastName" : "Surafi",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1T5mT8Gh6B4sK2W9p" : {
+      "firstName" : "Paola",
+      "lastName" : "Ramirez",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1TA8UU0PinVNnnyXo" : {
+      "firstName" : "Yang",
+      "lastName" : "Lee",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1tP271bEcI1Y376-9" : {
+      "firstName" : "Nohemi",
+      "lastName" : "Atkins",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1tV__YJvEWVyha3jr" : {
+      "firstName" : "Jeffrey",
+      "lastName" : "Connor",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1tZHze8IQ4v064PKp" : {
+      "firstName" : "Lucas",
+      "lastName" : "Elwin",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1thOuCs4z591t2kNp" : {
+      "firstName" : "Tamela",
+      "lastName" : "Thompsett",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1tlczRvs63nv2rS6i" : {
+      "firstName" : "Byung-Ho",
+      "lastName" : "Chen",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1tsW8uuQ5gtuFKs2G" : {
+      "firstName" : "Valerie",
+      "lastName" : "Carl",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1tveMq7HubyyQlGcr" : {
+      "firstName" : "Phyllis",
+      "lastName" : "Ross",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1u1mLQNkjLvFsd9jx" : {
+      "firstName" : "Brian",
+      "lastName" : "Turner",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1u4yEr7JqdqCDAboL" : {
+      "firstName" : "Fraser",
+      "lastName" : "Noel",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1u7rFGdXg11un38ut" : {
+      "firstName" : "Darleen",
+      "lastName" : "Lowe",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uAle2qDDVGuRASJI" : {
+      "firstName" : "Asad",
+      "lastName" : "Ruh",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uE7S4DofTC0vYFkY" : {
+      "firstName" : "Rhett",
+      "lastName" : "Brooke",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uHSyUy3dKOuwKfXC" : {
+      "firstName" : "Aminah",
+      "lastName" : "Geary",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uKQS6nRy5ZPEyea3" : {
+      "firstName" : "Eugenia",
+      "lastName" : "Morrison",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uP4WCNvg-AY8UXMQ" : {
+      "firstName" : "Duilio",
+      "lastName" : "Vasquez",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uS9Zk_jd4MoOV-Aa" : {
+      "firstName" : "Troy",
+      "lastName" : "Nash",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uX-sJsMEGnZMFz38" : {
+      "firstName" : "Kylie",
+      "lastName" : "Yancy",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uaSwFxntioCxN62z" : {
+      "firstName" : "Hildred",
+      "lastName" : "Agua",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1udDb5A7rRDYY1sQO" : {
+      "firstName" : "Mavis",
+      "lastName" : "Howse",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1ufyMhZUpgAbwR0iz" : {
+      "firstName" : "German",
+      "lastName" : "Scorro",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1ujMRWXlKdYlj3W6d" : {
+      "firstName" : "Melva",
+      "lastName" : "Villaverde",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1umOSB8MDRuIekRX2" : {
+      "firstName" : "Naaji",
+      "lastName" : "Hamsa",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uq9xhQadKkxD_aX1" : {
+      "firstName" : "Errol",
+      "lastName" : "Araujo",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uuAVyvaWI2CMoTCI" : {
+      "firstName" : "Amelia",
+      "lastName" : "Woodrow",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1uzQhxQZ0UMh2PMWN" : {
+      "firstName" : "Naomi",
+      "id" : "-Ku1uzQhxQZ0UMh2PMWN",
+      "lastName" : "Yang",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1v3bmO8a00keVCJS2" : {
+      "firstName" : "Samantha",
+      "lastName" : "Losa",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1v6IB0rP0rgL78Viz" : {
+      "firstName" : "Sabina",
+      "lastName" : "Ramos",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1v8dkLzKSgqNFQHUB" : {
+      "firstName" : "Ruth",
+      "lastName" : "Ryers",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vBk9qZ_YEg3QqElC" : {
+      "firstName" : "Chad",
+      "lastName" : "Barnet",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vGLSRjhwAzkYLUzk" : {
+      "firstName" : "Katheryn",
+      "lastName" : "Scott",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vIg4BjoFWKrFrtyY" : {
+      "firstName" : "Rona",
+      "lastName" : "Bray",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vLiI07fL7u5553ma" : {
+      "firstName" : "Adelaida",
+      "lastName" : "Ott",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vVQP7Q2XcDdvAwwf" : {
+      "firstName" : "April",
+      "lastName" : "Medina",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vZDBMaht2Wnzrp71" : {
+      "firstName" : "Ye-Jun",
+      "lastName" : "Choe",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vauPIhEzGol52Sj7" : {
+      "firstName" : "Dena",
+      "lastName" : "Kay",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1veNnyFqDZ4VzIJSv" : {
+      "firstName" : "Umar",
+      "lastName" : "Aziz",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vm3l4XKNvGxZl9MB" : {
+      "firstName" : "Rocio",
+      "lastName" : "Garcia",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1volfyWTTKF3Z1Rq9" : {
+      "firstName" : "Alexia",
+      "lastName" : "Kemper",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vsQj0LPJrRP4w2fV" : {
+      "firstName" : "Justina",
+      "lastName" : "Quirino",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1vyMm_pz7plBzaZMc" : {
+      "firstName" : "Jamila",
+      "lastName" : "Everett",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1w0ZqRx2EvijNLxWT" : {
+      "firstName" : "Deidra",
+      "lastName" : "Easom",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1w6RbrNxaDN6diinh" : {
+      "firstName" : "Deidra",
+      "lastName" : "Wilton",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1w8yNV2Edu7sB2IFG" : {
+      "firstName" : "Julia",
+      "lastName" : "Ewart",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wCBwlMuufFd7sgPg" : {
+      "firstName" : "Sabas",
+      "lastName" : "Fazl",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wEatjTXp2S_-ADve" : {
+      "firstName" : "Joelle",
+      "lastName" : "Hurst",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wIQMADTSFdCOWOzK" : {
+      "firstName" : "Cecelina",
+      "lastName" : "Stanford",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wL9yd8GKOLLCtfYs" : {
+      "firstName" : "Nigel",
+      "lastName" : "Bernard",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wPUJb6qgq08XqhU8" : {
+      "firstName" : "Uthman",
+      "id" : "-Ku1wPUJb6qgq08XqhU8",
+      "lastName" : "Abbas",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wTKm8MW9i9SBIB19" : {
+      "firstName" : "Luna",
+      "lastName" : "Montevideo",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wWsfaFOIixf23T1N" : {
+      "firstName" : "Haytham",
+      "lastName" : "Amador",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wZW49eDn0c_cvAPE" : {
+      "firstName" : "Rene",
+      "lastName" : "Hodson",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wbdEb6IAcYKGgXD5" : {
+      "firstName" : "Ruby",
+      "lastName" : "Crist",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1weHI4rt3yNa9HzCh" : {
+      "firstName" : "Basma",
+      "lastName" : "Soto",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wh-gtua0gxQ4eIp9" : {
+      "firstName" : "Martin",
+      "lastName" : "Baines",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wlCYfxN_svyXyDAG" : {
+      "firstName" : "Mikha'il",
+      "lastName" : "Arkwright",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1woGACJ7R8AqVkDzn" : {
+      "firstName" : "Luna",
+      "lastName" : "Barrios",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wr2vHUGK4nQQe77I" : {
+      "firstName" : "Pedro",
+      "lastName" : "Boniface",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wuMvPX-h90mPnUw5" : {
+      "firstName" : "Yeong-Gi",
+      "lastName" : "Ru",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1wxNtJg2KGj5wVffv" : {
+      "firstName" : "Miriam",
+      "lastName" : "Varela",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1x0RRu4zHT0B-U7sR" : {
+      "firstName" : "Ethel",
+      "lastName" : "Cartwright",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1x2wBAS2v_b-J2PZ7" : {
+      "firstName" : "Louis",
+      "lastName" : "Beck",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1x686qj4J678iXkSa" : {
+      "firstName" : "Lorena",
+      "lastName" : "Oliverson",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1x9-3GVHunwUaqg1m" : {
+      "firstName" : "Teresa",
+      "lastName" : "Merlo",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xKa2jBPdyAc_vcq1" : {
+      "firstName" : "Zoe",
+      "lastName" : "Mathewson",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xMvy6Xxe8T__t2bk" : {
+      "firstName" : "Cathy",
+      "lastName" : "Chen",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xPYNms21wFdH0-uX" : {
+      "firstName" : "Anselma",
+      "lastName" : "Hardwick",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xSUnZY_kgcGfKQm5" : {
+      "firstName" : "Corrine",
+      "lastName" : "Wilton",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xVlWMnhVw1t_w8uq" : {
+      "firstName" : "Brandon",
+      "lastName" : "Rosales",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xYoqK8eJmzi7nRB8" : {
+      "firstName" : "Bethany",
+      "lastName" : "Jewell",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xabicTTGRf8lZwaH" : {
+      "firstName" : "Margarita",
+      "lastName" : "Cuevas",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xfbNLGDK3TQiTMZQ" : {
+      "firstName" : "Estrella",
+      "lastName" : "Anselmo",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xjWn0WyH3tzN2-2G" : {
+      "firstName" : "Binyamin",
+      "lastName" : "Hussein",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xmYj62_vSKYfelue" : {
+      "firstName" : "Naomi",
+      "lastName" : "Mathewson",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xqKPSX70LsWydl-f" : {
+      "firstName" : "Edwina",
+      "lastName" : "Kim",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xwpP2Ii5bNsZJZBQ" : {
+      "firstName" : "Hasna",
+      "lastName" : "Surafi",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1xzdP2SEgHhmBAwFp" : {
+      "firstName" : "Vinicio",
+      "lastName" : "Ramos",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1y18Ilikcv8Y4mTnS" : {
+      "firstName" : "Debra",
+      "lastName" : "Todd",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1yklme1640pNfbMXa" : {
+      "firstName" : "Alya",
+      "lastName" : "Prescott",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1ynlI0NuTtSj8guiG" : {
+      "firstName" : "Diane",
+      "lastName" : "Ruggles",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1yqkNm4y5TuXcQqW7" : {
+      "firstName" : "Forrest",
+      "lastName" : "Carlyle",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1yuUec-IbMb0MS_js" : {
+      "firstName" : "Aaron",
+      "lastName" : "Ramos",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1yyaXsA20PlHn4GQL" : {
+      "firstName" : "Darwin",
+      "lastName" : "Powers",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1z2a2PsGrqljaRq59" : {
+      "firstName" : "Hunter",
+      "lastName" : "Phillips",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1z7SB5NbfA53CRZn5" : {
+      "firstName" : "Jonathan",
+      "lastName" : "Ventura",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-Ku1zA0am5T6i-6etvDR" : {
+      "firstName" : "Cyrus",
+      "lastName" : "Earle",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    },
+    "-KuW0gw9z_Omt5hLBw16" : {
+      "firstName" : "Paola",
+      "lastName" : "Lopez",
+      "uid" : "g3qykmNXnbb9UXQ2UqFXfg8XCWz1"
+    }
+  }
+}
