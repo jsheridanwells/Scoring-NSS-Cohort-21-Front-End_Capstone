@@ -3,19 +3,19 @@ A web-based tool for teachers to organize and visualize formative assessment dat
 
 ### Features
 
-* Create and store student lists organized by class roster.
+Create and store student lists organized by class roster.
 
 <img src="/documentation/Roster-List.png" width="500" />
 
-* Organize assessments given over a marking period.
+Organize assessments given over a marking period.
 
 <img src="/documentation/Assessment-Overview.png" width="500" />
 
-* Generated lists of students sorted by level of performance.
+Generated lists of students sorted by level of performance.
 
 <img src="/documentation/Performance-Levels.png" width="500" />
 
-* Visualize data of class and student performance.
+Visualize data of class and student performance.
 <img src="/documentation/Class-Data-Viz.png" width="500" />
 <img src="/documentation/Student-Data-Viz.png" width="500" />
 
@@ -72,8 +72,8 @@ Before running the server, a Firebase database and credentials will need to be a
 
 app.constant('FBCreds', {
 	apiKey: "[YOUR API KEY]",
-    authDomain: "[YOUR FIREBASE DOMAIN]",
-    databaseURL: "[YOUR DATABSE URL]"
+        authDomain: "[YOUR FIREBASE DOMAIN]",
+        databaseURL: "[YOUR DATABSE URL]"
 });
 
 ```
