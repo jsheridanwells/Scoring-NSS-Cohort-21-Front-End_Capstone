@@ -79,7 +79,7 @@ Before running the server, a Firebase database and credentials will need to be a
 app.constant('FBCreds', {
 	apiKey: "[YOUR API KEY]",
         authDomain: "[YOUR FIREBASE DOMAIN]",
-        databaseURL: "[YOUR DATABSE URL]"
+        databaseURL: "[YOUR DATABASE URL]"
 });
 
 ```
