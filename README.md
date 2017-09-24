@@ -1,7 +1,7 @@
-## Scoring
+# Scoring
 A web-based tool for teachers to organize and visualize formative assessment data.
 
-### Features
+## Features
 
 Create and store student lists organized by class roster.
 
@@ -21,7 +21,7 @@ Visualize data of class and student performance.
 
 <img src="/documentation/Student-Data-Viz.png" width="500" />
 
-### Installation and Setup
+## Installation and Setup
 
 Scoring requires **Node Package Manager** to install dependencies.
 
@@ -89,7 +89,7 @@ app.constant('FBCreds', {
 	`$ cd lib && grunt`
 
 
-### Built With
+## Built With
 
   [Angular JS](https://angularjs.org/)
 
@@ -99,7 +99,7 @@ app.constant('FBCreds', {
 
   [D3](https://d3js.org/)
 
-### Author
+## Author
   Jeremy Sheridan Wells
 
   [Github: jsheridanwells](http://www.github.com/jsheridanwells)
