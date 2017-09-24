@@ -5,7 +5,7 @@ A web-based tool for teachers to organize and visualize formative assessment dat
 
 * Create and store student lists organized by class roster.
 
-<img src="/documentation/Roster-List.png" width="300" />
+<img src="/documentation/Roster-List.png" width="500" />
 ![Roster-List]()
 
 * Organize assessments given over a marking period.
