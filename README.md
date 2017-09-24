@@ -16,7 +16,9 @@ Generated lists of students sorted by level of performance.
 <img src="/documentation/Performance-Levels.png" width="500" />
 
 Visualize data of class and student performance.
+
 <img src="/documentation/Class-Data-Viz.png" width="500" />
+
 <img src="/documentation/Student-Data-Viz.png" width="500" />
 
 ### Installation and Setup
