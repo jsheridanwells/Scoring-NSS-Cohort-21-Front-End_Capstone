@@ -22,36 +22,76 @@ A web-based tool for teachers to organize and visualize formative assessment dat
 
 ### Installation and Setup
 
+Scoring requires **Node Package Manager** to install dependencies.
+
+1. Download or clone this Github repository
+
+`git clone https://github.com/jsheridanwells/Scoring-NSS-Cohort-21-Front-End_Capstone.git`
+
+2. Change to the __lib__ directory.
+`$ cd Scoring-NSS-Cohort-21-Front-End_Capstone/lib`
+
+3. Install dependencies using the Node Package Manager.
+`$ npm install`
+
+Before running the server, a Firebase database and credentials will need to be added.
+
+1. Create a new project in Firebase or modify an existing project.
+
+2. Change the database rules to the following: 
+```javascript
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "students" : {
+      ".indexOn" : ["uid", "name"]
+    },
+      "classes" : {
+        ".indexOn" : ["uid", "name"]
+      },
+        "assessments" : {
+          ".indexOn" : ["uid", "assessmentName", "scores"]
+        }
+  }
+}
+```
 
 
 
+1.  From the root directory, create the following directory and .js file for reading Firebase credentials:
+`$ mkdir app/credentials/ && cd $_`
 
-### OVERVIEW
-In K-12 education, access to assessment results are crucial for making informed instructional decisions, for reaching struggling students, and for better collaboration among teacher teams.  While proprietary exams often include a suite of reporting tools, teachers are often left with little more than Excel spreadsheets for analyzing the results of their own assessments.  
-One important assessment practice is called the Common Formative Assessment which are informal, teacher-created tests that a team of teachers will give uniformly to all of the students that they serve.  The results of these tests help teachers identify students in need of intervention as well as beneficial practices that could be scaled up to all teachers on a team.  
-The app Scoring will help teachers by organizing CFA data, then displaying multiple views of the data to better communicate student performance results to stakeholders and to facilitate sounder instructional practices.
+2. Create a javascript file to hold Firebase credentials.
+`$ touch fb-creds.js`
 
-### FEATURES
-* The user can create class lists and link these lists to other classes that are part of a teaching team. 
-* The user can create a CFA report and enter student scores. 
-* The user can view different representations of data for a particular CFA, drilling down to include: 
-  * A comparison of test results across a teaching team.
-  * A comparison of students’ results in one class.
-  * Views that identify students with needs for intervention or for enrichment.
-  * A view of an individual student’s performance over time.
+3. In the `fb-creds.js` file, copy the following code, and modifying the values to your own Firebase config settings:
 
-### TECHNICAL SPECIFICATIONS
-Scoring will make use of four technologies: 
-* AngularJS for providing the structure for the app’s interactions. 
-* Firebase for storing and retrieving data.
-* Bootstrap for styling and creating a user interface.
-* The D3.js library for creating data visualizations.
+```javascript
+'use strict';
 
-### GOALS
-The goals of the project are to:
-* Solve an authentic problem in the education field. 
-* Design a data structure that will be more complex than ones encountered before.
-* Plan for a variety of user experiences and create a pleasant and intuitive user interface. 
-* Learn a new javascript library independently to expand on skills already acquired.
+app.constant('FBCreds', {
+	apiKey: "[YOUR API KEY]",
+    authDomain: "[YOUR FIREBASE DOMAIN]",
+    databaseURL: "[YOUR DATABSE URL]"
+});
 
-[Project Moqup](https://app.moqups.com/jsheridanwells@gmail.com/leYMPG1DyZ/view/page/a3c80f920)
+```
+
+4. To run the http server and build the dist file, move to the `lib` directory and run Grunt:
+`$ cd lib && grunt`
+
+
+### Built With
+
+Angular JS (https://angularjs.org/)
+Firebase (https://firebase.google.com/)
+Bootstrap 4 (https://v4-alpha.getbootstrap.com/)
+D3 (https://d3js.org/)
+
+### Author
+Jeremy Sheridan Wells
+
+[Github: jsheridanwells] (http://www.github.com/jsheridanwells)
+[Twitter: @jsheridanwells] (http://twitter.com/jsheridanwells)
