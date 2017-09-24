@@ -1,7 +1,30 @@
 ## Scoring
-Nashville Software School
-Cohort 21
-Front End Capstone
+A web-based tool for teachers to organize and visualize formative assessment data.
+
+### Features
+
+* Create and store student lists organized by class roster.
+
+![Roster-List](/documentation/Roster-List.png)
+
+* Organize assessments given over a marking period.
+
+![Assessment-Overview](/documentation/Assessment-Overview.png)
+
+* Generated lists of students sorted by level of performance.
+
+![Performance-Levels](/documentation/Performance-Levels.png)
+
+* Visualize data of class and student performance.
+
+![Class-Data-Viz](/documentation/Class-Data-Viz.png)
+![Student-Data-Viz](/documentation/Student-Data-Viz.png)
+
+### Installation and Setup
+
+
+
+
 
 ### OVERVIEW
 In K-12 education, access to assessment results are crucial for making informed instructional decisions, for reaching struggling students, and for better collaboration among teacher teams.  While proprietary exams often include a suite of reporting tools, teachers are often left with little more than Excel spreadsheets for analyzing the results of their own assessments.  
