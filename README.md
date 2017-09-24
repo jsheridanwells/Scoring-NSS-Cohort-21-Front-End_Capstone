@@ -5,21 +5,21 @@ A web-based tool for teachers to organize and visualize formative assessment dat
 
 Create and store student lists organized by class roster.
 
-	<img src="/documentation/Roster-List.png" width="500" />
+<img src="/documentation/Roster-List.png" width="500" />
 
 Organize assessments given over a marking period.
 
-	<img src="/documentation/Assessment-Overview.png" width="500" />
+<img src="/documentation/Assessment-Overview.png" width="500" />
 
 Generated lists of students sorted by level of performance.
 
-	<img src="/documentation/Performance-Levels.png" width="500" />
+<img src="/documentation/Performance-Levels.png" width="500" />
 
 Visualize data of class and student performance.
 
-	<img src="/documentation/Class-Data-Viz.png" width="500" />
+<img src="/documentation/Class-Data-Viz.png" width="500" />
 
-	<img src="/documentation/Student-Data-Viz.png" width="500" />
+<img src="/documentation/Student-Data-Viz.png" width="500" />
 
 ### Installation and Setup
 
@@ -91,17 +91,17 @@ app.constant('FBCreds', {
 
 ### Built With
 
-	[Angular JS](https://angularjs.org/)
+  [Angular JS](https://angularjs.org/)
 
-	[Firebase](https://firebase.google.com/)
+  [Firebase](https://firebase.google.com/)
 
-	[Bootstrap 4](https://v4-alpha.getbootstrap.com/)
+  [Bootstrap 4](https://v4-alpha.getbootstrap.com/)
 
-	[D3](https://d3js.org/)
+  [D3](https://d3js.org/)
 
 ### Author
-	Jeremy Sheridan Wells
+  Jeremy Sheridan Wells
 
-	[Github: jsheridanwells](http://www.github.com/jsheridanwells)
+  [Github: jsheridanwells](http://www.github.com/jsheridanwells)
 
-	[Twitter: @jsheridanwells](http://twitter.com/jsheridanwells)
+  [Twitter: @jsheridanwells](http://twitter.com/jsheridanwells)
