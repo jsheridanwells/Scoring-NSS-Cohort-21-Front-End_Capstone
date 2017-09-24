@@ -28,9 +28,11 @@ Scoring requires **Node Package Manager** to install dependencies.
 `git clone https://github.com/jsheridanwells/Scoring-NSS-Cohort-21-Front-End_Capstone.git`
 
 2. Change to the __lib__ directory.
+
 `$ cd Scoring-NSS-Cohort-21-Front-End_Capstone/lib`
 
 3. Install dependencies using the Node Package Manager.
+
 `$ npm install`
 
 Before running the server, a Firebase database and credentials will need to be added.
@@ -60,9 +62,11 @@ Before running the server, a Firebase database and credentials will need to be a
 
 
 1.  From the root directory, create the following directory and .js file for reading Firebase credentials:
+
 `$ mkdir app/credentials/ && cd $_`
 
 2. Create a javascript file to hold Firebase credentials.
+
 `$ touch fb-creds.js`
 
 3. In the `fb-creds.js` file, copy the following code, and modifying the values to your own Firebase config settings:
@@ -79,15 +83,16 @@ app.constant('FBCreds', {
 ```
 
 4. To run the http server and build the dist file, move to the `lib` directory and run Grunt:
+
 `$ cd lib && grunt`
 
 
 ### Built With
 
-Angular JS (https://angularjs.org/)
-Firebase (https://firebase.google.com/)
-Bootstrap 4 (https://v4-alpha.getbootstrap.com/)
-D3 (https://d3js.org/)
+[Angular JS] (https://angularjs.org/)
+[Firebase] (https://firebase.google.com/)
+[Bootstrap 4] (https://v4-alpha.getbootstrap.com/)
+[D3] (https://d3js.org/)
 
 ### Author
 Jeremy Sheridan Wells
