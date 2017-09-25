@@ -71,7 +71,7 @@ Before running the server, a Firebase database and credentials will need to be a
 
 	`$ touch fb-creds.js`
 
-3. In the `fb-creds.js` file, copy the following code, and modifying the values to your own Firebase config settings:
+3. In the `fb-creds.js` file, copy the following code, modifying the values to your own Firebase config settings:
 
 ```javascript
 'use strict';
@@ -84,7 +84,7 @@ app.constant('FBCreds', {
 
 ```
 
-4. To run the http server and build the dist file, move to the `lib` directory and run Grunt:
+4. To run the http server and build the dist directory, move to the `lib` directory and run Grunt:
 
 	`$ cd lib && grunt`
 
