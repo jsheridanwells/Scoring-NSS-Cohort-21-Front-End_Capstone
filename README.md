@@ -11,11 +11,11 @@ Organize assessments given over a marking period.
 
 <img src="/documentation/Assessment-Overview.png" width="500" />
 
-Generated lists of students sorted by level of performance.
+Generate lists of students sorted by level of performance.
 
 <img src="/documentation/Performance-Levels.png" width="500" />
 
-Visualize data of class and student performance.
+Visualize class and student performance data.
 
 <img src="/documentation/Class-Data-Viz.png" width="500" />
 
