@@ -17,7 +17,6 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			.then(assessmentObj => {
 				$scope.newAssessmentObj = assessmentObj;
 				$scope.newAssessmentObj.date = new Date(assessmentObj.date);
-				console.log("assessmentObj", assessmentObj);
 				if (assessmentObj.classes) {
 					$scope.currentClasses = assessmentObj.classes;
 				}
