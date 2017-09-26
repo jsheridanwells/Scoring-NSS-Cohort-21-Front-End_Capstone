@@ -17,7 +17,6 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			.then(assessmentObj => {
 				$scope.newAssessmentObj = assessmentObj;
 				$scope.newAssessmentObj.date = new Date(assessmentObj.date);
-				console.log("assessmentObj", assessmentObj);
 				if (assessmentObj.classes) {
 					$scope.currentClasses = assessmentObj.classes;
 				}
@@ -61,7 +60,6 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			$scope.classes.splice($scope.classes.indexOf(obj), 1);
 		}
 	};
-	loadAssessmentData();
 
 	//patches assessment object in firebase
 	$scope.addAssessment = () => {
@@ -72,4 +70,5 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			.catch(error => console.log("error from addAssessment", error.message));
 	};
 
+	loadAssessmentData();
 });

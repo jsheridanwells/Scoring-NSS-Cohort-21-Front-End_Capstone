@@ -1,0 +1,61 @@
+<div ng-include="'partials/nav.html'"></div>
+
+<div class="container">
+	<div class="secondary-tabs">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link" ng-href="#!/classes">My Rosters</a></li>
+			<li class="nav-item"><a class="nav-link active" ng-href="#!/class-create"> Create a Roster</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="container main">
+	<h2>{{title}}</h2>
+	<form>
+		<div class="form-group">
+			<label for="class_name">
+				Roster Name:
+				<input type="text" class="form-control" ng-model="newClassObj.className">
+			</label>
+			<button type="button" class="btn btn-outline-primary" ng-click="addClass()">{{buttonText}}</button>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div class="form-group" ng-if="currentStudents.length > 0">
+					<h4>Current Students:</h4>
+					<ul class="list-group" ng-repeat="student in currentStudents">
+						<li class="list-group-item">
+							<div class="form-check">
+							  <label class="form-check-label">
+							    <input class="form-check-input" class="checkbox" type="checkbox" ng-click="addRemoveStudent(student, student.id)" checked>
+							    {{student.firstName}} {{student.lastName}}
+							  </label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="class-list">
+					<h4>Add Students:</h4>
+					<div class="form-group">
+				        <input type="text" class="form-control" placeholder="Search Students" ng-model="searchText">
+						<hr>
+			        </div>
+			        <div>
+			        	<ul class="list-group">
+			        		<li class="list-group-item" ng-repeat="student in students">
+			        			<div class="form-check">
+			        				<label class="form-check-label">
+									  <input class="form-check-input" class="checkbox" type="checkbox" ng-click="addRemoveStudent(student, student.id)">
+									    {{student.firstName}} {{student.lastName}}
+									</label>
+			        			</div>
+			        		</li>
+			        	</ul>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>

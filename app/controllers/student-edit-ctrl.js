@@ -12,7 +12,6 @@ app.controller('studentEditCtrl', function ($scope, $location, $routeParams, stu
 		studentFactory.getSingleStudent($routeParams.studentId)
 			.then(obj => {
 				$scope.newStudentObj = obj;
-				console.log("$scope.newStudentObj", $scope.newStudentObj);
 			})
 			.catch(error => console.log("error from loadStudentObj", error.message));
 	};
