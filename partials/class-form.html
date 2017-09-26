@@ -47,7 +47,7 @@
 			        		<li class="list-group-item" ng-repeat="student in students">
 			        			<div class="form-check">
 			        				<label class="form-check-label">
-									  <input class="form-check-input" class="checkbox" type="checkbox" ng-click="addRemoveStudent(student, student.id)" checked>
+									  <input class="form-check-input" class="checkbox" type="checkbox" ng-click="addRemoveStudent(student, student.id)">
 									    {{student.firstName}} {{student.lastName}}
 									</label>
 			        			</div>
@@ -57,14 +57,6 @@
 				</div>
 			</div>
 		</div>
-			<!-- <div class="row mt-5">
-				<div class="col-4" ng-repeat="column in columns">
-					<p ng-repeat="student in students | slice:column.start:column.end | filter: searchText">
-						<input class="form-check-input" type="checkbox" ng-click="addRemoveStudent(student, student.id)">
-						{{student.firstName}} {{student.lastName}}
-					</p>
-				</div>
-			</div> -->
 	</form>
 
 </div>

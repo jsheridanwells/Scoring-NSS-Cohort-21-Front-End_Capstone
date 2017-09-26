@@ -40,6 +40,25 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 		return list2;
 	};
 
+	const checkStudents = (id) => {
+		for (let i = 0; i < $scope.currentStudents.length; i++) {
+			if (id === $scope.currentStudents[i].id) {
+				return true;
+			}
+		}
+		return false;
+	};
+
+	$scope.addRemoveStudent = (obj, id) => {
+		if (checkStudents(id)) {
+			$scope.students.push(obj);
+			$scope.currentStudents.splice($scope.currentStudents.indexOf(obj), 1);
+		} else {
+			$scope.currentStudents.push(obj);
+			$scope.students.splice($scope.students.indexOf(obj), 1);
+		}
+	};
+
 	loadClassData();
 
 });
