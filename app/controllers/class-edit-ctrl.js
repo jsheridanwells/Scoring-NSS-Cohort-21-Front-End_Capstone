@@ -29,6 +29,7 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 			.catch (error => console.log("error from loadClassData", error.message));
 	};
 
+	//removes current students from array of all students
 	const loadCurrentStudents = (list1, list2) => {
 		for (let i = 0; i < list1.length; i++) {
 			for (let j = 0; j < list2.length; j++) {
@@ -40,6 +41,7 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 		return list2;
 	};
 
+	//checks to see if student id is in current students array
 	const checkStudents = (id) => {
 		for (let i = 0; i < $scope.currentStudents.length; i++) {
 			if (id === $scope.currentStudents[i].id) {
@@ -49,6 +51,7 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 		return false;
 	};
 
+	//toggles student from current students array to array of all students
 	$scope.addRemoveStudent = (obj, id) => {
 		if (checkStudents(id)) {
 			$scope.students.push(obj);
@@ -59,6 +62,7 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 		}
 	};
 
+	//updates class object with current class
 	$scope.addClass = () => {
 		classFactory.editClass($scope.newClassObj.id, $scope.newClassObj)
 		.then(() => {
@@ -67,6 +71,7 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 		.catch(error => console.log("error from addClass", error.message));
 	};
 
+	//loads current class and student lists on page load
 	loadClassData();
 
 });
