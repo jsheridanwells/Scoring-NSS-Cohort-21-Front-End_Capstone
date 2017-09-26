@@ -65,6 +65,7 @@ app.factory('assessmentFactory', function ($q, $http, FBCreds) {
 		});
 	};
 
+	//updates assessment details
 	const editAssessment = (id, obj) => {
 		return $q((resolve, reject) => {
 			let newObj = angular.toJson(obj);

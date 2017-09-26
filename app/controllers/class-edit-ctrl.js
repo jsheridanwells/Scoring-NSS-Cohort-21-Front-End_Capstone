@@ -59,6 +59,14 @@ app.controller('classEditCtrl', function ($scope, $routeParams, $location, class
 		}
 	};
 
+	$scope.addClass = () => {
+		classFactory.editClass($scope.newClassObj.id, $scope.newClassObj)
+		.then(() => {
+			$location.url('classes');
+		})
+		.catch(error => console.log("error from addClass", error.message));
+	};
+
 	loadClassData();
 
 });

@@ -60,7 +60,6 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			$scope.classes.splice($scope.classes.indexOf(obj), 1);
 		}
 	};
-	loadAssessmentData();
 
 	//patches assessment object in firebase
 	$scope.addAssessment = () => {
@@ -71,4 +70,5 @@ app.controller('assessmentEditCtrl', function ($scope, $routeParams, $location, 
 			.catch(error => console.log("error from addAssessment", error.message));
 	};
 
+	loadAssessmentData();
 });

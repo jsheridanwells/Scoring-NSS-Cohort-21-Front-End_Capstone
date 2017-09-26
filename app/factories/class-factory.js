@@ -41,6 +41,16 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 			.catch(error => console.log("error from postClass", error.message));
 	};
 
+	//updates class roster details
+	const editClass = (id, obj) => {
+		return $q((resolve, reject) => {
+			let newObj = angular.toJson(obj);
+			$http.patch(`${url}/classes/${id}.json`, newObj)
+				.then(response => resolve(response))
+				.catch(error => reject(error));
+		});
+	};
+
 	//removes class from classes collection by ID
 	const deleteClass = (classId) => {
 		return $q((resolve, reject) => {
@@ -54,6 +64,7 @@ app.factory('classFactory', function ($q, $http, FBCreds) {
 		getAllClasses,
 		getSingleClass,
 		postClass,
+		editClass,
 		deleteClass
 	};
 
