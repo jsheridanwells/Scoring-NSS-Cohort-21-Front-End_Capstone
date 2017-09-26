@@ -14,6 +14,10 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	//holds data for creating three columns for lists
 	$scope.columns = [];
 
+	//holds text for title and button
+	$scope.title = 'Create a Roster';
+	$scope.buttonText = 'Add Roster';
+
 	//loads $scope.students array with all students associated with current user
 	const getStudentList = () => {
 		studentFactory.getAllStudents(userId)
