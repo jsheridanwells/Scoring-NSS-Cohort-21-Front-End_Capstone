@@ -1,6 +1,6 @@
 'use strict';
 
-app.controller('classListCtrl', function ($scope, userFactory, classFactory) {
+app.controller('classListCtrl', function ($scope, $location, userFactory, classFactory) {
 
 	//holds uid of current user
 	let userId = userFactory.getUserId();
@@ -22,6 +22,11 @@ app.controller('classListCtrl', function ($scope, userFactory, classFactory) {
 		classFactory.deleteClass(classId)
 			.then(() => showClasses())
 			.catch(error => console.log("error from deleteClass", error.message));
+	};
+
+	//captures id of student to edit, changes window location to edit form
+	$scope.editClass = (classId) => {
+		$location.url('/class-edit/' + classId);
 	};
 
 	//loads list of all classes associated with current user on page load
