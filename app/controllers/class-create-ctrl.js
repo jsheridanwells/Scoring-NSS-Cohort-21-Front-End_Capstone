@@ -59,7 +59,9 @@ app.controller('classCreateCtrl', function ($scope, $location, userFactory, clas
 	$scope.addRemoveStudent = (obj, id) => {
 		if (checkStudents(id)) {
 			$scope.selectedStudents.splice($scope.selectedStudents.indexOf(obj), 1);
+			$scope.students.push(obj);
 		} else {
+			$scope.students.splice($scope.students.indexOf(obj), 1);
 			$scope.selectedStudents.push(obj);
 		}
 	};
