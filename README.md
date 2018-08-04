@@ -1,6 +1,8 @@
 # Scoring
 A web-based tool for teachers to organize and visualize formative assessment data.
 
+A deployed demo version of this application can be found at [http://jeremywells.io/scoring](http://jeremywells.io/scoring)
+
 ## Features
 
 Create and store student lists organized by class roster.
@@ -84,7 +86,7 @@ app.constant('FBCreds', {
 
 ```
 
-4. To run the http server and build the dist directory, move to the `lib` directory and run Grunt:
+4. To run the http server and build the `/dist` directory, move to the `/lib` directory and run Grunt:
 
 	`$ cd lib && grunt`
 
